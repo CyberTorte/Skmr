@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 機能選択 </title>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{% static 'selector/style.css' %}">
+        <link rel="shortcut icon" href="">        
+    </head>
+    <body>
+        <h1>選曲モードを選択してください。</h1>
+
+        <div class="choice_mode">
+            <button><a href="{% url 'selector:select' %}">1曲選曲モード</a></button>
+        </div>
+        <div class="choice_mode">
+            <button><a href="#">疑似的トゥインクルパーティ</a></button>
+        </div>
+    </body>
+</html>

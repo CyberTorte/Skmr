@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        {% load static %}
+
+        <title> 選曲結果 </title>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{% static 'selector/style.css' %}">
+        <link rel="shortcut icon" href="">        
+    </head>
+    <body>
+        <h1>選曲結果！</h1>
+
+        <table>
+            <tr>
+                <th>曲名</th>
+                <td>{{ song.title }}</td>
+            </tr>
+            <tr>
+                <th>属性</th>
+                <td> {{ song.attribute }} </td>
+            </tr>
+            <tr>
+                <th>難易度</th>
+                <td> {{ song.difficulty }} </td>
+            </tr>
+            <tr>
+                <th>曲レベル</th>
+                <td> {{ song.level }} </td>
+            </tr>
+            <tr>
+                <th>アーティスト</th>
+                <td> {{ song.artist }} </td>
+            </tr>
+        </table>
+    </body>
+</html>
