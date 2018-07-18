@@ -88,7 +88,8 @@ DATABASES = {
         'PORT' : settings.db_port,
         'OPTIONS' : {
             'init_command' : settings.db_init_command,
-        }
+            'charset' : settings.db_charset,
+        },
     }
 }
 
