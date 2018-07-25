@@ -68,7 +68,7 @@ def check_not_date_limited(limited):
         return True
     else:
         for week in day_of_the_week:
-            if limited == week:
+            if limited.limited == week:
                 return True
 
     return False
