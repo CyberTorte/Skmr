@@ -23,7 +23,7 @@ def pull_song_list(attribute=None, difficulty=None, level=None, limited=None, pa
         lists = songs.objects.filter(difficulty=difficulty).order_by('id')
     # 属性(attribute)と難易度(difficulty)指定
     elif attribute is not None and difficulty is not None and level is None and limited is None and party is None:
-        pass
+        lists = songs.objects.filter(difficulty=difficulty).filter(attribute=attribute).order_by('id')
     # 属性(attribute)と難易度(difficulty)と限定(limited)指定
     elif attribute is not None and difficulty is not None and level is None and limited is not None and party is None:
         pass
@@ -81,5 +81,15 @@ class SelectorView(generic.DetailView):
     template_name = 'selector/results.html'
 
 def selector(request):
-    select = select_song(pull_song_list(difficulty='EXPERT'))
+    if request.POST['difficulty'] == 'all':
+        difficulty = None
+    else:
+        difficulty = request.POST['difficulty']
+
+    if request.POST['attribute'] == 'none':
+        attribute = None
+    else:
+        attribute = request.POST['attribute']
+
+    select = select_song(pull_song_list(difficulty=difficulty, attribute=attribute))
     return render(request, 'selector/results.html', {'song': select})
