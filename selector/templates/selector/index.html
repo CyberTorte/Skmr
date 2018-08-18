@@ -54,40 +54,59 @@
 
         <form action="{% url 'selector:select' %}" method="post">
             {% csrf_token %}
-            <input type="radio" id="difficulty1" name="difficulty" value="all" checked>
-            <label for="difficulty1">すべて</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="difficulty1" name="difficulty" value="all" checked>
+                <label class="form-check-label" for="difficulty1">すべて</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="difficulty2" name="difficulty" value="EASY">
+                <label class="form-check-label" for="difficulty2">EASY</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="difficulty3" name="difficulty" value="NORMAL">
+                <label class="form-check-label" for="difficulty3">NORMAL</label>
+            </div>
             
-            <input type="radio" id="difficulty2" name="difficulty" value="EASY">
-            <label for="difficulty2">EASY</label>
-            
-            <input type="radio" id="difficulty3" name="difficulty" value="NORMAL">
-            <label for="difficulty3">NORMAL</label>
-            
-            <input type="radio" id="difficulty4" name="difficulty" value="HARD">
-            <label for="difficulty4">HARD</label>
-            
-            <input type="radio" id="difficulty5" name="difficulty" value="EXPERT">
-            <label for="difficulty5">EXPERT</label>
-            
-            <br>
-            <input type="radio" id="attribute1" name="attribute" value="none" checked>
-            <label for="attribute1">すべて</label>
-            
-            <input type="radio" id="attribute2" name="attribute" value="all" checked>
-            <label for="attribute2">all</label>
-            
-            <input type="radio" id="attribute3" name="attribute" value="active">
-            <label for="attribute3">active</label>
-            
-            <input type="radio" id="attribute4" name="attribute" value="cool">
-            <label for="attribute4">cool</label>
-            
-            <input type="radio" id="attribute5" name="attribute" value="pretty">
-            <label for="attribute5">pretty</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="difficulty4" name="difficulty" value="HARD">
+                <label class="form-check-label" for="difficulty4">HARD</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="difficulty5" name="difficulty" value="EXPERT">
+                <label class="form-check-label" for="difficulty5">EXPERT</label>
+            </div>
             
             <br>
-            <button type="submit" name="action" value="select">1曲選曲モード</button>
-            <button type="submit" name="action" value="twinkle">疑似的トゥインクルパーティ</button>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="attribute1" name="attribute" value="none" checked>
+                <label class="form-check-label" for="attribute1">すべて</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="attribute2" name="attribute" value="all">
+                <label class="form-check-label" for="attribute2">all</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="attribute3" name="attribute" value="active">
+                <label class="form-check-label" for="attribute3">active</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="attribute4" name="attribute" value="cool">
+                <label class="form-check-label" for="attribute4">cool</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="attribute5" name="attribute" value="pretty">
+                <label class="form-check-label" for="attribute5">pretty</label>
+            </div>
+            
+            <br>
+            <button class="btn btn-primary" type="submit" name="action" value="select">1曲選曲モード</button>
+            <button class="btn btn-secondary" type="submit" name="action" value="twinkle">疑似的トゥインクルパーティ</button>
         </form>
         
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
