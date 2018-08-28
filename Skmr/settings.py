@@ -36,6 +36,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'selector.apps.SelectorConfig',
+    'birthday.apps.BirthdayConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
