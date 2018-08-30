@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('etrot/', admin.site.urls),
     path('selector/', include('selector.urls')),
+    path('Natsumi/', include('birthday.urls')),
 ]

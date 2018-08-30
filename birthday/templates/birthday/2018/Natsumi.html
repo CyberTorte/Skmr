@@ -13,7 +13,7 @@
     <body>
         {% for photo in photo_list %}
             <div id="{{ photo.kind|add:photo.serial }}">
-                <img src="{% url photo.path %}" class="img-fluid" alt="誕生日祝い画像">
+                <img src="{% static photo.path %}" class="img-fluid" alt="誕生日祝い画像">
             </div>
         {% endfor %}
 

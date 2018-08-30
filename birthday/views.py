@@ -6,7 +6,7 @@ from .models import Photo
 # Create your views here.
 
 class NatsumiBirthdayView(generic.ListView):
-    template_name = 'Natsumi.html'
+    template_name = 'birthday/2018/Natsumi.html'
     context_object_name = 'photo_list'
 
     def get_queryset(self):
@@ -32,8 +32,12 @@ def sort_photo(photo_list):
         elif photo.kind == 'sponsor':
             sponsor_photo_list.append(photo)
 
-    sorted_photo_list = sorted_photo_list.extend(top_photo_list)
-    sorted_photo_list = sorted_photo_list.extend(message_photo_list)
-    sorted_photo_list = sorted_photo_list.extend(sponsor_photo_list)
+    print(top_photo_list)
+    print(message_photo_list)
+    print(sponsor_photo_list)
+
+    sorted_photo_list.extend(top_photo_list)
+    sorted_photo_list.extend(message_photo_list)
+    sorted_photo_list.extend(sponsor_photo_list)
 
     return sorted_photo_list

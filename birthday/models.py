@@ -14,5 +14,8 @@ class Photo(models.Model):
     # 開催年
     year = models.IntegerField(db_column='year')
 
+    def __str__(self):
+        return self.kind + str(self.serial)
+
     class Meta:
         db_table = 'photo'
