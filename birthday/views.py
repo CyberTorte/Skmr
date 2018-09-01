@@ -11,7 +11,7 @@ class NatsumiBirthdayView(generic.ListView):
 
     def get_queryset(self):
         # データを再編成しテンプレートに返す
-        photo_list = Photo.objects.filter(person='Natsumi').order_by('id')
+        photo_list = Photo.objects.filter(person='Natsumi').order_by('serial')
         photo_list = sort_photo(photo_list)
         return photo_list
 
