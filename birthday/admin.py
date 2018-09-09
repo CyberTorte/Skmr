@@ -4,4 +4,7 @@ from .models import Photo
 
 # Register your models here.
 
-admin.site.register(Photo)
+class PhotoAdmin(admin.ModelAdmin):
+    list_filter = ['kind', 'person', 'year']
+
+admin.site.register(Photo, PhotoAdmin)

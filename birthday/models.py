@@ -15,7 +15,7 @@ class Photo(models.Model):
     year = models.IntegerField(db_column='year')
 
     def __str__(self):
-        return self.kind + str(self.serial)
+        return self.kind + str(self.serial) + self.person
 
     class Meta:
         db_table = 'photo'

@@ -20,6 +20,9 @@ from django.views.generic import RedirectView
 urlpatterns = [
     path('etrot/', admin.site.urls),
     path('selector/', include('selector.urls')),
-    path('Natsumi/', include('birthday.urls')),
-    path('skmr/Natsumi/', RedirectView.as_view(url='/Natsumi/')),
+    path('birthday/', include('birthday.urls')),
+    path('Natsumi/', RedirectView.as_view(url='/birthday/Natsumi/')),
+    path('skmr/Natsumi/', RedirectView.as_view(url='/birthday/Natsumi/')),
+    path('Kaoru/', RedirectView.as_view(url='/birthday/skmr/Kaoru/')),
+    path('skmr/Kaoru/', RedirectView.as_view(url='/birthday/skmr/Kaoru')),
 ]
