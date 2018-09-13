@@ -76,20 +76,34 @@ def check_not_date_limited(limited):
 class IndexView(generic.TemplateView):
     template_name = 'selector/index.html'
 
-class SelectorView(generic.DetailView):
-    model = songs
-    template_name = 'selector/results.html'
-
 def selector(request):
-    if request.POST['difficulty'] == 'all':
+    try:
+        if request.method == 'POST':
+            if request.POST['difficulty'] == 'all':
+                difficulty = None
+            else:
+                difficulty = request.POST['difficulty']
+
+            if request.POST['attribute'] == 'none':
+                attribute = None
+            else:
+                attribute = request.POST['attribute']
+
+        else:
+            difficulty = None
+            attribute = None
+            error_message = 'エラーが発生したためすべての曲、難易度から選曲しています。<br> 条件を絞る場合はやり直してください。'
+
+            select = select_song(pull_song_list(difficulty=difficulty, attribute=attribute))
+            return render(request, 'selector/results.html', {'song': select, 'error_message': error_message,})
+
+        select = select_song(pull_song_list(difficulty=difficulty, attribute=attribute))
+        return render(request, 'selector/results.html', {'song': select})
+    except:
         difficulty = None
-    else:
-        difficulty = request.POST['difficulty']
-
-    if request.POST['attribute'] == 'none':
         attribute = None
-    else:
-        attribute = request.POST['attribute']
+        error_message = 'エラーが発生したためすべての曲、難易度から選曲しています。<br> 条件を絞る場合はやり直してください。'
 
-    select = select_song(pull_song_list(difficulty=difficulty, attribute=attribute))
-    return render(request, 'selector/results.html', {'song': select})
+        select = select_song(pull_song_list(difficulty=difficulty, attribute=attribute))
+        return render(request, 'selector/results.html', {'song': select, 'error_message': error_message,})
+    
