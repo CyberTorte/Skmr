@@ -24,6 +24,9 @@ def pull_song_list(attribute=None, difficulty=None, level=None, limited=None, pa
     # 属性(attribute)と難易度(difficulty)指定
     elif attribute is not None and difficulty is not None and level is None and limited is None and party is None:
         lists = songs.objects.filter(difficulty=difficulty).filter(attribute=attribute).order_by('id')
+    # 属性(attribute)だけ指定
+    elif attribute is not None and difficulty is None and level is None and limited is None and party is None:
+        lists = songs.objects.filter(attribute=attribute).order_by('id')
     # 属性(attribute)と難易度(difficulty)と限定(limited)指定
     elif attribute is not None and difficulty is not None and level is None and limited is not None and party is None:
         pass
@@ -92,7 +95,7 @@ def selector(request):
         else:
             difficulty = None
             attribute = None
-            error_message = 'エラーが発生したためすべての曲、難易度から選曲しています。<br> 条件を絞る場合はやり直してください。'
+            error_message = 'エラーが発生したためすべての曲、難易度から選曲しています。\n 条件を絞る場合はやり直してください。'
 
             select = select_song(pull_song_list(difficulty=difficulty, attribute=attribute))
             return render(request, 'selector/results.html', {'song': select, 'error_message': error_message,})
@@ -102,7 +105,7 @@ def selector(request):
     except:
         difficulty = None
         attribute = None
-        error_message = 'エラーが発生したためすべての曲、難易度から選曲しています。<br> 条件を絞る場合はやり直してください。'
+        error_message = 'エラーが発生したためすべての曲、難易度から選曲しています。\n 条件を絞る場合はやり直してください。'
 
         select = select_song(pull_song_list(difficulty=difficulty, attribute=attribute))
         return render(request, 'selector/results.html', {'song': select, 'error_message': error_message,})
