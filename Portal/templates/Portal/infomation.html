@@ -30,7 +30,7 @@
                         <a class="nav-link" href="#">このサイトについて <span class="sr-only">(現位置)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">今後の運営</a>
+                        <a class="nav-link disabled" href="{% url 'selector:produce' %}">今後の運営</a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ドロップダウン</a>
@@ -47,99 +47,105 @@
             </div>
         </nav>
 
+        <div class="produce-body">
+            <h1 id="このサイトについて">このサイトについて</h1>
 
-        <h1 id="%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">このサイトについて</h1>
-        <h2 id="%E7%9B%AE%E6%AC%A1">目次</h2>
-        <ul>
-            <li><a href="#%E3%81%BE%E3%81%9A%E6%9C%80%E5%88%9D%E3%81%AB">まず最初に</a></li>
-            <li><a href="#%E4%BD%BF%E7%94%A8%E6%8A%80%E8%A1%93%E7%AD%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">使用技術等について</a>
-                <ul>
-                    <li><a href="#%E7%92%B0%E5%A2%83">環境</a></li>
-                    <li><a href="#Web%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF">Webフレームワーク</a>
-                        <ul>
-                            <li><a href="#Django">Django</a></li>
-                            <li><a href="#BootStrap">BootStrap</a></li>
+            <div class="produce-body">
+                <h2 id="目次">目次</h2>
+                <ul class="list-unstyled">
+                    <li><a href="#まず最初に">まず最初に</a></li>
+                    <li><a href="#使用技術等について">使用技術等について</a>
+                        <ul class="list-unstyled">
+                            <li><a href="#環境">環境</a></li>
+                            <li><a href="#Webフレームワーク">Webフレームワーク</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="#Django">Django</a></li>
+                                    <li><a href="#BootStrap">BootStrap</a></li>
+                                </ul>
+                            </li>
+                        <li><a href="#画像について">画像について</a>
+                            <ul class="list-unstyled">
+                                <li><a href="#選曲機能で使用している画像">選曲機能で使用している画像</a></li>
+                                <li><a href="#誕生日企画で使用している画像">誕生日企画で使用している画像</a></li>
+                            </ul>
+                        </li>
                         </ul>
                     </li>
-                <li><a href="#%E7%94%BB%E5%83%8F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">画像について</a>
-                    <ul>
-                        <li><a href="#%E9%81%B8%E6%9B%B2%E6%A9%9F%E8%83%BD%E3%81%A7%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E7%94%BB%E5%83%8F">選曲機能で使用している画像</a></li>
-                        <li><a href="#%E8%AA%95%E7%94%9F%E6%97%A5%E4%BC%81%E7%94%BB%E3%81%A7%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E7%94%BB%E5%83%8F">誕生日企画で使用している画像</a></li>
-                    </ul>
-                </li>
+                    <li><a href="#ライセンスについて">ライセンスについて</a></li>
+                    <li><a href="#最後に運営について">最後に運営について</a></li>
                 </ul>
-            </li>
-            <li><a href="#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">ライセンスについて</a></li>
-            <li><a href="#%E6%9C%80%E5%BE%8C%E3%81%AB%E9%81%8B%E5%96%B6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">最後に運営について</a></li>
-        </ul>
+            </div>
+            
+            <h2 id="まず最初に">まず最初に</h2>
+            
+            <p>現在はただの学生1名が好きで運営してます。</p>
+            <p>なので更新の遅さにはご了承ください。</p>
+            <p>そしてやる気が乗らないとやりません(笑)←</p>
+            
+            <h2 id="使用技術等について">使用技術等について</h2>
+            
+            <h3 id="環境">環境</h3>
+            
+            <p><a href="https://www.conoha.jp/" target="_blank">ConoHa</a>のVPSを借りて運営しています！</p>
+            <p>OSはLinux。</p>
+            <p><a href="https://conoha.mikumo.com/?btn_id=conoha_top_mainvisual_mikumo" target="_blank">このはちゃん</a>というかわいい子がいるので</p>
+            <p>ConoHaを採用しました。(大嘘、学校で使っただけ)</p>
+            
+            <h3 id="webフレームワーク">Webフレームワーク</h3>
+            
+            <h4 id="django">Django</h4>
+            <p>このサイトは<a href="http://djangoproject.jp/" target="_blank">Django</a>で動いております。</p>
+            <p><a href="https://github.com/django-ja/django/blob/master/LICENSE" target="_blank">ライセンス</a>はこちらです。</p>
+            <p>Django使ってるので当然ながら言語はPythonです。</p>
+            <p>Pythonらしいことしてないですが。</p>
+            <p>そもそもPythonらしいってなんだろう、AIか機械学習か...</p>
+            <p>それとDjangoを運用するに当たって</p>
+            <p><a href="https://github.com/PyMySQL/PyMySQL" target="_blank">PyMySQL</a>もライブラリで使用しています。</p>
+            <p><a href="https://github.com/PyMySQL/PyMySQL/blob/master/LICENSE" target="_blank">ライセンス</a>はこちら。</p>
+            
+            <h4 id="bootstrap">BootStrap</h4>
+            
+            <p>そして<a href="https://getbootstrap.com/" target="_blank">BootStrap</a>で表示を楽させてもらってます^^</p>
+            <p>フロントエンド大っ嫌いなので^^^^^^</p>
+            
+            <h3 id="画像について">画像について</h3>
+            
+            <h4 id="選曲機能で使用している画像">選曲機能で使用している画像</h4>
+            
+            <p>現在、壁紙のみに使用していますが</p>
+            <p>この画像は<a href="http://illustrain.com/" target="_blank">イラストレイン</a>様の</p>
+            <p>フリー素材を使わせていただいております。</p>
+            <h4 id="誕生日企画で使用している画像">誕生日企画で使用している画像</h4>
+            <p>現在は個人の有志者の方にお願いしてイラストを描いていただいております。</p>
+            <p>私には掲載の許可をいただいておりますがそれ以外の許可は取っておりません。</p>
+            <p>後述するライセンスを合わせて読んでいただいてサイトをご利用ください。</p>
+            
+            <h2 id="ライセンスについて">ライセンスについて</h2>
+            
+            <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a></p>
+            <p>このサイトは<a href="https://github.com/CyberTorte/Skmr" target="_blank">GitHub</a>に掲載している通り<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 ライセンス</a>の下に提供されています。</p>
+            <p>誕生日ページなどのイラスト担当者さんの作品については</p>
+            <p>原則このライセンスで提供されます。</p>
+            <p>ただしイラスト担当者さんもしくは</p>
+            <p>管理者の私に許可を得た場合、</p>
+            <p>そのページに特記がある場合はこの限りではありません。</p>
+            
+            <h2 id="最後に運営について">最後に運営について</h2>
+            
+            <p>今後様々なコンテンツを実装して盛り上げていきたい所存です。</p>
+            <p>そこで運営協力であったり意見であったり絶賛募集中です！</p>
+            <p>詳しくは<a href="{% url 'selector:produce' %}">今後の運営</a>ページをご覧ください。</p>
+            <p>雑談、意見は<a href="https://twitter.com/loveTorte_skmr" target="_blank">愛媛のトルテ</a></p>
+            <p>運営協力については<a href="https://twitter.com/it_torte_07" target="_blank">PGのトルテ</a></p>
+            <p>までお願い致します！</p>
+        </div>
+
         
-        <h2 id="%E3%81%BE%E3%81%9A%E6%9C%80%E5%88%9D%E3%81%AB">まず最初に</h2>
-        
-        <p>現在はただの学生1名が好きで運営してます。</p>
-        <p>なので更新の遅さにはご了承ください。</p>
-        <p>そしてやる気が乗らないとやりません(笑)←</p>
-        
-        <h2 id="%E4%BD%BF%E7%94%A8%E6%8A%80%E8%A1%93%E7%AD%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">使用技術等について</h2>
-        
-        <h3 id="%E7%92%B0%E5%A2%83">環境</h3>
-        
-        <p><a href="https://www.conoha.jp/" target="_blank">ConoHa</a>のVPSを借りて運営しています！</p>
-        <p>OSはLinux。</p>
-        <p><a href="https://conoha.mikumo.com/?btn_id=conoha_top_mainvisual_mikumo" target="_blank">このはちゃん</a>というかわいい子がいるので</p>
-        <p>ConoHaを採用しました。(大嘘、学校で使っただけ)</p>
-        
-        <h3 id="web%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF">Webフレームワーク</h3>
-        
-        <h4 id="django">Django</h4>
-        <p>このサイトは<a href="http://djangoproject.jp/" target="_blank">Django</a>で動いております。</p>
-        <p><a href="https://github.com/django-ja/django/blob/master/LICENSE" target="_blank">ライセンス</a>はこちらです。</p>
-        <p>Django使ってるので当然ながら言語はPythonです。</p>
-        <p>Pythonらしいことしてないですが。</p>
-        <p>そもそもPythonらしいってなんだろう、AIか機械学習か...</p>
-        <p>それとDjangoを運用するに当たって</p>
-        <p><a href="https://github.com/PyMySQL/PyMySQL" target="_blank">PyMySQL</a>もライブラリで使用しています。</p>
-        <p><a href="https://github.com/PyMySQL/PyMySQL/blob/master/LICENSE" target="_blank">ライセンス</a>はこちら。</p>
-        
-        <h4 id="bootstrap">BootStrap</h4>
-        
-        <p>そして<a href="https://getbootstrap.com/" target="_blank">BootStrap</a>で表示を楽させてもらってます^^</p>
-        <p>フロントエンド大っ嫌いなので^^^^^^</p>
-        
-        <h3 id="%E7%94%BB%E5%83%8F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">画像について</h3>
-        
-        <h4 id="%E9%81%B8%E6%9B%B2%E6%A9%9F%E8%83%BD%E3%81%A7%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E7%94%BB%E5%83%8F">選曲機能で使用している画像</h4>
-        
-        <p>現在、壁紙のみに使用していますが</p>
-        <p>この画像は<a href="http://illustrain.com/" target="_blank">イラストレイン</a>様の</p>
-        <p>フリー素材を使わせていただいております。</p>
-        <h4 id="%E8%AA%95%E7%94%9F%E6%97%A5%E4%BC%81%E7%94%BB%E3%81%A7%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E7%94%BB%E5%83%8F">誕生日企画で使用している画像</h4>
-        <p>現在は個人の有志者の方にお願いしてイラストを描いていただいております。</p>
-        <p>私には掲載の許可をいただいておりますがそれ以外の許可は取っておりません。</p>
-        <p>後述するライセンスを合わせて読んでいただいてサイトをご利用ください。</p>
-        
-        <h2 id="%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">ライセンスについて</h2>
-        
-        <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a></p>
-        <p>このサイトは<a href="https://github.com/CyberTorte/Skmr" target="_blank">GitHub</a>に掲載している通り<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 ライセンス</a>の下に提供されています。</p>
-        <p>誕生日ページなどのイラスト担当者さんの作品については</p>
-        <p>原則このライセンスで提供されます。</p>
-        <p>ただしイラスト担当者さんもしくは</p>
-        <p>管理者の私に許可を得た場合、</p>
-        <p>そのページに特記がある場合はこの限りではありません。</p>
-        
-        <h2 id="%E6%9C%80%E5%BE%8C%E3%81%AB%E9%81%8B%E5%96%B6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">最後に運営について</h2>
-        
-        <p>今後様々なコンテンツを実装して盛り上げていきたい所存です。</p>
-        <p>そこで運営協力であったり意見であったり絶賛募集中です！</p>
-        <p>詳しくは<a href="">今後の運営</a>ページをご覧ください。</p>
-        <p>雑談、意見は<a href="https://twitter.com/loveTorte_skmr" target="_blank">愛媛のトルテ</a></p>
-        <p>運営協力については<a href="https://twitter.com/it_torte_07" target="_blank">PGのトルテ</a></p>
-        <p>までお願い致します！</p>
                 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X 965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH 8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV 2 9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3 MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="{% static 'selector/jquery.js' %}"></script>
     </body>
 </html>
