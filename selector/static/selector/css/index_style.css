@@ -1,12 +1,14 @@
 body {
     background-image: url("/static/selector/images/skmr_background.jpg");
     background-size: 10% auto;
+    text-align: center;
 }
 
 .index-body {
+    display: inline-block;
     background-color: rgba(255, 255, 255, 0.9);
     border-top: 5px outset #ff8c00;
     border-left: 5px outset #32cd32;
-    border-right: 5px outset #0000cd;
-    border-bottom: 5px outset #ff1493;
+    border-right: 5px outset #00bfff;
+    border-bottom: 5px outset #ee82ee;
 }

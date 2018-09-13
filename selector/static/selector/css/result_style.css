@@ -1,0 +1,21 @@
+body {
+    background-image: url("/static/selector/images/skmr_background.jpg");
+    background-size: 10% auto;
+    text-align: center;
+}
+
+.result-content {
+    display: inline-block;
+}
+
+.table-mao {
+    background-color: #ee82ee;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #da70d6;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.9);
+}

@@ -10,34 +10,35 @@
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="{% static 'selector/style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'selector/css/result_style.css' %}">
         <link rel="shortcut icon" href="">        
     </head>
     <body>
-        <h1>選曲結果！</h1>
-
-        <table>
-            <tr>
-                <th>曲名</th>
-                <td>{{ song.title }}</td>
-            </tr>
-            <tr>
-                <th>属性</th>
-                <td> {{ song.attribute }} </td>
-            </tr>
-            <tr>
-                <th>難易度</th>
-                <td> {{ song.difficulty }} </td>
-            </tr>
-            <tr>
-                <th>曲レベル</th>
-                <td> {{ song.level }} </td>
-            </tr>
-            <tr>
-                <th>アーティスト</th>
-                <td> {{ song.artist }} </td>
-            </tr>
-        </table>
+        <div class="table-responsive-md result-content">
+            <h1 class="header">選曲結果！</h1>
+            <table class="table table-responsive table-hover">
+                <tr class="table-warning">
+                    <th scope="col">曲名</th>
+                    <td>{{ song.title }}</td>
+                </tr>
+                <tr class="table-primary">
+                    <th scope="col">属性</th>
+                    <td> {{ song.attribute }} </td>
+                </tr>
+                <tr class="table-success">
+                    <th scope="col">難易度</th>
+                    <td> {{ song.difficulty }} </td>
+                </tr>
+                <tr class="table-mao">
+                    <th scope="col">曲レベル</th>
+                    <td> {{ song.level }} </td>
+                </tr>
+                <tr class="table-light">
+                    <th scope="col">アーティスト</th>
+                    <td> {{ song.artist }} </td>
+                </tr>
+            </table>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
