@@ -106,4 +106,5 @@ def selector(request):
 
         select = select_song(pull_song_list(difficulty=difficulty, attribute=attribute))
         return render(request, 'selector/results.html', {'song': select, 'error_message': error_message,})
-    
+
+        

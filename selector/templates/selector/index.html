@@ -15,7 +15,7 @@
     <body>
         <!-- ナビゲーションバー -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">テルート愛媛</a>
+            <a class="navbar-brand" href="#">テルート愛媛 <span class="sr-only">(現位置)</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,7 +26,7 @@
                         <a class="nav-link" href="#">トップページ <span class="sr-only">(現位置)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">このサイトについて</a>
+                        <a class="nav-link" href="{% url 'Portal:infomation' %}">このサイトについて</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">今後の運営</a>
