@@ -2,3 +2,11 @@ body {
     background-image: url("/static/selector/images/skmr_background.jpg");
     background-size: 10% auto;
 }
+
+.index-body {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-top: 5px outset #ff8c00;
+    border-left: 5px outset #32cd32;
+    border-right: 5px outset #0000cd;
+    border-bottom: 5px outset #ff1493;
+}
