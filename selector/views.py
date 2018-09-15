@@ -29,7 +29,16 @@ def pull_song_list(attribute=None, difficulty=None, level=None, limited=None, pa
         lists = songs.objects.filter(attribute=attribute).order_by('id')
     # 属性(attribute)と難易度(difficulty)と限定(limited)指定
     elif attribute is not None and difficulty is not None and level is None and limited is not None and party is None:
-        pass
+        lists = songs.objects.filter(difficulty=difficulty).filter(attribute=attribute).filter(limited=limited).order_by('id')
+    # 属性(attribute)と限定(limited)指定
+    elif attribute is not None and difficulty is None and level is None and limited is not None and party is None:
+        lists = songs.objects.filter(attribute=attribute).filter(limited=limited).order_by('id')
+    # 難易度(difficulty)と限定(limited)指定
+    elif attribute is None and difficulty is not None and level is None and limited is not None and party is None:
+        lists = songs.objects.filter(difficulty=difficulty).filter(limited=limited).order_by('id')
+    # 限定(limited)だけ指定
+    elif attribute is None and difficulty is None and level is None and limited is not None and party is None:
+        lists = songs.objects.filter(limited=limited).order_by('id')
     # 何も指定なし
     elif attribute is None and difficulty is None and level is None and limited is None and party is None:
         lists = songs.objects.all()
