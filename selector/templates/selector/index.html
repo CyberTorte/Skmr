@@ -55,7 +55,7 @@
         <div class="index-body">
             <h1>選曲モードを選択してください。</h1>
 
-            <form action="{% url 'selector:select' %}" method="post">
+            <form action="{% url 'selector:result' %}" method="post">
                 {% csrf_token %}
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" id="difficulty1" name="difficulty" value="all" checked>
