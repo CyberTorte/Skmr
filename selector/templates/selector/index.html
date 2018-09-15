@@ -57,6 +57,8 @@
 
             <form action="{% url 'selector:result' %}" method="post">
                 {% csrf_token %}
+
+                <!-- 難易度のラジオボタン -->
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" id="difficulty1" name="difficulty" value="all" checked>
                     <label class="form-check-label" for="difficulty1">すべて</label>
@@ -82,8 +84,9 @@
                     <label class="form-check-label" for="difficulty5">EXPERT</label>
                 </div>
                 
-                <br>
+                <p></p>
     
+                <!-- 属性のラジオボタン -->
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" id="attribute1" name="attribute" value="none" checked>
                     <label class="form-check-label" for="attribute1">すべて</label>
@@ -106,8 +109,36 @@
                     <input class="form-check-input" type="radio" id="attribute5" name="attribute" value="pretty">
                     <label class="form-check-label" for="attribute5">pretty</label>
                 </div>
+
+                <p></p>
+
+                <!-- 限定のラジオボタン -->
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="limited1" name="limited" value="all" checked>
+                    <label class="form-check-label" for="limited1">すべて</label>
+                </div>
+    
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="limited2" name="limited" value="skmr">
+                    <label class="form-check-label" for="limited2" data-toggle="tooltip" title="スクメロのサービス中にあった機能で限定曲の曜日縛りが適用されます。">スクメロ仕様</label>
+                </div>
+    
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="limited3" name="limited" value="normal">
+                    <label class="form-check-label" for="limited3">限定曲なし</label>
+                </div>
+    
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="limited4" name="limited" value="limited">
+                    <label class="form-check-label" for="limited4">限定曲のみ</label>
+                </div>
+    
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="limited5" name="limited" value="filter">
+                    <label class="form-check-label" for="limited5">限定曲の絞り込みあり</label>
+                </div>
                 
-                <br>
+                <p></p>
                 <button class="btn btn-primary" type="submit" name="action" value="select">1曲選曲モード</button>
                 <span class="d-inline-block" data-toggle="popover" data-content="実装予定です">
                     <button class="btn btn-secondary" type="submit" name="action" value="twinkle" style="pointer-events: none;" disabled>疑似的トゥインクルパーティ</button>
