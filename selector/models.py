@@ -35,7 +35,7 @@ class Song(models.Model):
             return False
 
     def check_exist_limited(self, value=None):
-        if value is None:
+        if value is None or value == 'normal_songs':
             if self.limited is None:
                 return True
             else:
@@ -46,7 +46,7 @@ class Song(models.Model):
         else:
             return False
 
-    def empty_check_limited(self):
+    def check_empty_limited(self):
         if self.limited is None:
             return True
         else:

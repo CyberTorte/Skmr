@@ -113,34 +113,61 @@
                 <p></p>
 
                 <!-- 限定のラジオボタン -->
-                <!-- <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="limited1" name="limited" value="all" checked>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check-limited" type="radio" id="limited1" name="limited" value="" checked>
                     <label class="form-check-label" for="limited1">すべて</label>
                 </div>
     
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="limited2" name="limited" value="skmr">
+                    <input class="form-check-input check-limited" type="radio" id="limited2" name="limited" value="skmr">
                     <label class="form-check-label" for="limited2" data-toggle="tooltip" title="スクメロのサービス中にあった機能で限定曲の曜日縛りが適用されます。">スクメロ仕様</label>
                 </div>
     
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="limited3" name="limited" value="normal">
+                    <input class="form-check-input check-limited" type="radio" id="limited3" name="limited" value="normal">
                     <label class="form-check-label" for="limited3">限定曲なし</label>
                 </div>
     
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="limited4" name="limited" value="limited">
+                    <input class="form-check-input check-limited" type="radio" id="limited4" name="limited" value="limited">
                     <label class="form-check-label" for="limited4">限定曲のみ</label>
                 </div>
     
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="limited5" name="limited" value="filter">
+                <!-- 実装予定 -->
+                <!-- <div class="form-check form-check-inline">
+                    <input class="form-check-input check-limited" type="radio" id="limited5" name="limited" value="filter">
                     <label class="form-check-label" for="limited5">限定曲の絞り込みあり</label>
+                </div> -->
+
+                <!-- 限定曲の絞り込み -->
+                <!-- <div class="form-check form-check-inline limited-filter">
+                    <input class="form-check-input" type="checkbox" id="filter1" name="filter" value="normal_songs">
+                    <label class="form-check-label" for="filter1">通常曲</label>
+                </div>
+                
+                <div class="form-check form-check-inline limited-filter">
+                    <input class="form-check-input" type="checkbox" id="filter2" name="filter" value="Tue">
+                    <label class="form-check-label" for="filter2">火曜限定</label>
+                </div>
+                
+                <div class="form-check form-check-inline limited-filter">
+                    <input class="form-check-input" type="checkbox" id="filter3" name="filter" value="Wed">
+                    <label class="form-check-label" for="filter3">水曜限定</label>
+                </div>
+                
+                <div class="form-check form-check-inline limited-filter">
+                    <input class="form-check-input" type="checkbox" id="filter4" name="filter" value="Thu">
+                    <label class="form-check-label" for="filter4">木曜限定</label>
+                </div>
+                
+                <div class="form-check form-check-inline limited-filter">
+                    <input class="form-check-input" type="checkbox" id="filter5" name="filter" value="Fri">
+                    <label class="form-check-label" for="filter5">金曜限定</label>
                 </div> -->
                 
                 <p></p>
                 <button class="btn btn-primary" type="submit" name="action" value="select">1曲選曲モード</button>
-                <span class="d-inline-block" data-toggle="popover" data-content="実装予定です">
+                <span class="d-inline-block" id="twinkle-popover" data-toggle="popover" data-content="実装予定です">
                     <button class="btn btn-secondary" type="submit" name="action" value="twinkle" style="pointer-events: none;" disabled>疑似的トゥインクルパーティ</button>
                 </span>
             </form>

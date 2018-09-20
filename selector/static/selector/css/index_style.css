@@ -12,3 +12,7 @@ body {
     border-right: 5px outset #00bfff;
     border-bottom: 5px outset #ee82ee;
 }
+
+.limited-filter {
+    display: none;
+}
