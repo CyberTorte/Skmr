@@ -12,7 +12,7 @@ from .models import Song as songs
 day_of_the_week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 choice_difficulty = ['EASY', 'NORMAL', 'HARD', 'EXPERT']
 choice_attribute = ['all', 'active', 'cool', 'pretty']
-choice_limited = ['skmr', 'normal', 'limited', ['normal_songs', 'Tue', 'Wed', 'Thu', 'Fri']]
+choice_limited = ['skmr', 'normal', 'limited', ['', 'Tue', 'Wed', 'Thu', 'Fri']]
 
 def select_song(song_array):
     count = len(song_array)
@@ -40,10 +40,12 @@ def pull_song_list(attribute=None, difficulty=None, level=None, limited=None, pa
 
     if limited is not None:
         if 'list' in str(type(limited)):
-            for limit in limited:
-                if limit in choice_limited and song.check_exist_limited(limit):
-                    after_song_list.append(song)
-            song_list = after_song_list
+                after_song_list = []
+                for song in song_list:
+                    for limit in limited:
+                        if song.check_exist_limited(limit):
+                            after_song_list.append(song)
+                song_list = after_song_list
 
         elif limited in choice_limited:
             if limited == 'skmr':
@@ -61,6 +63,7 @@ def pull_song_list(attribute=None, difficulty=None, level=None, limited=None, pa
                     if not song.check_exist_limited(None):
                         after_song_list.append(song)
                 song_list = after_song_list
+
 
     return song_list
 
@@ -87,6 +90,12 @@ class IndexView(generic.TemplateView):
     template_name = 'selector/index.html'
 
 def selector(request):
+    def check_limited_filter(limited_filter):
+        if limited_filter in choice_limited[3]:
+            return True
+        else:
+            return False
+
     try:
         if request.method == 'POST':
             if request.POST['difficulty'] in choice_difficulty:
@@ -101,16 +110,18 @@ def selector(request):
                 attribute = None
 
             if request.POST['limited'] is not None:
-                if request.POST['limited'] == 'filter' and request.POST['filter']:
-                    if 'str' in str(type(request.POST['filter'])):
-                        limited = [].append(request.POST['filter'])
-                    elif 'list' in str(type(request.POST['filter'])):
-                        for limited_filter in request.POST['filter']:
-                            if limited_filter not in choice_limited[3]:
+                if request.POST['limited'] == 'filters' and request.POST.getlist('filters[]'):
+                    if 'list' in str(type(request.POST.getlist('filters[]'))):
+                        after_filter = request.POST.getlist('filters[]')
+                        for limited_filter in request.POST.getlist('filters[]'):
+                            if not check_limited_filter(limited_filter):
                                 limited = None
                                 break
+                            elif limited_filter == '':
+                                index = after_filter.index(limited_filter)
+                                after_filter[index] = None
                         else:
-                            limited = request.POST['filter']
+                            limited = after_filter
 
                     else:
                         limited = None
@@ -135,7 +146,8 @@ def selector(request):
             song_list = pull_song_list()
             infomation_message = '絞り込み結果が0件だったのですべての曲、難易度から選曲しています。'
 
-        print(request.POST)
+        print(request.POST.getlist('filters[]'))
+        print(limited)
         print(song_list)
 
         select = select_song(song_list)
