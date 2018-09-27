@@ -10,12 +10,12 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip();
 })
 
-// $(function () {
-//     $('.check-limited').click(function () {
-//         if ($('#limited5').prop('checked') == true) {
-//             $('.limited-filter').show();
-//         } else {
-//             $('.limited-filter').hide();
-//         }
-//     })
-// })
+$(function () {
+    $('.check-limited').click(function () {
+        if ($('#limited5').prop('checked') == true) {
+            $('.limited-filter').show();
+        } else {
+            $('.limited-filter').hide();
+        }
+    })
+})
