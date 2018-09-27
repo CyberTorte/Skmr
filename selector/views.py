@@ -15,9 +15,8 @@ choice_attribute = ['all', 'active', 'cool', 'pretty']
 choice_limited = ['skmr', 'normal', 'limited', ['', 'Tue', 'Wed', 'Thu', 'Fri']]
 
 def select_song(song_array):
-    count = len(song_array)
-    index = random.randrange(0, count)
-    return song_array[index]
+    song = random.choice(song_array)
+    return song
 
 def pull_song_list(attribute=None, difficulty=None, level=None, limited=None, party=None):
     song_list = songs.objects.all()
@@ -145,10 +144,6 @@ def selector(request):
         if not song_list or len(song_list) == 0:
             song_list = pull_song_list()
             infomation_message = '絞り込み結果が0件だったのですべての曲、難易度から選曲しています。'
-
-        print(request.POST.getlist('filters[]'))
-        print(limited)
-        print(song_list)
 
         select = select_song(song_list)
         return render(request, 'selector/results.html', {'song': select, 'infomation_message': infomation_message,})
