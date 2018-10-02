@@ -171,7 +171,7 @@
     "model": "selector.song",
     "pk": 13,
     "fields": {
-      "title": "\u50d5\u3089\u306e\u661f\u7a7a",
+      "title": "僕らの星空",
       "attribute": "cool",
       "difficulty": "EASY",
       "level": 5,
@@ -185,7 +185,7 @@
     "model": "selector.song",
     "pk": 14,
     "fields": {
-      "title": "\u50d5\u3089\u306e\u661f\u7a7a",
+      "title": "僕らの星空",
       "attribute": "cool",
       "difficulty": "NORMAL",
       "level": 9,
@@ -199,7 +199,7 @@
     "model": "selector.song",
     "pk": 15,
     "fields": {
-      "title": "\u50d5\u3089\u306e\u661f\u7a7a",
+      "title": "僕らの星空",
       "attribute": "cool",
       "difficulty": "HARD",
       "level": 14,
@@ -213,7 +213,7 @@
     "model": "selector.song",
     "pk": 16,
     "fields": {
-      "title": "\u50d5\u3089\u306e\u661f\u7a7a",
+      "title": "僕らの星空",
       "attribute": "cool",
       "difficulty": "EXPERT",
       "level": 20,
@@ -227,7 +227,7 @@
     "model": "selector.song",
     "pk": 17,
     "fields": {
-      "title": "\u512a\u3057\u3044\u98a8",
+      "title": "優しい風",
       "attribute": "pretty",
       "difficulty": "EASY",
       "level": 4,
@@ -241,7 +241,7 @@
     "model": "selector.song",
     "pk": 18,
     "fields": {
-      "title": "\u512a\u3057\u3044\u98a8",
+      "title": "優しい風",
       "attribute": "pretty",
       "difficulty": "NORMAL",
       "level": 8,
@@ -255,7 +255,7 @@
     "model": "selector.song",
     "pk": 19,
     "fields": {
-      "title": "\u512a\u3057\u3044\u98a8",
+      "title": "優しい風",
       "attribute": "pretty",
       "difficulty": "HARD",
       "level": 13,
@@ -269,7 +269,7 @@
     "model": "selector.song",
     "pk": 20,
     "fields": {
-      "title": "\u512a\u3057\u3044\u98a8",
+      "title": "優しい風",
       "attribute": "pretty",
       "difficulty": "EXPERT",
       "level": 17,
@@ -283,7 +283,7 @@
     "model": "selector.song",
     "pk": 21,
     "fields": {
-      "title": "\u30b5\u30c6\u30e9\u30a4\u30c8\u30fb\u30e9\u30d6",
+      "title": "サテライト・ラブ",
       "attribute": "all",
       "difficulty": "EASY",
       "level": 4,
@@ -297,7 +297,7 @@
     "model": "selector.song",
     "pk": 22,
     "fields": {
-      "title": "\u30b5\u30c6\u30e9\u30a4\u30c8\u30fb\u30e9\u30d6",
+      "title": "サテライト・ラブ",
       "attribute": "all",
       "difficulty": "NORMAL",
       "level": 8,
@@ -311,7 +311,7 @@
     "model": "selector.song",
     "pk": 23,
     "fields": {
-      "title": "\u30b5\u30c6\u30e9\u30a4\u30c8\u30fb\u30e9\u30d6",
+      "title": "サテライト・ラブ",
       "attribute": "all",
       "difficulty": "HARD",
       "level": 13,
@@ -325,7 +325,7 @@
     "model": "selector.song",
     "pk": 24,
     "fields": {
-      "title": "\u30b5\u30c6\u30e9\u30a4\u30c8\u30fb\u30e9\u30d6",
+      "title": "サテライト・ラブ",
       "attribute": "all",
       "difficulty": "EXPERT",
       "level": 17,
@@ -339,7 +339,7 @@
     "model": "selector.song",
     "pk": 25,
     "fields": {
-      "title": "\u30e6\u30fc\u30c8\u30d4\u30a2",
+      "title": "ユートピア",
       "attribute": "cool",
       "difficulty": "EASY",
       "level": 5,
@@ -353,7 +353,7 @@
     "model": "selector.song",
     "pk": 26,
     "fields": {
-      "title": "\u30e6\u30fc\u30c8\u30d4\u30a2",
+      "title": "ユートピア",
       "attribute": "cool",
       "difficulty": "NORMAL",
       "level": 7,
@@ -367,7 +367,7 @@
     "model": "selector.song",
     "pk": 27,
     "fields": {
-      "title": "\u30e6\u30fc\u30c8\u30d4\u30a2",
+      "title": "ユートピア",
       "attribute": "cool",
       "difficulty": "HARD",
       "level": 12,
@@ -381,7 +381,7 @@
     "model": "selector.song",
     "pk": 28,
     "fields": {
-      "title": "\u30e6\u30fc\u30c8\u30d4\u30a2",
+      "title": "ユートピア",
       "attribute": "cool",
       "difficulty": "EXPERT",
       "level": 17,
@@ -563,7 +563,7 @@
     "model": "selector.song",
     "pk": 41,
     "fields": {
-      "title": "\u84bc\u306e\u30e1\u30e2\u30ea\u30fc",
+      "title": "蒼のメモリー",
       "attribute": "cool",
       "difficulty": "EASY",
       "level": 4,
@@ -577,7 +577,7 @@
     "model": "selector.song",
     "pk": 42,
     "fields": {
-      "title": "\u84bc\u306e\u30e1\u30e2\u30ea\u30fc",
+      "title": "蒼のメモリー",
       "attribute": "cool",
       "difficulty": "NORMAL",
       "level": 9,
@@ -591,7 +591,7 @@
     "model": "selector.song",
     "pk": 43,
     "fields": {
-      "title": "\u84bc\u306e\u30e1\u30e2\u30ea\u30fc",
+      "title": "蒼のメモリー",
       "attribute": "cool",
       "difficulty": "HARD",
       "level": 12,
@@ -605,7 +605,7 @@
     "model": "selector.song",
     "pk": 44,
     "fields": {
-      "title": "\u84bc\u306e\u30e1\u30e2\u30ea\u30fc",
+      "title": "蒼のメモリー",
       "attribute": "cool",
       "difficulty": "EXPERT",
       "level": 19,
@@ -619,7 +619,7 @@
     "model": "selector.song",
     "pk": 45,
     "fields": {
-      "title": "\u30ad\u30e9\u30ad\u30e9\u2606",
+      "title": "キラキラ☆",
       "attribute": "pretty",
       "difficulty": "EASY",
       "level": 5,
@@ -633,7 +633,7 @@
     "model": "selector.song",
     "pk": 46,
     "fields": {
-      "title": "\u30ad\u30e9\u30ad\u30e9\u2606",
+      "title": "キラキラ☆",
       "attribute": "pretty",
       "difficulty": "NORMAL",
       "level": 8,
@@ -647,7 +647,7 @@
     "model": "selector.song",
     "pk": 47,
     "fields": {
-      "title": "\u30ad\u30e9\u30ad\u30e9\u2606",
+      "title": "キラキラ☆",
       "attribute": "pretty",
       "difficulty": "HARD",
       "level": 12,
@@ -661,7 +661,7 @@
     "model": "selector.song",
     "pk": 48,
     "fields": {
-      "title": "\u30ad\u30e9\u30ad\u30e9\u2606",
+      "title": "キラキラ☆",
       "attribute": "pretty",
       "difficulty": "EXPERT",
       "level": 16,
@@ -787,7 +787,7 @@
     "model": "selector.song",
     "pk": 57,
     "fields": {
-      "title": "\u30df\u30e9\u30af\u30eb\u30ef\u30f3\u30c0\u30fc\u30e9\u30f3\u30c9",
+      "title": "ミラクルワンダーランド",
       "attribute": "active",
       "difficulty": "EASY",
       "level": 4,
@@ -801,7 +801,7 @@
     "model": "selector.song",
     "pk": 58,
     "fields": {
-      "title": "\u30df\u30e9\u30af\u30eb\u30ef\u30f3\u30c0\u30fc\u30e9\u30f3\u30c9",
+      "title": "ミラクルワンダーランド",
       "attribute": "active",
       "difficulty": "NORMAL",
       "level": 10,
@@ -815,7 +815,7 @@
     "model": "selector.song",
     "pk": 59,
     "fields": {
-      "title": "\u30df\u30e9\u30af\u30eb\u30ef\u30f3\u30c0\u30fc\u30e9\u30f3\u30c9",
+      "title": "ミラクルワンダーランド",
       "attribute": "active",
       "difficulty": "HARD",
       "level": 13,
@@ -829,7 +829,7 @@
     "model": "selector.song",
     "pk": 60,
     "fields": {
-      "title": "\u30df\u30e9\u30af\u30eb\u30ef\u30f3\u30c0\u30fc\u30e9\u30f3\u30c9",
+      "title": "ミラクルワンダーランド",
       "attribute": "active",
       "difficulty": "EXPERT",
       "level": 19,
@@ -843,7 +843,7 @@
     "model": "selector.song",
     "pk": 61,
     "fields": {
-      "title": "\u30cf\u30fc\u30c8\u30d3\u30fc\u30c4",
+      "title": "ハートビーツ",
       "attribute": "all",
       "difficulty": "EASY",
       "level": 5,
@@ -857,7 +857,7 @@
     "model": "selector.song",
     "pk": 62,
     "fields": {
-      "title": "\u30cf\u30fc\u30c8\u30d3\u30fc\u30c4",
+      "title": "ハートビーツ",
       "attribute": "all",
       "difficulty": "NORMAL",
       "level": 8,
@@ -871,7 +871,7 @@
     "model": "selector.song",
     "pk": 63,
     "fields": {
-      "title": "\u30cf\u30fc\u30c8\u30d3\u30fc\u30c4",
+      "title": "ハートビーツ",
       "attribute": "all",
       "difficulty": "HARD",
       "level": 13,
@@ -885,7 +885,7 @@
     "model": "selector.song",
     "pk": 64,
     "fields": {
-      "title": "\u30cf\u30fc\u30c8\u30d3\u30fc\u30c4",
+      "title": "ハートビーツ",
       "attribute": "all",
       "difficulty": "EXPERT",
       "level": 19,
@@ -897,9 +897,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 65,
+    "pk": 69,
     "fields": {
-      "title": "\u30df\u30c1\u2606\u30df\u30c1\u30eb",
+      "title": "ミチ☆ミチル",
       "attribute": "all",
       "difficulty": "EASY",
       "level": 5,
@@ -911,66 +911,10 @@
   },
   {
     "model": "selector.song",
-    "pk": 66,
-    "fields": {
-      "title": "\u30df\u30c1\u2606\u30df\u30c1\u30eb",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 67,
-    "fields": {
-      "title": "\u30df\u30c1\u2606\u30df\u30c1\u30eb",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 68,
-    "fields": {
-      "title": "\u30df\u30c1\u2606\u30df\u30c1\u30eb",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 69,
-    "fields": {
-      "title": "\u30aa\u30eb\u30f4\u30a9\u30ef\u30fc\u30eb\u3000\u30d7\u30e9\u30cd\u30c3\u30c8",
-      "attribute": "pretty",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
     "pk": 70,
     "fields": {
-      "title": "\u30aa\u30eb\u30f4\u30a9\u30ef\u30fc\u30eb\u3000\u30d7\u30e9\u30cd\u30c3\u30c8",
-      "attribute": "pretty",
+      "title": "ミチ☆ミチル",
+      "attribute": "all",
       "difficulty": "NORMAL",
       "level": 9,
       "artist": "Regulus",
@@ -983,7 +927,63 @@
     "model": "selector.song",
     "pk": 71,
     "fields": {
-      "title": "\u30aa\u30eb\u30f4\u30a9\u30ef\u30fc\u30eb\u3000\u30d7\u30e9\u30cd\u30c3\u30c8",
+      "title": "ミチ☆ミチル",
+      "attribute": "all",
+      "difficulty": "HARD",
+      "level": 13,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": null,
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 72,
+    "fields": {
+      "title": "ミチ☆ミチル",
+      "attribute": "all",
+      "difficulty": "EXPERT",
+      "level": 19,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": null,
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 65,
+    "fields": {
+      "title": "オルヴォワール　プラネット",
+      "attribute": "pretty",
+      "difficulty": "EASY",
+      "level": 4,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": null,
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 66,
+    "fields": {
+      "title": "オルヴォワール　プラネット",
+      "attribute": "pretty",
+      "difficulty": "NORMAL",
+      "level": 9,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": null,
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 67,
+    "fields": {
+      "title": "オルヴォワール　プラネット",
       "attribute": "pretty",
       "difficulty": "HARD",
       "level": 14,
@@ -995,9 +995,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 72,
+    "pk": 68,
     "fields": {
-      "title": "\u30aa\u30eb\u30f4\u30a9\u30ef\u30fc\u30eb\u3000\u30d7\u30e9\u30cd\u30c3\u30c8",
+      "title": "オルヴォワール　プラネット",
       "attribute": "pretty",
       "difficulty": "EXPERT",
       "level": 18,
@@ -1065,9 +1065,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 77,
+    "pk": 89,
     "fields": {
-      "title": "\u6674\u7a7a\u30ad\u30e9\u30ea",
+      "title": "晴空キラリ",
       "attribute": "active",
       "difficulty": "EASY",
       "level": 5,
@@ -1079,9 +1079,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 78,
+    "pk": 90,
     "fields": {
-      "title": "\u6674\u7a7a\u30ad\u30e9\u30ea",
+      "title": "晴空キラリ",
       "attribute": "active",
       "difficulty": "NORMAL",
       "level": 9,
@@ -1093,9 +1093,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 79,
+    "pk": 91,
     "fields": {
-      "title": "\u6674\u7a7a\u30ad\u30e9\u30ea",
+      "title": "晴空キラリ",
       "attribute": "active",
       "difficulty": "HARD",
       "level": 14,
@@ -1107,9 +1107,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 80,
+    "pk": 92,
     "fields": {
-      "title": "\u6674\u7a7a\u30ad\u30e9\u30ea",
+      "title": "晴空キラリ",
       "attribute": "active",
       "difficulty": "EXPERT",
       "level": 21,
@@ -1121,7 +1121,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 82,
+    "pk": 93,
     "fields": {
       "title": "I'll never cry",
       "attribute": "all",
@@ -1135,7 +1135,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 83,
+    "pk": 94,
     "fields": {
       "title": "I'll never cry",
       "attribute": "all",
@@ -1149,7 +1149,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 84,
+    "pk": 95,
     "fields": {
       "title": "I'll never cry",
       "attribute": "all",
@@ -1163,7 +1163,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 85,
+    "pk": 96,
     "fields": {
       "title": "I'll never cry",
       "attribute": "all",
@@ -1177,7 +1177,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 86,
+    "pk": 97,
     "fields": {
       "title": "Snow Planet",
       "attribute": "cool",
@@ -1191,7 +1191,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 87,
+    "pk": 98,
     "fields": {
       "title": "Snow Planet",
       "attribute": "cool",
@@ -1205,7 +1205,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 88,
+    "pk": 99,
     "fields": {
       "title": "Snow Planet",
       "attribute": "cool",
@@ -1219,7 +1219,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 89,
+    "pk": 100,
     "fields": {
       "title": "Snow Planet",
       "attribute": "cool",
@@ -1233,7 +1233,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 90,
+    "pk": 101,
     "fields": {
       "title": "Touch The Stars",
       "attribute": "all",
@@ -1247,7 +1247,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 91,
+    "pk": 102,
     "fields": {
       "title": "Touch The Stars",
       "attribute": "all",
@@ -1261,7 +1261,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 92,
+    "pk": 103,
     "fields": {
       "title": "Touch The Stars",
       "attribute": "all",
@@ -1275,7 +1275,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 93,
+    "pk": 104,
     "fields": {
       "title": "Touch The Stars",
       "attribute": "all",
@@ -1289,7 +1289,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 94,
+    "pk": 105,
     "fields": {
       "title": "Make A Wish",
       "attribute": "cool",
@@ -1303,7 +1303,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 95,
+    "pk": 106,
     "fields": {
       "title": "Make A Wish",
       "attribute": "cool",
@@ -1317,7 +1317,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 96,
+    "pk": 107,
     "fields": {
       "title": "Make A Wish",
       "attribute": "cool",
@@ -1331,7 +1331,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 97,
+    "pk": 108,
     "fields": {
       "title": "Make A Wish",
       "attribute": "cool",
@@ -1345,9 +1345,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 98,
+    "pk": 109,
     "fields": {
-      "title": "\u3082\u3057\u3082\u306e\u79c1",
+      "title": "もしもの私",
       "attribute": "all",
       "difficulty": "EASY",
       "level": 4,
@@ -1359,9 +1359,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 99,
+    "pk": 110,
     "fields": {
-      "title": "\u3082\u3057\u3082\u306e\u79c1",
+      "title": "もしもの私",
       "attribute": "all",
       "difficulty": "NORMAL",
       "level": 8,
@@ -1373,9 +1373,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 100,
+    "pk": 111,
     "fields": {
-      "title": "\u3082\u3057\u3082\u306e\u79c1",
+      "title": "もしもの私",
       "attribute": "all",
       "difficulty": "HARD",
       "level": 11,
@@ -1387,9 +1387,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 101,
+    "pk": 112,
     "fields": {
-      "title": "\u3082\u3057\u3082\u306e\u79c1",
+      "title": "もしもの私",
       "attribute": "all",
       "difficulty": "EXPERT",
       "level": 16,
@@ -1401,155 +1401,15 @@
   },
   {
     "model": "selector.song",
-    "pk": 102,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "active",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 103,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "active",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 104,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "active",
-      "difficulty": "HARD",
-      "level": 12,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 105,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "active",
-      "difficulty": "EXPERT",
-      "level": 18,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 107,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "cool",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 108,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 109,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 12,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 110,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 18,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 111,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "pretty",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 112,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "pretty",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
     "pk": 113,
     "fields": {
       "title": "Daily Miracle",
-      "attribute": "pretty",
-      "difficulty": "HARD",
-      "level": 12,
+      "attribute": "active",
+      "difficulty": "EASY",
+      "level": 4,
       "artist": "Regulus",
       "style": "5",
-      "limited": "Thu",
+      "limited": "Tue",
       "party": false
     }
   },
@@ -1558,6 +1418,146 @@
     "pk": 114,
     "fields": {
       "title": "Daily Miracle",
+      "attribute": "active",
+      "difficulty": "NORMAL",
+      "level": 9,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": "Tue",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 115,
+    "fields": {
+      "title": "Daily Miracle",
+      "attribute": "active",
+      "difficulty": "HARD",
+      "level": 12,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": "Tue",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 116,
+    "fields": {
+      "title": "Daily Miracle",
+      "attribute": "active",
+      "difficulty": "EXPERT",
+      "level": 18,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": "Tue",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 117,
+    "fields": {
+      "title": "Daily Miracle",
+      "attribute": "cool",
+      "difficulty": "EASY",
+      "level": 4,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": "Wed",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 118,
+    "fields": {
+      "title": "Daily Miracle",
+      "attribute": "cool",
+      "difficulty": "NORMAL",
+      "level": 9,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": "Wed",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 119,
+    "fields": {
+      "title": "Daily Miracle",
+      "attribute": "cool",
+      "difficulty": "HARD",
+      "level": 12,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": "Wed",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 120,
+    "fields": {
+      "title": "Daily Miracle",
+      "attribute": "cool",
+      "difficulty": "EXPERT",
+      "level": 18,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": "Wed",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 121,
+    "fields": {
+      "title": "Daily Miracle",
+      "attribute": "pretty",
+      "difficulty": "EASY",
+      "level": 4,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": "Thu",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 122,
+    "fields": {
+      "title": "Daily Miracle",
+      "attribute": "pretty",
+      "difficulty": "NORMAL",
+      "level": 9,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": "Thu",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 123,
+    "fields": {
+      "title": "Daily Miracle",
+      "attribute": "pretty",
+      "difficulty": "HARD",
+      "level": 12,
+      "artist": "Regulus",
+      "style": "5",
+      "limited": "Thu",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 124,
+    "fields": {
+      "title": "Daily Miracle",
       "attribute": "pretty",
       "difficulty": "EXPERT",
       "level": 18,
@@ -1569,7 +1569,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 115,
+    "pk": 125,
     "fields": {
       "title": "Daily Miracle",
       "attribute": "all",
@@ -1583,7 +1583,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 116,
+    "pk": 126,
     "fields": {
       "title": "Daily Miracle",
       "attribute": "all",
@@ -1597,7 +1597,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 117,
+    "pk": 127,
     "fields": {
       "title": "Daily Miracle",
       "attribute": "all",
@@ -1611,7 +1611,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 118,
+    "pk": 128,
     "fields": {
       "title": "Daily Miracle",
       "attribute": "all",
@@ -1625,9 +1625,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 119,
+    "pk": 129,
     "fields": {
-      "title": "\u4f8b\u3048\u3070\u541b\u306e\u672a\u6765\u304c",
+      "title": "例えば君の未来が",
       "attribute": "all",
       "difficulty": "EASY",
       "level": 5,
@@ -1639,9 +1639,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 120,
+    "pk": 130,
     "fields": {
-      "title": "\u4f8b\u3048\u3070\u541b\u306e\u672a\u6765\u304c",
+      "title": "例えば君の未来が",
       "attribute": "all",
       "difficulty": "NORMAL",
       "level": 9,
@@ -1653,9 +1653,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 121,
+    "pk": 131,
     "fields": {
-      "title": "\u4f8b\u3048\u3070\u541b\u306e\u672a\u6765\u304c",
+      "title": "例えば君の未来が",
       "attribute": "all",
       "difficulty": "HARD",
       "level": 13,
@@ -1667,9 +1667,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 122,
+    "pk": 132,
     "fields": {
-      "title": "\u4f8b\u3048\u3070\u541b\u306e\u672a\u6765\u304c",
+      "title": "例えば君の未来が",
       "attribute": "all",
       "difficulty": "EXPERT",
       "level": 19,
@@ -1681,7 +1681,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 123,
+    "pk": 133,
     "fields": {
       "title": "Denshin!",
       "attribute": "pretty",
@@ -1695,149 +1695,149 @@
   },
   {
     "model": "selector.song",
-    "pk": 124,
-    "fields": {
-      "title": "Denshin!",
-      "attribute": "pretty",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Satoka & Ako",
-      "style": "5",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 125,
-    "fields": {
-      "title": "Denshin!",
-      "attribute": "pretty",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Satoka & Ako",
-      "style": "5",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 126,
-    "fields": {
-      "title": "Denshin!",
-      "attribute": "pretty",
-      "difficulty": "EXPERT",
-      "level": 20,
-      "artist": "Satoka & Ako",
-      "style": "5",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 127,
-    "fields": {
-      "title": "Horizon",
-      "attribute": "cool",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Nagisa & Mari",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 128,
-    "fields": {
-      "title": "Horizon",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Nagisa & Mari",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 129,
-    "fields": {
-      "title": "Horizon",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Nagisa & Mari",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 130,
-    "fields": {
-      "title": "Horizon",
-      "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 20,
-      "artist": "Nagisa & Mari",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 131,
-    "fields": {
-      "title": "\u821e\u3044\u30b3\u30ec",
-      "attribute": "active",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Yumi & Ryoko",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 132,
-    "fields": {
-      "title": "\u821e\u3044\u30b3\u30ec",
-      "attribute": "active",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Yumi & Ryoko",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 133,
-    "fields": {
-      "title": "\u821e\u3044\u30b3\u30ec",
-      "attribute": "active",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Yumi & Ryoko",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
     "pk": 134,
     "fields": {
-      "title": "\u821e\u3044\u30b3\u30ec",
+      "title": "Denshin!",
+      "attribute": "pretty",
+      "difficulty": "NORMAL",
+      "level": 9,
+      "artist": "Satoka & Ako",
+      "style": "5",
+      "limited": "Fri",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 135,
+    "fields": {
+      "title": "Denshin!",
+      "attribute": "pretty",
+      "difficulty": "HARD",
+      "level": 13,
+      "artist": "Satoka & Ako",
+      "style": "5",
+      "limited": "Fri",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 136,
+    "fields": {
+      "title": "Denshin!",
+      "attribute": "pretty",
+      "difficulty": "EXPERT",
+      "level": 20,
+      "artist": "Satoka & Ako",
+      "style": "5",
+      "limited": "Fri",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 137,
+    "fields": {
+      "title": "Horizon",
+      "attribute": "cool",
+      "difficulty": "EASY",
+      "level": 5,
+      "artist": "Nagisa & Mari",
+      "style": "5",
+      "limited": "Tue",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 138,
+    "fields": {
+      "title": "Horizon",
+      "attribute": "cool",
+      "difficulty": "NORMAL",
+      "level": 9,
+      "artist": "Nagisa & Mari",
+      "style": "5",
+      "limited": "Tue",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 139,
+    "fields": {
+      "title": "Horizon",
+      "attribute": "cool",
+      "difficulty": "HARD",
+      "level": 13,
+      "artist": "Nagisa & Mari",
+      "style": "5",
+      "limited": "Tue",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 140,
+    "fields": {
+      "title": "Horizon",
+      "attribute": "cool",
+      "difficulty": "EXPERT",
+      "level": 20,
+      "artist": "Nagisa & Mari",
+      "style": "5",
+      "limited": "Tue",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 141,
+    "fields": {
+      "title": "舞いコレ",
+      "attribute": "active",
+      "difficulty": "EASY",
+      "level": 5,
+      "artist": "Yumi & Ryoko",
+      "style": "2",
+      "limited": "Wed",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 142,
+    "fields": {
+      "title": "舞いコレ",
+      "attribute": "active",
+      "difficulty": "NORMAL",
+      "level": 9,
+      "artist": "Yumi & Ryoko",
+      "style": "2",
+      "limited": "Wed",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 143,
+    "fields": {
+      "title": "舞いコレ",
+      "attribute": "active",
+      "difficulty": "HARD",
+      "level": 13,
+      "artist": "Yumi & Ryoko",
+      "style": "2",
+      "limited": "Wed",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 144,
+    "fields": {
+      "title": "舞いコレ",
       "attribute": "active",
       "difficulty": "EXPERT",
       "level": 21,
@@ -1849,9 +1849,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 135,
+    "pk": 145,
     "fields": {
-      "title": "\u30ad\u30df\u3001\u30dc\u30af\u3001\u604b\u3057\u3066\u308b\uff01",
+      "title": "キミ、ボク、恋してる！",
       "attribute": "all",
       "difficulty": "EASY",
       "level": 4,
@@ -1863,9 +1863,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 136,
+    "pk": 146,
     "fields": {
-      "title": "\u30ad\u30df\u3001\u30dc\u30af\u3001\u604b\u3057\u3066\u308b\uff01",
+      "title": "キミ、ボク、恋してる！",
       "attribute": "all",
       "difficulty": "NORMAL",
       "level": 8,
@@ -1877,9 +1877,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 137,
+    "pk": 147,
     "fields": {
-      "title": "\u30ad\u30df\u3001\u30dc\u30af\u3001\u604b\u3057\u3066\u308b\uff01",
+      "title": "キミ、ボク、恋してる！",
       "attribute": "all",
       "difficulty": "HARD",
       "level": 14,
@@ -1891,9 +1891,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 138,
+    "pk": 148,
     "fields": {
-      "title": "\u30ad\u30df\u3001\u30dc\u30af\u3001\u604b\u3057\u3066\u308b\uff01",
+      "title": "キミ、ボク、恋してる！",
       "attribute": "all",
       "difficulty": "EXPERT",
       "level": 20,
@@ -1905,9 +1905,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 139,
+    "pk": 149,
     "fields": {
-      "title": "\u30df\u30e9\u30a4\u30af\u30eb\uff01\uff01Miracle\u2606",
+      "title": "ミライクル！！Miracle☆",
       "attribute": "pretty",
       "difficulty": "EASY",
       "level": 6,
@@ -1919,9 +1919,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 140,
+    "pk": 150,
     "fields": {
-      "title": "\u30df\u30e9\u30a4\u30af\u30eb\uff01\uff01Miracle\u2606",
+      "title": "ミライクル！！Miracle☆",
       "attribute": "pretty",
       "difficulty": "NORMAL",
       "level": 8,
@@ -1933,9 +1933,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 141,
+    "pk": 151,
     "fields": {
-      "title": "\u30df\u30e9\u30a4\u30af\u30eb\uff01\uff01Miracle\u2606",
+      "title": "ミライクル！！Miracle☆",
       "attribute": "pretty",
       "difficulty": "HARD",
       "level": 14,
@@ -1947,9 +1947,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 142,
+    "pk": 152,
     "fields": {
-      "title": "\u30df\u30e9\u30a4\u30af\u30eb\uff01\uff01Miracle\u2606",
+      "title": "ミライクル！！Miracle☆",
       "attribute": "pretty",
       "difficulty": "EXPERT",
       "level": 18,
@@ -1961,7 +1961,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 143,
+    "pk": 153,
     "fields": {
       "title": "Sweet Switch",
       "attribute": "pretty",
@@ -1975,7 +1975,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 144,
+    "pk": 154,
     "fields": {
       "title": "Sweet Switch",
       "attribute": "pretty",
@@ -1989,7 +1989,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 145,
+    "pk": 155,
     "fields": {
       "title": "Sweet Switch",
       "attribute": "pretty",
@@ -2003,7 +2003,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 146,
+    "pk": 156,
     "fields": {
       "title": "Sweet Switch",
       "attribute": "pretty",
@@ -2017,7 +2017,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 147,
+    "pk": 77,
     "fields": {
       "title": "Mystic Girl",
       "attribute": "cool",
@@ -2031,7 +2031,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 148,
+    "pk": 78,
     "fields": {
       "title": "Mystic Girl",
       "attribute": "cool",
@@ -2045,7 +2045,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 149,
+    "pk": 79,
     "fields": {
       "title": "Mystic Girl",
       "attribute": "cool",
@@ -2059,7 +2059,7 @@
   },
   {
     "model": "selector.song",
-    "pk": 150,
+    "pk": 80,
     "fields": {
       "title": "Mystic Girl",
       "attribute": "cool",
@@ -2073,9 +2073,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 151,
+    "pk": 81,
     "fields": {
-      "title": "\u3064\u306a\u304c\u308b\u60f3\u3044",
+      "title": "つながる想い",
       "attribute": "all",
       "difficulty": "EASY",
       "level": 6,
@@ -2087,9 +2087,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 152,
+    "pk": 82,
     "fields": {
-      "title": "\u3064\u306a\u304c\u308b\u60f3\u3044",
+      "title": "つながる想い",
       "attribute": "all",
       "difficulty": "NORMAL",
       "level": 10,
@@ -2101,9 +2101,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 153,
+    "pk": 83,
     "fields": {
-      "title": "\u3064\u306a\u304c\u308b\u60f3\u3044",
+      "title": "つながる想い",
       "attribute": "all",
       "difficulty": "HARD",
       "level": 14,
@@ -2115,9 +2115,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 154,
+    "pk": 84,
     "fields": {
-      "title": "\u3064\u306a\u304c\u308b\u60f3\u3044",
+      "title": "つながる想い",
       "attribute": "all",
       "difficulty": "EXPERT",
       "level": 22,
@@ -2129,40 +2129,12 @@
   },
   {
     "model": "selector.song",
-    "pk": 155,
+    "pk": 157,
     "fields": {
       "title": "Break Out of My Shell",
       "attribute": "cool",
       "difficulty": "EASY",
       "level": 6,
-      "artist": "Imina & Haruka",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 156,
-    "fields": {
-      "title": "Break Out of My Shell",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Imina & Haruka",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 157,
-    "fields": {
-      "title": "Break Out of My Shell",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 14,
       "artist": "Imina & Haruka",
       "style": "2",
       "limited": "Wed",
@@ -2175,8 +2147,8 @@
     "fields": {
       "title": "Break Out of My Shell",
       "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 19,
+      "difficulty": "NORMAL",
+      "level": 9,
       "artist": "Imina & Haruka",
       "style": "2",
       "limited": "Wed",
@@ -2187,7 +2159,35 @@
     "model": "selector.song",
     "pk": 159,
     "fields": {
-      "title": "\u7121\u6575\u306e\u30e1\u30ed\u30c7\u30a3",
+      "title": "Break Out of My Shell",
+      "attribute": "cool",
+      "difficulty": "HARD",
+      "level": 14,
+      "artist": "Imina & Haruka",
+      "style": "2",
+      "limited": "Wed",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 160,
+    "fields": {
+      "title": "Break Out of My Shell",
+      "attribute": "cool",
+      "difficulty": "EXPERT",
+      "level": 19,
+      "artist": "Imina & Haruka",
+      "style": "2",
+      "limited": "Wed",
+      "party": false
+    }
+  },
+  {
+    "model": "selector.song",
+    "pk": 85,
+    "fields": {
+      "title": "無敵のメロディ",
       "attribute": "active",
       "difficulty": "EASY",
       "level": 6,
@@ -2199,9 +2199,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 160,
+    "pk": 86,
     "fields": {
-      "title": "\u7121\u6575\u306e\u30e1\u30ed\u30c7\u30a3",
+      "title": "無敵のメロディ",
       "attribute": "active",
       "difficulty": "NORMAL",
       "level": 10,
@@ -2213,9 +2213,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 161,
+    "pk": 87,
     "fields": {
-      "title": "\u7121\u6575\u306e\u30e1\u30ed\u30c7\u30a3",
+      "title": "無敵のメロディ",
       "attribute": "active",
       "difficulty": "HARD",
       "level": 13,
@@ -2227,9 +2227,9 @@
   },
   {
     "model": "selector.song",
-    "pk": 162,
+    "pk": 88,
     "fields": {
-      "title": "\u7121\u6575\u306e\u30e1\u30ed\u30c7\u30a3",
+      "title": "無敵のメロディ",
       "attribute": "active",
       "difficulty": "EXPERT",
       "level": 19,
@@ -2239,5 +2239,4 @@
       "party": false
     }
   }
-  ]
-  
+]
