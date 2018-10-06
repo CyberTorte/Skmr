@@ -135,9 +135,6 @@ def selector(request):
         else:
             error_message = 'エラーが発生したためすべての曲、難易度から選曲しています。条件を絞る場合はやり直してください。'
 
-            if request.POST['action'] == 'song_list':
-                return render(request, 'selector/song_list.html', {'song_list': song_list, 'error_message': error_message,})
-
             select = select_song(pull_song_list())
             return render(request, 'selector/results.html', {'song': select, 'error_message': error_message,})
 
@@ -148,18 +145,12 @@ def selector(request):
             song_list = pull_song_list()
             infomation_message = '絞り込み結果が0件だったのですべての曲、難易度から選曲しています。'
 
-        if request.POST['action'] == 'song_list':
-            return render(request, 'selector/song_list.html', {'song_list': song_list, 'infomation_message': infomation_message,})
-
         select = select_song(song_list)
         return render(request, 'selector/results.html', {'song': select, 'infomation_message': infomation_message,})
     except:
         import traceback
         traceback.print_exc()
         error_message = 'エラーが発生したためすべての曲、難易度から選曲しています。条件を絞る場合はやり直してください。'
-
-        if request.POST['action'] == 'song_list':
-            return render(request, 'selector/song_list.html', {'song_list': song_list, 'error_message': error_message,})
 
         select = select_song(pull_song_list())
         return render(request, 'selector/results.html', {'song': select, 'error_message': error_message,})
