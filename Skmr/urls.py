@@ -19,12 +19,12 @@ from django.views.generic import RedirectView
 from selector import views as view
 
 urlpatterns = [
-    path('etrotEhime/etrot/', admin.site.urls),
-    path('etrotEhime/', include('Portal.urls')),
-    path('etrotEhime/selector/', include('selector.urls')),
-    path('etrotEhime/birthday/', include('birthday.urls')),
-    path('etrotEhime/Natsumi/', RedirectView.as_view(url='/etrotEhime/birthday/Natsumi/')),
-    path('etrotEhime/skmr/Natsumi/', RedirectView.as_view(url='/etrotEhime/birthday/Natsumi/')),
-    path('etrotEhime/Kaoru/', RedirectView.as_view(url='/etrotEhime/birthday/skmr/Kaoru/')),
-    path('etrotEhime/skmr/Kaoru/', RedirectView.as_view(url='/etrotEhime/birthday/skmr/Kaoru')),
+    path('etrot/', admin.site.urls),
+    path('', include('Portal.urls')),
+    path('selector/', include('selector.urls')),
+    path('birthday/', include('birthday.urls')),
+    path('Natsumi/', RedirectView.as_view(url='/birthday/Natsumi/')),
+    path('skmr/Natsumi/', RedirectView.as_view(url='/birthday/Natsumi/')),
+    path('Kaoru/', RedirectView.as_view(url='/birthday/skmr/Kaoru/')),
+    path('skmr/Kaoru/', RedirectView.as_view(url='/birthday/skmr/Kaoru')),
 ]
