@@ -61,30 +61,63 @@
             <table class="table table-responsive table-hover">
                 <tr class="table-warning">
                     <th scope="col">曲名</th>
-                    <td>{{ song.title }}</td>
+                    <td>{{ twinkle_list.0.title }}</td>
+                    <td>{{ twinkle_list.1.title }}</td>
+                    <td>{{ twinkle_list.2.title }}</td>
                 </tr>
                 <tr class="table-primary">
                     <th scope="col">属性</th>
-                    <td> {{ song.attribute }} </td>
+                    <td> {{ twinkle_list.0.attribute }} </td>
+                    <td> {{ twinkle_list.1.attribute }} </td>
+                    <td> {{ twinkle_list.2.attribute }} </td>
                 </tr>
                 <tr class="table-success">
                     <th scope="col">難易度</th>
-                    <td> {{ song.difficulty }} </td>
+                    <td> {{ twinkle_list.0.difficulty }} </td>
+                    <td> {{ twinkle_list.1.difficulty }} </td>
+                    <td> {{ twinkle_list.2.difficulty }} </td>
                 </tr> 
                 <tr class="table-mao">
                     <th scope="col">曲レベル</th>
-                    <td> {{ song.level }} </td>
+                    <td> {{ twinkle_list.0.level }} </td>
+                    <td> {{ twinkle_list.1.level }} </td>
+                    <td> {{ twinkle_list.2.level }} </td>
                 </tr>
                 <tr class="table-light">
                     <th scope="col">アーティスト</th>
-                    <td> {{ song.artist }} </td>
+                    <td> {{ twinkle_list.0.artist }} </td>
+                    <td> {{ twinkle_list.1.artist }} </td>
+                    <td> {{ twinkle_list.2.artist }} </td>
                 </tr>
             </table>
-
         </div>
 
         <div class="twinkle-content-mobile">
-
+            <h1 class="header">選曲結果！</h1>
+            <table class="table table-responsive table-hover">
+                {% for song in twinkle_list %}
+                    <tr class="table-warning">
+                        <th scope="col">曲名</th>
+                        <td>{{ song.title }}</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <th scope="col">属性</th>
+                        <td> {{ song.attribute }} </td>
+                    </tr>
+                    <tr class="table-success">
+                        <th scope="col">難易度</th>
+                        <td> {{ song.difficulty }} </td>
+                    </tr> 
+                    <tr class="table-mao">
+                        <th scope="col">曲レベル</th>
+                        <td> {{ song.level }} </td>
+                    </tr>
+                    <tr class="table-light">
+                        <th scope="col">アーティスト</th>
+                        <td> {{ song.artist }} </td>
+                    </tr>
+                {% endfor %}
+            </table>
         </div>
 
         <a class="btn btn-secondary" href="{% url 'selector:index' %}" role="button">選曲画面に戻る</a>
