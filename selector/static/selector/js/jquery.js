@@ -20,5 +20,6 @@ $(function () {
     $('#twinkle-mode').click(function () {
         $('.select').toggle();
         $('.twinkle').toggle();
+        $('.twinkle-party').toggle();
     })
 })
