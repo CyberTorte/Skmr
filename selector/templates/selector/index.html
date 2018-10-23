@@ -53,7 +53,14 @@
         </nav>
         
         <div class="index-body">
-            <h1>選曲モードを選択してください。</h1>
+            <h1>選曲モードはどうする？</h1>
+
+            <div class="btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-info" id="twinkle-mode">
+                    <input type="checkbox" autocomplete="off">
+                    モード切替
+                </label>
+            </div>
 
             <form action="{% url 'selector:result' %}" method="post">
                 {% csrf_token %}
@@ -120,7 +127,7 @@
     
                 <div class="form-check form-check-inline">
                     <input class="form-check-input check-limited" type="radio" id="limited2" name="limited" value="skmr">
-                    <label class="form-check-label" for="limited2" data-toggle="tooltip" title="スクメロのサービス中にあった機能で限定曲の曜日縛りが適用されます。">スクメロ仕様</label>
+                    <label class="form-check-label limited-skmr" for="limited2" data-toggle="tooltip" title="スクメロのサービス中にあった機能で限定曲の曜日縛りが適用されます。">スクメロ仕様</label>
                 </div>
     
                 <div class="form-check form-check-inline">
@@ -166,9 +173,10 @@
                 </div>
                 
                 <p></p>
-                <button class="btn btn-primary" type="submit" name="action" value="select">1曲選曲モード</button>
-                <button class="btn btn-secondary" type="submit" name="action" value="twinkle">トゥインクルパーティ</button>
-                <button class="btn btn-primary" type="submit" name="action" value="song_list">選択条件の曲一覧を見る</button>
+
+                <button class="btn btn-primary select" type="submit" name="action" value="select">1曲選曲</button>
+                <button class="btn btn-success twinkle" type="submit" name="action" value="twinkle" formaction="{% url 'selector:twinkle_party' %}">トゥインクルパーティ</button>
+                <button class="btn btn-secondary" type="submit" name="action" value="song_list">曲一覧</button>
             </form>
         </div>
         

@@ -2,12 +2,8 @@ $(function () {
     $('#twinkle-popover').popover();
 })
 
-$('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus');
-})
-
 $(function () {
-    $('[data-toggle="tooltip"]').tooltip();
+    $('.limited-skmr').tooltip();
 })
 
 $(function () {
@@ -17,5 +13,12 @@ $(function () {
         } else {
             $('.limited-filter').hide();
         }
+    })
+})
+
+$(function () {
+    $('#twinkle-mode').click(function () {
+        $('.select').toggle();
+        $('.twinkle').toggle();
     })
 })
