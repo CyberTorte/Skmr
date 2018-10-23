@@ -175,7 +175,7 @@ def selector(request):
         song_list = pull_song_list(difficulty=difficulty, attribute=attribute, limited=limited)
         
         if party:
-            party_song_list = pull_song_list(difficulty=difficulty, attribute=attribute, limited=limited, party=party)
+            party_song_list = pull_song_list(difficulty=difficulty, attribute=attribute, party=party)
 
         if not song_list or len(song_list) == 0:
             song_list = pull_song_list()
