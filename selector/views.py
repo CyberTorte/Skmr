@@ -89,6 +89,7 @@ class IndexView(generic.TemplateView):
     template_name = 'selector/index.html'
 
 def selector(request):
+    twinkle_party_list = []
     def check_limited_filter(limited_filter):
         if limited_filter in choice_limited[3]:
             return True
@@ -138,6 +139,22 @@ def selector(request):
             if request.POST['action'] == 'song_list':
                 return render(request, 'selector/song_list.html', {'song_list': song_list, 'error_message': error_message,})
 
+            if request.POST['action'] == 'twinkle':
+                while len(twinkle_party_list) < 3:
+                    if 3 < len(twinkle_party_list):
+                        twinkle_party_list = []
+                        break
+
+                    select = select_song(pull_song_list())
+                    for song in twinkle_party_list:
+                        if select.id == song.id:
+                            break
+                    else:
+                        twinkle_party_list.append(select)
+                
+                if twinkle_party_list:
+                    return render(request, 'selector/twinkle_party.html', { 'twinkle_list': twinkle_party_list, 'error_message': error_message, })
+
             select = select_song(pull_song_list())
             return render(request, 'selector/results.html', {'song': select, 'error_message': error_message,})
 
@@ -150,6 +167,22 @@ def selector(request):
 
         if request.POST['action'] == 'song_list':
             return render(request, 'selector/song_list.html', {'song_list': song_list, 'infomation_message': infomation_message,})
+
+        if request.POST['action'] == 'twinkle':
+            while len(twinkle_party_list) < 3:
+                if 3 < len(twinkle_party_list):
+                    twinkle_party_list = []
+                    break
+
+                select = select_song(song_list)
+                for song in twinkle_party_list:
+                    if select.id == song.id:
+                        break
+                else:
+                    twinkle_party_list.append(select)
+            
+            if twinkle_party_list:
+                return render(request, 'selector/twinkle_party.html', { 'twinkle_list': twinkle_party_list, 'infomation_message': infomation_message, })
 
         select = select_song(song_list)
         return render(request, 'selector/results.html', {'song': select, 'infomation_message': infomation_message,})
