@@ -63,6 +63,12 @@ def pull_song_list(attribute=None, difficulty=None, level=None, limited=None, pa
                         after_song_list.append(song)
                 song_list = after_song_list
 
+    if party is not None:
+        after_song_list = []
+        for song in song_list:
+            if not song.check_empty_party():
+                after_song_list.append(song)
+        song_list = after_song_list
 
     return song_list
 
@@ -103,7 +109,6 @@ def selector(request):
             else:
                 difficulty = None
 
-
             if request.POST['attribute'] in choice_attribute:
                 attribute = request.POST['attribute']
             else:
@@ -131,6 +136,14 @@ def selector(request):
 
                 else:
                     limited = None
+
+            if request.POST['party'] is not None:
+                if request.POST['party'] == 'party':
+                    party = request.POST['party']
+                else:
+                    party = None
+            else:
+                party = None
 
 
         else:
@@ -160,6 +173,9 @@ def selector(request):
 
         infomation_message = ''
         song_list = pull_song_list(difficulty=difficulty, attribute=attribute, limited=limited)
+        
+        if party:
+            party_song_list = pull_song_list(difficulty=difficulty, attribute=attribute, limited=limited, party=party)
 
         if not song_list or len(song_list) == 0:
             song_list = pull_song_list()
@@ -173,8 +189,15 @@ def selector(request):
                 if 3 < len(twinkle_party_list):
                     twinkle_party_list = []
                     break
-
-                select = select_song(song_list)
+                if len(twinkle_party_list) == 2:
+                    if party_song_list:
+                        select = select_song(party_song_list)
+                    else:
+                        infomation_message = 'この条件ではトゥインクルパーティ曲が見つかりませんでした。'
+                        select = select_song(song_list)
+                else:
+                    select = select_song(song_list)
+                
                 for song in twinkle_party_list:
                     if select.id == song.id:
                         break
@@ -182,13 +205,14 @@ def selector(request):
                     twinkle_party_list.append(select)
             
             if twinkle_party_list:
+                print(twinkle_party_list)
                 return render(request, 'selector/twinkle_party.html', { 'twinkle_list': twinkle_party_list, 'infomation_message': infomation_message, })
 
         select = select_song(song_list)
         return render(request, 'selector/results.html', {'song': select, 'infomation_message': infomation_message,})
     except:
-        import traceback
-        traceback.print_exc()
+        # import traceback
+        # traceback.print_exc()
         error_message = 'エラーが発生したためすべての曲、難易度から選曲しています。条件を絞る場合はやり直してください。'
 
         if request.POST['action'] == 'song_list':

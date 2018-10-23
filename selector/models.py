@@ -51,6 +51,12 @@ class Song(models.Model):
             return True
         else:
             return False
+
+    def check_empty_party(self):
+        if self.party == False:
+            return True
+        else:
+            return False
     
     class Meta:
         db_table = 'song_list'
