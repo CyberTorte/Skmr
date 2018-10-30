@@ -174,6 +174,8 @@ def selector(request):
         infomation_message = ''
         song_list = pull_song_list(difficulty=difficulty, attribute=attribute, limited=limited)
         
+        party_song_list = []
+
         if party:
             party_song_list = pull_song_list(difficulty=difficulty, attribute=attribute, party=party)
 
@@ -192,8 +194,10 @@ def selector(request):
                 if len(twinkle_party_list) == 2:
                     if party_song_list:
                         select = select_song(party_song_list)
-                    else:
+                    elif party:
                         infomation_message = 'この条件ではトゥインクルパーティ曲が見つかりませんでした。'
+                        select = select_song(song_list)
+                    else:
                         select = select_song(song_list)
                 else:
                     select = select_song(song_list)
@@ -211,8 +215,8 @@ def selector(request):
         select = select_song(song_list)
         return render(request, 'selector/results.html', {'song': select, 'infomation_message': infomation_message,})
     except:
-        # import traceback
-        # traceback.print_exc()
+        import traceback
+        traceback.print_exc()
         error_message = 'エラーが発生したためすべての曲、難易度から選曲しています。条件を絞る場合はやり直してください。'
 
         if request.POST['action'] == 'song_list':
