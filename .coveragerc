@@ -1,0 +1,11 @@
+[run]
+    omit = 
+        *tests.py*
+        */migrations/*
+        *__init__.py*
+        *manage.py*
+        *settings.py*
+    plugins = django_coverage_plugin
+
+[report]
+    show_missing = True
