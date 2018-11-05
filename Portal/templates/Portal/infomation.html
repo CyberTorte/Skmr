@@ -9,6 +9,7 @@
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{% static 'selector/css/style.css' %}">
         <link rel="stylesheet" type="text/css" href="{% static 'Portal/css/infomation_style.css' %}">
         <link rel="apple-touch-icon" sizes="180x180" href="{% static 'selector/images/apple-touch-icon.png' %}">
         <link rel="icon" type="image/png" sizes="32x32" href="{% static 'selector/images/favicon-32x32.png' %}">
@@ -52,6 +53,16 @@
                 </form> -->
             </div>
         </nav>
+
+        <div class="loading mx-auto d-block">
+            <div class="loading-image">
+                <img src="{% static 'selector/images/kaoru_icon_200.jpg' %}" alt="ローディング画像">
+                <img src="{% static 'selector/images/kasumi_icon_200.jpg' %}" alt="ローディング画像">
+                <img src="{% static 'selector/images/akari_icon_200.jpg' %}" alt="ローディング画像">
+                <img src="{% static 'selector/images/nagisa_icon_200.jpg' %}" alt="ローディング画像">
+                <img src="{% static 'selector/images/mao_icon_200.jpg' %}" alt="ローディング画像">
+            </div>
+        </div>
 
         <div class="produce-body">
             <h1 id="このサイトについて">このサイトについて</h1>
@@ -182,9 +193,10 @@
             <p>までお願い致します！</p>
         </div>             
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="{% static 'selector/js/loading_jquery.js' %}"></script>
         <script src="{% static 'selector/jquery.js' %}"></script>
     </body>
 </html>

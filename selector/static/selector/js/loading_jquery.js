@@ -1,6 +1,5 @@
 $(function () {
     $('.loading').show();
-    $('.index-body').hide();
 
     const MAX_RETRY_COUNT_FIND_IMAGES = 10;
     var retry_counter = 0;
@@ -13,7 +12,6 @@ $(function () {
             $('.loading').fadeOut(2000, function() {
                 $('.loading').remove();
             });
-            $('.index-body').show();
         }
         var loading_images = document.querySelectorAll('.loading-image img');
         if(loading_images.length = 5) {
@@ -21,7 +19,6 @@ $(function () {
             $('.loading').fadeOut(2000, function() {
                 $('.loading').remove();
             });
-            $('.index-body').show();
         }
     }
 })
