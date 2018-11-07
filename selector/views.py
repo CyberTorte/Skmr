@@ -209,7 +209,6 @@ def selector(request):
                     twinkle_party_list.append(select)
             
             if twinkle_party_list:
-                print(twinkle_party_list)
                 return render(request, 'selector/twinkle_party.html', { 'twinkle_list': twinkle_party_list, 'infomation_message': infomation_message, })
 
         select = select_song(song_list)
