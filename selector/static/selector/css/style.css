@@ -24,6 +24,13 @@ body {
     animation: fadeIn 2s ease 100ms 1 normal;
 }
 
+@media only screen and (max-width: 767px) {
+    /* ～ ここに ○○px 以下の時の指定を記述 ～ */
+    .loading-image img {
+        zoom: 0.3;
+    }
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
