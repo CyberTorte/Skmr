@@ -1,9 +1,3 @@
-body {
-    background-image: url("/static/selector/images/skmr_background.jpg");
-    background-size: 10% auto;
-    text-align: center;
-}
-
 .result-content {
     display: inline-block;
 }
