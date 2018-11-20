@@ -71,3 +71,51 @@
     background: #ff8c00;
     color: white;
 }
+
+.btn-nagisa {
+    background: #0000cd;
+    color: white;
+}
+
+.btn-nagisa.outline {
+    border: 3px solid #0000cd;
+    color: white;
+}
+
+.btn .btn-nagisa:hover, .btn-nagisa:focus, 
+.btn-nagisa:active, .btn-nagisa:active:focus, .btn-nagisa:active:hover, .btn-nagisa:active.focus,
+.btn-nagisa.active, .btn-nagisa.active:focus, .btn-nagisa.active:hover, .btn-nagisa.active.focus,
+.open > .dropdown-toggle.btn-nagisa, 
+.open > .dropdown-toggle.btn-nagisa:hover,
+.open > .dropdown-toggle.btn-nagisa:focus, 
+.open > .dropdown-toggle.btn-nagisa.focus,
+.btn-nagisa.disabled:hover, .btn-nagisa[disabled]:hover, fieldset[disabled] .btn-nagisa:hover,
+.btn-nagisa.disabled:focus, .btn-nagisa[disabled]:focus, fieldset[disabled] .btn-nagisa:focus,
+.btn-nagisa.disabled.focus, .btn-nagisa[disabled].focus, fieldset[disabled] .btn-nagisa.focus {
+    background: #00008b;
+    color: white;
+}
+
+.btn-outline-nagisa {
+    background: none;
+    color: white;
+}
+
+.btn-outline-nagisa.outline {
+    border: 3px solid #0000cd;
+    color: #00008b;
+}
+
+.btn .btn-outline-nagisa:hover, .btn-outline-nagisa:focus, 
+.btn-outline-nagisa:active, .btn-outline-nagisa:active:focus, .btn-outline-nagisa:active:hover, .btn-outline-nagisa:active.focus,
+.btn-outline-nagisa.active, .btn-outline-nagisa.active:focus, .btn-outline-nagisa.active:hover, .btn-outline-nagisa.active.focus,
+.open > .dropdown-toggle.btn-outline-nagisa, 
+.open > .dropdown-toggle.btn-outline-nagisa:hover,
+.open > .dropdown-toggle.btn-outline-nagisa:focus, 
+.open > .dropdown-toggle.btn-outline-nagisa.focus,
+.btn-outline-nagisa.disabled:hover, .btn-outline-nagisa[disabled]:hover, fieldset[disabled] .btn-outline-nagisa:hover,
+.btn-outline-nagisa.disabled:focus, .btn-outline-nagisa[disabled]:focus, fieldset[disabled] .btn-outline-nagisa:focus,
+.btn-outline-nagisa.disabled.focus, .btn-outline-nagisa[disabled].focus, fieldset[disabled] .btn-outline-nagisa.focus {
+    background: #0000cd;
+    color: white;
+}
