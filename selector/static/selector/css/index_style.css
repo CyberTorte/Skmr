@@ -119,3 +119,51 @@
     background: #0000cd;
     color: white;
 }
+
+.btn-kasumi {
+    background: #32cd32;
+    color: white;
+}
+
+.btn-kasumi.outline {
+    border: 3px solid #32cd32;
+    color: white;
+}
+
+.btn .btn-kasumi:hover, .btn-kasumi:focus, 
+.btn-kasumi:active, .btn-kasumi:active:focus, .btn-kasumi:active:hover, .btn-kasumi:active.focus,
+.btn-kasumi.active, .btn-kasumi.active:focus, .btn-kasumi.active:hover, .btn-kasumi.active.focus,
+.open > .dropdown-toggle.btn-kasumi, 
+.open > .dropdown-toggle.btn-kasumi:hover,
+.open > .dropdown-toggle.btn-kasumi:focus, 
+.open > .dropdown-toggle.btn-kasumi.focus,
+.btn-kasumi.disabled:hover, .btn-kasumi[disabled]:hover, fieldset[disabled] .btn-kasumi:hover,
+.btn-kasumi.disabled:focus, .btn-kasumi[disabled]:focus, fieldset[disabled] .btn-kasumi:focus,
+.btn-kasumi.disabled.focus, .btn-kasumi[disabled].focus, fieldset[disabled] .btn-kasumi.focus {
+    background: #006400;
+    color: white;
+}
+
+.btn-outline-kasumi {
+    background: none;
+    color: white;
+}
+
+.btn-outline-kasumi.outline {
+    border: 3px solid #32cd32;
+    color: #006400;
+}
+
+.btn .btn-outline-kasumi:hover, .btn-outline-kasumi:focus, 
+.btn-outline-kasumi:active, .btn-outline-kasumi:active:focus, .btn-outline-kasumi:active:hover, .btn-outline-kasumi:active.focus,
+.btn-outline-kasumi.active, .btn-outline-kasumi.active:focus, .btn-outline-kasumi.active:hover, .btn-outline-kasumi.active.focus,
+.open > .dropdown-toggle.btn-outline-kasumi, 
+.open > .dropdown-toggle.btn-outline-kasumi:hover,
+.open > .dropdown-toggle.btn-outline-kasumi:focus, 
+.open > .dropdown-toggle.btn-outline-kasumi.focus,
+.btn-outline-kasumi.disabled:hover, .btn-outline-kasumi[disabled]:hover, fieldset[disabled] .btn-outline-kasumi:hover,
+.btn-outline-kasumi.disabled:focus, .btn-outline-kasumi[disabled]:focus, fieldset[disabled] .btn-outline-kasumi:focus,
+.btn-outline-kasumi.disabled.focus, .btn-outline-kasumi[disabled].focus, fieldset[disabled] .btn-outline-kasumi.focus {
+    background: #32cd32;
+    color: white;
+}
