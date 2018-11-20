@@ -24,6 +24,30 @@
     display: none;
 }
 
+.btn-akari {
+    background: #ff8c00;
+    color: white;
+}
+
+.btn-akari.outline {
+    border: 3px solid #ff8c00;
+    color: white;
+}
+
+.btn .btn-akari:hover, .btn-akari:focus, 
+.btn-akari:active, .btn-akari:active:focus, .btn-akari:active:hover, .btn-akari:active.focus,
+.btn-akari.active, .btn-akari.active:focus, .btn-akari.active:hover, .btn-akari.active.focus,
+.open > .dropdown-toggle.btn-akari, 
+.open > .dropdown-toggle.btn-akari:hover,
+.open > .dropdown-toggle.btn-akari:focus, 
+.open > .dropdown-toggle.btn-akari.focus,
+.btn-akari.disabled:hover, .btn-akari[disabled]:hover, fieldset[disabled] .btn-akari:hover,
+.btn-akari.disabled:focus, .btn-akari[disabled]:focus, fieldset[disabled] .btn-akari:focus,
+.btn-akari.disabled.focus, .btn-akari[disabled].focus, fieldset[disabled] .btn-akari.focus {
+    background: #ff4500;
+    color: white;
+}
+
 .btn-outline-akari {
     background: none;
     color: white;
@@ -44,6 +68,6 @@
 .btn-outline-akari.disabled:hover, .btn-outline-akari[disabled]:hover, fieldset[disabled] .btn-outline-akari:hover,
 .btn-outline-akari.disabled:focus, .btn-outline-akari[disabled]:focus, fieldset[disabled] .btn-outline-akari:focus,
 .btn-outline-akari.disabled.focus, .btn-outline-akari[disabled].focus, fieldset[disabled] .btn-outline-akari.focus {
-    background: #ff4500;
+    background: #ff8c00;
     color: white;
 }
