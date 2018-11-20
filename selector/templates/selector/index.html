@@ -84,16 +84,15 @@
             <form action="{% url 'selector:result' %}" method="post">
                 {% csrf_token %}
                 
-                <div class="twinkle-party">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" id="party1" name="party" value="" checked>
-                        <label class="form-check-label" for="party1"> すべて </label>
-                    </div>
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" id="party2" name="party" value="party">
-                        <label class="form-check-label" for="party2"> 3曲目はトゥインクルパーティ曲 </label>
-                    </div>
+                <div class="btn-group btn-group-toggle twinkle-party" data-toggle="buttons">
+                    <label class="btn btn-outline-warning badge-pill active" for="party1">
+                        <input class="" type="radio" id="party1" name="party" value="" checked>
+                        すべて
+                    </label>
+                    <label class="btn btn-outline-akari outline badge-pill" for="party2">
+                        <input class="" type="radio" id="party2" name="party" value="party">
+                        3曲目はトゥインクルパーティ曲
+                    </label>
                 </div>
                 
 
