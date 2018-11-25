@@ -215,3 +215,51 @@
     background: #ff00ff;
     color: white;
 }
+
+.btn-kaoru {
+    background: white;
+    color: #00ffff;
+}
+
+.btn-kaoru.outline {
+    border: 2px solid #00ffff;
+    color: #00ffff;
+}
+
+.btn .btn-kaoru:hover, .btn-kaoru:focus, 
+.btn-kaoru:active, .btn-kaoru:active:focus, .btn-kaoru:active:hover, .btn-kaoru:active.focus,
+.btn-kaoru.active, .btn-kaoru.active:focus, .btn-kaoru.active:hover, .btn-kaoru.active.focus,
+.open > .dropdown-toggle.btn-kaoru, 
+.open > .dropdown-toggle.btn-kaoru:hover,
+.open > .dropdown-toggle.btn-kaoru:focus, 
+.open > .dropdown-toggle.btn-kaoru.focus,
+.btn-kaoru.disabled:hover, .btn-kaoru[disabled]:hover, fieldset[disabled] .btn-kaoru:hover,
+.btn-kaoru.disabled:focus, .btn-kaoru[disabled]:focus, fieldset[disabled] .btn-kaoru:focus,
+.btn-kaoru.disabled.focus, .btn-kaoru[disabled].focus, fieldset[disabled] .btn-kaoru.focus {
+    background: #e0ffff;
+    color: black;
+}
+
+.btn-outline-kaoru {
+    background: none;
+    color: #00ffff;
+}
+
+.btn-outline-kaoru.outline {
+    border: 3px solid #e0ffff;
+    color: #00bfff;
+}
+
+.btn .btn-outline-kaoru:hover, .btn-outline-kaoru:focus, 
+.btn-outline-kaoru:active, .btn-outline-kaoru:active:focus, .btn-outline-kaoru:active:hover, .btn-outline-kaoru:active.focus,
+.btn-outline-kaoru.active, .btn-outline-kaoru.active:focus, .btn-outline-kaoru.active:hover, .btn-outline-kaoru.active.focus,
+.open > .dropdown-toggle.btn-outline-kaoru, 
+.open > .dropdown-toggle.btn-outline-kaoru:hover,
+.open > .dropdown-toggle.btn-outline-kaoru:focus, 
+.open > .dropdown-toggle.btn-outline-kaoru.focus,
+.btn-outline-kaoru.disabled:hover, .btn-outline-kaoru[disabled]:hover, fieldset[disabled] .btn-outline-kaoru:hover,
+.btn-outline-kaoru.disabled:focus, .btn-outline-kaoru[disabled]:focus, fieldset[disabled] .btn-outline-kaoru:focus,
+.btn-outline-kaoru.disabled.focus, .btn-outline-kaoru[disabled].focus, fieldset[disabled] .btn-outline-kaoru.focus {
+    background: #87cefa;
+    color: white;
+}
