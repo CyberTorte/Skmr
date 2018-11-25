@@ -54,7 +54,7 @@
 }
 
 .btn-outline-akari.outline {
-    border: 3px solid #ff8c00;
+    border: 2px solid #ff8c00;
     color: #ff4500;
 }
 
@@ -102,7 +102,7 @@
 }
 
 .btn-outline-nagisa.outline {
-    border: 3px solid #0000cd;
+    border: 2px solid #0000cd;
     color: #00008b;
 }
 
@@ -150,7 +150,7 @@
 }
 
 .btn-outline-kasumi.outline {
-    border: 3px solid #32cd32;
+    border: 2px solid #32cd32;
     color: #006400;
 }
 
@@ -165,5 +165,53 @@
 .btn-outline-kasumi.disabled:focus, .btn-outline-kasumi[disabled]:focus, fieldset[disabled] .btn-outline-kasumi:focus,
 .btn-outline-kasumi.disabled.focus, .btn-outline-kasumi[disabled].focus, fieldset[disabled] .btn-outline-kasumi.focus {
     background: #32cd32;
+    color: white;
+}
+
+.btn-mao {
+    background: #ff1493;
+    color: white;
+}
+
+.btn-mao.outline {
+    border: 3px solid #ff1493;
+    color: white;
+}
+
+.btn .btn-mao:hover, .btn-mao:focus, 
+.btn-mao:active, .btn-mao:active:focus, .btn-mao:active:hover, .btn-mao:active.focus,
+.btn-mao.active, .btn-mao.active:focus, .btn-mao.active:hover, .btn-mao.active.focus,
+.open > .dropdown-toggle.btn-mao, 
+.open > .dropdown-toggle.btn-mao:hover,
+.open > .dropdown-toggle.btn-mao:focus, 
+.open > .dropdown-toggle.btn-mao.focus,
+.btn-mao.disabled:hover, .btn-mao[disabled]:hover, fieldset[disabled] .btn-mao:hover,
+.btn-mao.disabled:focus, .btn-mao[disabled]:focus, fieldset[disabled] .btn-mao:focus,
+.btn-mao.disabled.focus, .btn-mao[disabled].focus, fieldset[disabled] .btn-mao.focus {
+    background: #ff00ff;
+    color: white;
+}
+
+.btn-outline-mao {
+    background: none;
+    color: white;
+}
+
+.btn-outline-mao.outline {
+    border: 2px solid #ff1493;
+    color: #ff00ff;
+}
+
+.btn .btn-outline-mao:hover, .btn-outline-mao:focus, 
+.btn-outline-mao:active, .btn-outline-mao:active:focus, .btn-outline-mao:active:hover, .btn-outline-mao:active.focus,
+.btn-outline-mao.active, .btn-outline-mao.active:focus, .btn-outline-mao.active:hover, .btn-outline-mao.active.focus,
+.open > .dropdown-toggle.btn-outline-mao, 
+.open > .dropdown-toggle.btn-outline-mao:hover,
+.open > .dropdown-toggle.btn-outline-mao:focus, 
+.open > .dropdown-toggle.btn-outline-mao.focus,
+.btn-outline-mao.disabled:hover, .btn-outline-mao[disabled]:hover, fieldset[disabled] .btn-outline-mao:hover,
+.btn-outline-mao.disabled:focus, .btn-outline-mao[disabled]:focus, fieldset[disabled] .btn-outline-mao:focus,
+.btn-outline-mao.disabled.focus, .btn-outline-mao[disabled].focus, fieldset[disabled] .btn-outline-mao.focus {
+    background: #ff00ff;
     color: white;
 }
