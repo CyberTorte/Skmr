@@ -75,7 +75,7 @@
             <h1>選曲モードはどうする？</h1>
 
             <div class="btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-info" id="twinkle-mode">
+                <label class="btn btn-kasumi" id="twinkle-mode">
                     <input type="checkbox" autocomplete="off">
                     モード切替
                 </label>
@@ -88,11 +88,11 @@
                 
                 <div class="btn-group btn-group-toggle twinkle-party" data-toggle="buttons">
                     <label class="btn btn-outline-akari outline badge-pill active" for="party1">
-                        <input class="" type="radio" id="party1" name="party" value="" checked>
+                        <input type="radio" id="party1" name="party" value="" autocomplete="off" checked>
                         すべて
                     </label>
-                    <label class="btn btn-kaoru outline badge-pill" for="party2">
-                        <input class="" type="radio" id="party2" name="party" value="party">
+                    <label class="btn btn-outline-mao outline badge-pill" for="party2">
+                        <input type="radio" id="party2" name="party" value="party" autocomplete="off">
                         3曲目はトゥインクルパーティ曲
                     </label>
                 </div>
@@ -101,117 +101,110 @@
                 <p></p>
 
                 <!-- 難易度のラジオボタン -->
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="difficulty1" name="difficulty" value="" checked>
-                    <label class="form-check-label" for="difficulty1">すべて</label>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-outline-kasumi outline badge-pill active" for="difficulty1">
+                        <input type="radio" id="difficulty1" name="difficulty" value="" autocomplete="off" checked>
+                        すべて
+                    </label>
+                    <label class="btn btn-outline-nagisa outline badge-pill" for="difficulty2">
+                        <input type="radio" id="difficulty2" name="difficulty" value="EASY" autocomplete="off">
+                        EASY
+                    </label>
+                    <label class="btn btn-outline-akari outline badge-pill" for="difficulty3">
+                        <input type="radio" id="difficulty3" name="difficulty" value="NORMAL" autocomplete="off">
+                        NORMAL
+                    </label>
+                    <label class="btn btn-outline-kaoru outline badge-pill" for="difficulty4">
+                        <input type="radio" id="difficulty4" name="difficulty" value="HARD" autocomplete="off">
+                        HARD
+                    </label>
+                    <label class="btn btn-outline-mao outline badge-pill" for="difficulty5">
+                        <input type="radio" id="difficulty5" name="difficulty" value="EXPERT" autocomplete="off">
+                        EXPERT
+                    </label>
                 </div>
-    
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="difficulty2" name="difficulty" value="EASY">
-                    <label class="form-check-label" for="difficulty2">EASY</label>
-                </div>
-    
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="difficulty3" name="difficulty" value="NORMAL">
-                    <label class="form-check-label" for="difficulty3">NORMAL</label>
-                </div>
-                
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="difficulty4" name="difficulty" value="HARD">
-                    <label class="form-check-label" for="difficulty4">HARD</label>
-                </div>
-    
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="difficulty5" name="difficulty" value="EXPERT">
-                    <label class="form-check-label" for="difficulty5">EXPERT</label>
-                </div>
-                
+
                 <p></p>
     
                 <!-- 属性のラジオボタン -->
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="attribute1" name="attribute" value="" checked>
-                    <label class="form-check-label" for="attribute1">すべて</label>
-                </div>
-    
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="attribute2" name="attribute" value="all">
-                    <label class="form-check-label" for="attribute2">all</label>
-                </div>
-    
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="attribute3" name="attribute" value="active">
-                    <label class="form-check-label" for="attribute3">active</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="attribute4" name="attribute" value="cool">
-                    <label class="form-check-label" for="attribute4">cool</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="attribute5" name="attribute" value="pretty">
-                    <label class="form-check-label" for="attribute5">pretty</label>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-outline-kasumi outline badge-pill active" for="attribute1">
+                        <input type="radio" id="attribute1" name="attribute" value="" autocomplete="off" checked>
+                        すべて
+                    </label>
+                    <label class="btn btn-outline-kaoru outline badge-pill" for="attribute2">
+                        <input type="radio" id="attribute2" name="attribute" value="all" autocomplete="off">
+                        all
+                    </label>
+                    <label class="btn btn-outline-akari outline badge-pill" for="attribute3">
+                        <input type="radio" id="attribute3" name="attribute" value="active" autocomplete="off">
+                        active
+                    </label>
+                    <label class="btn btn-outline-nagisa outline badge-pill" for="attribute4">
+                        <input type="radio" id="attribute4" name="attribute" value="cool" autocomplete="off">
+                        cool
+                    </label>
+                    <label class="btn btn-outline-mao outline badge-pill" for="attribute5">
+                        <input type="radio" id="attribute5" name="attribute" value="pretty" autocomplete="off">
+                        pretty
+                    </label>
                 </div>
 
                 <p></p>
 
                 <!-- 限定のラジオボタン -->
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check-limited" type="radio" id="limited1" name="limited" value="" checked>
-                    <label class="form-check-label" for="limited1">すべて</label>
-                </div>
-    
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check-limited" type="radio" id="limited2" name="limited" value="skmr">
-                    <label class="form-check-label limited-skmr" for="limited2" data-toggle="tooltip" title="スクメロのサービス中にあった機能で限定曲の曜日縛りが適用されます。">スクメロ仕様</label>
-                </div>
-    
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check-limited" type="radio" id="limited3" name="limited" value="normal">
-                    <label class="form-check-label" for="limited3">限定曲なし</label>
-                </div>
-    
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check-limited" type="radio" id="limited4" name="limited" value="limited">
-                    <label class="form-check-label" for="limited4">限定曲のみ</label>
-                </div>
-    
-                <!-- 実装予定 -->
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check-limited" type="radio" id="limited5" name="limited" value="filters">
-                    <label class="form-check-label" for="limited5">限定曲の絞り込みあり</label>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-outline-akari outline badge-pill active" for="limited1">
+                        <input class="check-limited" type="radio" id="limited1" name="limited" value="" autocomplete="off" checked>
+                        すべて
+                    </label>
+                    <label class="btn btn-outline-nagisa outline badge-pill limited-skmr" for="limited2" data-toggle="tooltip" title="スクメロのサービス中にあった機能で限定曲の曜日縛りが適用されます。">
+                        <input class="check-limited" type="radio" id="limited2" name="limited" value="skmr" autocomplete="off">
+                        スクメロ仕様
+                    </label>
+                    <label class="btn btn-outline-kasumi outline badge-pill" for="limited3">
+                        <input class="form-check-input check-limited" type="radio" id="limited3" name="limited" value="normal" autocomplete="off">
+                        限定曲なし
+                    </label>
+                    <label class="btn btn-outline-kaoru outline badge-pill" for="limited4">
+                        <input class="form-check-input check-limited" type="radio" id="limited4" name="limited" value="limited" autocomplete="off">
+                        限定曲のみ
+                    </label>
+                    <label class="btn btn-outline-mao outline badge-pill" for="limited5">
+                        <input class="form-check-input check-limited" type="radio" id="limited5" name="limited" value="filters" autocomplete="off">
+                        限定曲の絞り込みあり
+                    </label>
                 </div>
 
                 <!-- 限定曲の絞り込み -->
-                <div class="form-check form-check-inline limited-filter">
-                    <input class="form-check-input" type="checkbox" id="filter1" name="filters[]" value="">
-                    <label class="form-check-label" for="filter1">通常曲</label>
-                </div>
-                
-                <div class="form-check form-check-inline limited-filter">
-                    <input class="form-check-input" type="checkbox" id="filter2" name="filters[]" value="Tue">
-                    <label class="form-check-label" for="filter2">火曜限定</label>
-                </div>
-                
-                <div class="form-check form-check-inline limited-filter">
-                    <input class="form-check-input" type="checkbox" id="filter3" name="filters[]" value="Wed">
-                    <label class="form-check-label" for="filter3">水曜限定</label>
-                </div>
-                
-                <div class="form-check form-check-inline limited-filter">
-                    <input class="form-check-input" type="checkbox" id="filter4" name="filters[]" value="Thu">
-                    <label class="form-check-label" for="filter4">木曜限定</label>
-                </div>
-                
-                <div class="form-check form-check-inline limited-filter">
-                    <input class="form-check-input" type="checkbox" id="filter5" name="filters[]" value="Fri">
-                    <label class="form-check-label" for="filter5">金曜限定</label>
+                <div class="btn-group btn-group-toggle limited-filter" data-toggle="buttons">
+                    <label class="btn btn-outline-kasumi outline badge-pill" for="filter1">
+                        <input type="checkbox" id="filter1" name="filters[]" value="" autocomplete="off">
+                        通常曲
+                    </label>
+                    <label class="btn btn-outline-nagisa outline badge-pill" for="filter2">
+                        <input type="checkbox" id="filter2" name="filters[]" value="Tue" autocomplete="off">
+                        火曜限定
+                    </label>
+                    <label class="btn btn-outline-akari outline badge-pill" for="filter3">
+                        <input type="checkbox" id="filter3" name="filters[]" value="Wed" autocomplete="off">
+                        水曜限定
+                    </label>
+                    <label class="btn btn-outline-kaoru outline badge-pill" for="filter4">
+                        <input type="checkbox" id="filter4" name="filters[]" value="Thu" autocomplete="off">
+                        木曜限定
+                    </label>
+                    <label class="btn btn-outline-mao outline badge-pill" for="filter5">
+                        <input type="checkbox" id="filter5" name="filters[]" value="Fri" autocomplete="off">
+                        金曜限定
+                    </label>
                 </div>
                 
                 <p></p>
 
-                <button class="btn btn-primary select" type="submit" name="action" value="select">1曲選曲</button>
-                <button class="btn btn-success twinkle" type="submit" name="action" value="twinkle" formaction="{% url 'selector:twinkle_party' %}">トゥインクルパーティ</button>
-                <button class="btn btn-secondary" type="submit" name="action" value="song_list">曲一覧</button>
+                <button class="btn btn-nagisa outline select" type="submit" name="action" value="select">1曲選曲</button>
+                <button class="btn btn-kasumi outline twinkle" type="submit" name="action" value="twinkle" formaction="{% url 'selector:twinkle_party' %}">トゥインクルパーティ</button>
+                <button class="btn btn-kaoru outline" type="submit" name="action" value="song_list">曲一覧</button>
             </form>
         </div>
         
