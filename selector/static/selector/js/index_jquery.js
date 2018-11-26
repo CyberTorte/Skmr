@@ -20,6 +20,12 @@ $(function () {
     })
 })
 
+$(function () {
+    if (window.matchMedia('max-width:767px')) {
+        $('form div').addClass('btn-group-vertical');
+    }
+})
+
 $(window).resize(function () {
     if(window.matchMedia('(min-width:768px)').matches) {
         $('form div').removeClass('btn-group-vertical');
