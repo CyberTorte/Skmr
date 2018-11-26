@@ -74,7 +74,7 @@
 
             <h1>選曲モードはどうする？</h1>
 
-            <div class="btn-group-toggle" data-toggle="buttons">
+            <div class="btn-group-toggle" data-toggle="buttons" role="group">
                 <label class="btn btn-kasumi" id="twinkle-mode">
                     <input type="checkbox" autocomplete="off">
                     モード切替
@@ -86,7 +86,7 @@
             <form action="{% url 'selector:result' %}" method="post">
                 {% csrf_token %}
                 
-                <div class="btn-group btn-group-toggle twinkle-party" data-toggle="buttons">
+                <div class="btn-group btn-group-toggle twinkle-party" data-toggle="buttons" role="group">
                     <label class="btn btn-outline-akari outline badge-pill active" for="party1">
                         <input type="radio" id="party1" name="party" value="" autocomplete="off" checked>
                         すべて
@@ -97,11 +97,10 @@
                     </label>
                 </div>
                 
-
                 <p></p>
 
                 <!-- 難易度のラジオボタン -->
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons" role="group">
                     <label class="btn btn-outline-kasumi outline badge-pill active" for="difficulty1">
                         <input type="radio" id="difficulty1" name="difficulty" value="" autocomplete="off" checked>
                         すべて
@@ -127,7 +126,7 @@
                 <p></p>
     
                 <!-- 属性のラジオボタン -->
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons" role="group">
                     <label class="btn btn-outline-kasumi outline badge-pill active" for="attribute1">
                         <input type="radio" id="attribute1" name="attribute" value="" autocomplete="off" checked>
                         すべて
@@ -153,7 +152,7 @@
                 <p></p>
 
                 <!-- 限定のラジオボタン -->
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons" role="group">
                     <label class="btn btn-outline-akari outline badge-pill active" for="limited1">
                         <input class="check-limited" type="radio" id="limited1" name="limited" value="" autocomplete="off" checked>
                         すべて
@@ -177,7 +176,7 @@
                 </div>
 
                 <!-- 限定曲の絞り込み -->
-                <div class="btn-group btn-group-toggle limited-filter" data-toggle="buttons">
+                <div class="btn-group btn-group-toggle limited-filter" data-toggle="buttons" role="group">
                     <label class="btn btn-outline-kasumi outline badge-pill" for="filter1">
                         <input type="checkbox" id="filter1" name="filters[]" value="" autocomplete="off">
                         通常曲
@@ -212,6 +211,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="{% static 'selector/js/loading_jquery.js' %}"></script>
-        <script src="{% static 'selector/js/jquery.js' %}"></script>
+        <script src="{% static 'selector/js/index_jquery.js' %}"></script>
     </body>
 </html>
