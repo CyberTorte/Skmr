@@ -7,11 +7,6 @@
     border-bottom: 5px outset #ee82ee;
 }
 
-.function-mode {
-    display: block;
-    text-align: right;
-}
-
 .limited-filter {
     display: none;
 }

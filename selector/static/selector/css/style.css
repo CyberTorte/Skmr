@@ -76,12 +76,12 @@ body {
 
 .btn-outline-akari {
     background: none;
-    color: white;
+    color: black;
 }
 
 .btn-outline-akari.outline {
     border: 2px solid #ff8c00;
-    color: #ff4500;
+    color: black;
 }
 
 .btn .btn-outline-akari:hover, .btn-outline-akari:focus, 
@@ -126,12 +126,12 @@ body {
 
 .btn-outline-nagisa {
     background: none;
-    color: white;
+    color: black;
 }
 
 .btn-outline-nagisa.outline {
     border: 2px solid #0000cd;
-    color: #00008b;
+    color: black;
 }
 
 .btn .btn-outline-nagisa:hover, .btn-outline-nagisa:focus, 
@@ -176,12 +176,12 @@ body {
 
 .btn-outline-kasumi {
     background: none;
-    color: white;
+    color: black;
 }
 
 .btn-outline-kasumi.outline {
     border: 2px solid #32cd32;
-    color: #006400;
+    color: black;
 }
 
 .btn .btn-outline-kasumi:hover, .btn-outline-kasumi:focus, 
@@ -226,12 +226,12 @@ body {
 
 .btn-outline-mao {
     background: none;
-    color: white;
+    color: black;
 }
 
 .btn-outline-mao.outline {
     border: 2px solid #ff1493;
-    color: #ff00ff;
+    color: black;
 }
 
 .btn .btn-outline-mao:hover, .btn-outline-mao:focus, 
@@ -252,12 +252,12 @@ body {
 /* 薫風BootStrap4ボタンCSS */
 .btn-kaoru {
     background: white;
-    color: #00ffff;
+    color: black;
 }
 
 .btn-kaoru.outline {
     border: 2px solid #00ffff;
-    color: #00ffff;
+    color: black;
 }
 
 .btn .btn-kaoru:hover, .btn-kaoru:focus, 
@@ -276,12 +276,12 @@ body {
 
 .btn-outline-kaoru {
     background: none;
-    color: #00ffff;
+    color: black;
 }
 
 .btn-outline-kaoru.outline {
     border: 3px solid #00ffff;
-    color: #00bfff;
+    color: black;
 }
 
 .btn .btn-outline-kaoru:hover, .btn-outline-kaoru:focus, 
@@ -295,5 +295,5 @@ body {
 .btn-outline-kaoru.disabled:focus, .btn-outline-kaoru[disabled]:focus, fieldset[disabled] .btn-outline-kaoru:focus,
 .btn-outline-kaoru.disabled.focus, .btn-outline-kaoru[disabled].focus, fieldset[disabled] .btn-outline-kaoru.focus {
     background: #87cefa;
-    color: white;
+    color: black;
 }
