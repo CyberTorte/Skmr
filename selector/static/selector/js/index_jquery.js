@@ -37,6 +37,10 @@ $(function () {
         $twinkle_party.toggleClass('twinkle-party-hide');
     })
 
+    if (window.matchMedia('(max-width:767px)').matches) {
+        $form_div.addClass('btn-group-vertical');
+    }
+
     $window.resize(function () {
         if(window.matchMedia('(min-width:768px)').matches) {
             $form_div.removeClass('btn-group-vertical');
