@@ -86,7 +86,7 @@
             <form action="{% url 'selector:result' %}" method="post">
                 {% csrf_token %}
                 
-                <div class="btn-group btn-group-toggle twinkle-party" data-toggle="buttons" role="group">
+                <div class="btn-group btn-group-toggle twinkle-party twinkle-party-hide" data-toggle="buttons" role="group">
                     <label class="btn btn-outline-akari outline badge-pill active" for="party1">
                         <input type="radio" id="party1" name="party" value="" autocomplete="off" checked>
                         すべて
@@ -153,30 +153,32 @@
 
                 <!-- 限定のラジオボタン -->
                 <div class="btn-group btn-group-toggle" data-toggle="buttons" role="group">
-                    <label class="btn btn-outline-akari outline badge-pill active" for="limited1">
-                        <input class="check-limited" type="radio" id="limited1" name="limited" value="" autocomplete="off" checked>
+                    <label class="btn btn-outline-akari outline badge-pill active check-limited" for="limited1">
+                        <input type="radio" id="limited1" name="limited" value="" autocomplete="off" checked>
                         すべて
                     </label>
-                    <label class="btn btn-outline-nagisa outline badge-pill limited-skmr" for="limited2" data-toggle="tooltip" title="スクメロのサービス中にあった機能で限定曲の曜日縛りが適用されます。">
-                        <input class="check-limited" type="radio" id="limited2" name="limited" value="skmr" autocomplete="off">
+                    <label class="btn btn-outline-nagisa outline badge-pill limited-skmr check-limited" for="limited2" data-toggle="tooltip" title="スクメロのサービス中にあった機能で限定曲の曜日縛りが適用されます。">
+                        <input type="radio" id="limited2" name="limited" value="skmr" autocomplete="off">
                         スクメロ仕様
                     </label>
-                    <label class="btn btn-outline-kasumi outline badge-pill" for="limited3">
-                        <input class="form-check-input check-limited" type="radio" id="limited3" name="limited" value="normal" autocomplete="off">
+                    <label class="btn btn-outline-kasumi outline badge-pill check-limited" for="limited3">
+                        <input type="radio" id="limited3" name="limited" value="normal" autocomplete="off">
                         限定曲なし
                     </label>
-                    <label class="btn btn-outline-kaoru outline badge-pill" for="limited4">
-                        <input class="form-check-input check-limited" type="radio" id="limited4" name="limited" value="limited" autocomplete="off">
+                    <label class="btn btn-outline-kaoru outline badge-pill check-limited" for="limited4">
+                        <input type="radio" id="limited4" name="limited" value="limited" autocomplete="off">
                         限定曲のみ
                     </label>
-                    <label class="btn btn-outline-mao outline badge-pill" for="limited5">
-                        <input class="form-check-input check-limited" type="radio" id="limited5" name="limited" value="filters" autocomplete="off">
+                    <label class="btn btn-outline-mao outline badge-pill check-limited5" for="limited5">
+                        <input type="radio" id="limited5" name="limited" value="filters" autocomplete="off">
                         限定曲の絞り込みあり
                     </label>
                 </div>
 
+                <p></p>
+
                 <!-- 限定曲の絞り込み -->
-                <div class="btn-group btn-group-toggle limited-filter" data-toggle="buttons" role="group">
+                <div class="btn-group btn-group-toggle limited-filter limited-filter-hide" data-toggle="buttons" role="group">
                     <label class="btn btn-outline-kasumi outline badge-pill" for="filter1">
                         <input type="checkbox" id="filter1" name="filters[]" value="" autocomplete="off">
                         通常曲
