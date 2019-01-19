@@ -1,2242 +1,2726 @@
 [
   {
-    "model": "selector.song",
-    "pk": 1,
-    "fields": {
-      "title": "I Wish",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 3,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
+      "model": "selector.song",
+      "pk": 1,
+      "fields": {
+          "title": "I Wish",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 3,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
   },
   {
-    "model": "selector.song",
-    "pk": 2,
-    "fields": {
-      "title": "I Wish",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 7,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
+      "model": "selector.song",
+      "pk": 2,
+      "fields": {
+          "title": "I Wish",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 7,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
   },
   {
-    "model": "selector.song",
-    "pk": 3,
-    "fields": {
-      "title": "I Wish",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 11,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
+      "model": "selector.song",
+      "pk": 3,
+      "fields": {
+          "title": "I Wish",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 11,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
   },
   {
-    "model": "selector.song",
-    "pk": 4,
-    "fields": {
-      "title": "I Wish",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 16,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
+      "model": "selector.song",
+      "pk": 4,
+      "fields": {
+          "title": "I Wish",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 16,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
   },
   {
-    "model": "selector.song",
+      "model": "selector.song",
+      "pk": 5,
+      "fields": {
+          "title": "Draglight",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 6,
+      "fields": {
+          "title": "Draglight",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 7,
+      "fields": {
+          "title": "Draglight",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 12,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 8,
+      "fields": {
+          "title": "Draglight",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 16,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 9,
+      "fields": {
+          "title": "Right on!!",
+          "attribute": "active",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 10,
+      "fields": {
+          "title": "Right on!!",
+          "attribute": "active",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 11,
+      "fields": {
+          "title": "Right on!!",
+          "attribute": "active",
+          "difficulty": "HARD",
+          "level": 12,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 12,
+      "fields": {
+          "title": "Right on!!",
+          "attribute": "active",
+          "difficulty": "EXPERT",
+          "level": 17,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 13,
+      "fields": {
+          "title": "僕らの星空",
+          "attribute": "cool",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 14,
+      "fields": {
+          "title": "僕らの星空",
+          "attribute": "cool",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 15,
+      "fields": {
+          "title": "僕らの星空",
+          "attribute": "cool",
+          "difficulty": "HARD",
+          "level": 14,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 16,
+      "fields": {
+          "title": "僕らの星空",
+          "attribute": "cool",
+          "difficulty": "EXPERT",
+          "level": 20,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 17,
+      "fields": {
+          "title": "優しい風",
+          "attribute": "pretty",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 18,
+      "fields": {
+          "title": "優しい風",
+          "attribute": "pretty",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 19,
+      "fields": {
+          "title": "優しい風",
+          "attribute": "pretty",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 20,
+      "fields": {
+          "title": "優しい風",
+          "attribute": "pretty",
+          "difficulty": "EXPERT",
+          "level": 17,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 21,
+      "fields": {
+          "title": "サテライト・ラブ",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Vega",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 22,
+      "fields": {
+          "title": "サテライト・ラブ",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Vega",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 23,
+      "fields": {
+          "title": "サテライト・ラブ",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Vega",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 24,
+      "fields": {
+          "title": "サテライト・ラブ",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 17,
+          "artist": "Vega",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 25,
+      "fields": {
+          "title": "ユートピア",
+          "attribute": "cool",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 26,
+      "fields": {
+          "title": "ユートピア",
+          "attribute": "cool",
+          "difficulty": "NORMAL",
+          "level": 7,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 27,
+      "fields": {
+          "title": "ユートピア",
+          "attribute": "cool",
+          "difficulty": "HARD",
+          "level": 12,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 28,
+      "fields": {
+          "title": "ユートピア",
+          "attribute": "cool",
+          "difficulty": "EXPERT",
+          "level": 17,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 29,
+      "fields": {
+          "title": "Southern Cross",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 6,
+          "artist": "Pudding",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 30,
+      "fields": {
+          "title": "Southern Cross",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 10,
+          "artist": "Pudding",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 31,
+      "fields": {
+          "title": "Southern Cross",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 14,
+          "artist": "Pudding",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 32,
+      "fields": {
+          "title": "Southern Cross",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 22,
+          "artist": "Pudding",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 33,
+      "fields": {
+          "title": "New World",
+          "attribute": "pretty",
+          "difficulty": "EASY",
+          "level": 3,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 34,
+      "fields": {
+          "title": "New World",
+          "attribute": "pretty",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 35,
+      "fields": {
+          "title": "New World",
+          "attribute": "pretty",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 36,
+      "fields": {
+          "title": "New World",
+          "attribute": "pretty",
+          "difficulty": "EXPERT",
+          "level": 19,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 37,
+      "fields": {
+          "title": "Pop and Jump!",
+          "attribute": "active",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 38,
+      "fields": {
+          "title": "Pop and Jump!",
+          "attribute": "active",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 39,
+      "fields": {
+          "title": "Pop and Jump!",
+          "attribute": "active",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 40,
+      "fields": {
+          "title": "Pop and Jump!",
+          "attribute": "active",
+          "difficulty": "EXPERT",
+          "level": 20,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 41,
+      "fields": {
+          "title": "蒼のメモリー",
+          "attribute": "cool",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 42,
+      "fields": {
+          "title": "蒼のメモリー",
+          "attribute": "cool",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 43,
+      "fields": {
+          "title": "蒼のメモリー",
+          "attribute": "cool",
+          "difficulty": "HARD",
+          "level": 12,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 44,
+      "fields": {
+          "title": "蒼のメモリー",
+          "attribute": "cool",
+          "difficulty": "EXPERT",
+          "level": 19,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 45,
+      "fields": {
+          "title": "キラキラ☆",
+          "attribute": "pretty",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 46,
+      "fields": {
+          "title": "キラキラ☆",
+          "attribute": "pretty",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 47,
+      "fields": {
+          "title": "キラキラ☆",
+          "attribute": "pretty",
+          "difficulty": "HARD",
+          "level": 12,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 48,
+      "fields": {
+          "title": "キラキラ☆",
+          "attribute": "pretty",
+          "difficulty": "EXPERT",
+          "level": 16,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 49,
+      "fields": {
+          "title": "Believe In Yourself",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Pudding",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 50,
+      "fields": {
+          "title": "Believe In Yourself",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Pudding",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 51,
+      "fields": {
+          "title": "Believe In Yourself",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Pudding",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 52,
+      "fields": {
+          "title": "Believe In Yourself",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 18,
+          "artist": "Pudding",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 53,
+      "fields": {
+          "title": "Step!",
+          "attribute": "active",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 54,
+      "fields": {
+          "title": "Step!",
+          "attribute": "active",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 55,
+      "fields": {
+          "title": "Step!",
+          "attribute": "active",
+          "difficulty": "HARD",
+          "level": 14,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 56,
+      "fields": {
+          "title": "Step!",
+          "attribute": "active",
+          "difficulty": "EXPERT",
+          "level": 21,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 57,
+      "fields": {
+          "title": "ミラクルワンダーランド",
+          "attribute": "active",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 58,
+      "fields": {
+          "title": "ミラクルワンダーランド",
+          "attribute": "active",
+          "difficulty": "NORMAL",
+          "level": 10,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 59,
+      "fields": {
+          "title": "ミラクルワンダーランド",
+          "attribute": "active",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 60,
+      "fields": {
+          "title": "ミラクルワンダーランド",
+          "attribute": "active",
+          "difficulty": "EXPERT",
+          "level": 19,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 61,
+      "fields": {
+          "title": "ハートビーツ",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Sirius",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 62,
+      "fields": {
+          "title": "ハートビーツ",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Sirius",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 63,
+      "fields": {
+          "title": "ハートビーツ",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Sirius",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 64,
+      "fields": {
+          "title": "ハートビーツ",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 19,
+          "artist": "Sirius",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 65,
+      "fields": {
+          "title": "オルヴォワール　プラネット",
+          "attribute": "pretty",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 66,
+      "fields": {
+          "title": "オルヴォワール　プラネット",
+          "attribute": "pretty",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 67,
+      "fields": {
+          "title": "オルヴォワール　プラネット",
+          "attribute": "pretty",
+          "difficulty": "HARD",
+          "level": 14,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 68,
+      "fields": {
+          "title": "オルヴォワール　プラネット",
+          "attribute": "pretty",
+          "difficulty": "EXPERT",
+          "level": 18,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 69,
+      "fields": {
+          "title": "ミチ☆ミチル",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 70,
+      "fields": {
+          "title": "ミチ☆ミチル",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 71,
+      "fields": {
+          "title": "ミチ☆ミチル",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 72,
+      "fields": {
+          "title": "ミチ☆ミチル",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 19,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 73,
+      "fields": {
+          "title": "Happy Go Lucky",
+          "attribute": "active",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 74,
+      "fields": {
+          "title": "Happy Go Lucky",
+          "attribute": "active",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 75,
+      "fields": {
+          "title": "Happy Go Lucky",
+          "attribute": "active",
+          "difficulty": "HARD",
+          "level": 14,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 76,
+      "fields": {
+          "title": "Happy Go Lucky",
+          "attribute": "active",
+          "difficulty": "EXPERT",
+          "level": 20,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 77,
+      "fields": {
+          "title": "Mystic Girl",
+          "attribute": "cool",
+          "difficulty": "EASY",
+          "level": 6,
+          "artist": "Vega",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 78,
+      "fields": {
+          "title": "Mystic Girl",
+          "attribute": "cool",
+          "difficulty": "NORMAL",
+          "level": 10,
+          "artist": "Vega",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 79,
+      "fields": {
+          "title": "Mystic Girl",
+          "attribute": "cool",
+          "difficulty": "HARD",
+          "level": 14,
+          "artist": "Vega",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 80,
+      "fields": {
+          "title": "Mystic Girl",
+          "attribute": "cool",
+          "difficulty": "EXPERT",
+          "level": 21,
+          "artist": "Vega",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 81,
+      "fields": {
+          "title": "つながる想い",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 6,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 82,
+      "fields": {
+          "title": "つながる想い",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 10,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 83,
+      "fields": {
+          "title": "つながる想い",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 14,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 84,
+      "fields": {
+          "title": "つながる想い",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 22,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 85,
+      "fields": {
+          "title": "無敵のメロディ",
+          "attribute": "active",
+          "difficulty": "EASY",
+          "level": 6,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 86,
+      "fields": {
+          "title": "無敵のメロディ",
+          "attribute": "active",
+          "difficulty": "NORMAL",
+          "level": 10,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 87,
+      "fields": {
+          "title": "無敵のメロディ",
+          "attribute": "active",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 88,
+      "fields": {
+          "title": "無敵のメロディ",
+          "attribute": "active",
+          "difficulty": "EXPERT",
+          "level": 19,
+          "artist": "Torte",
+          "style": "5",
+          "limited": null,
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 89,
+      "fields": {
+          "title": "晴空キラリ",
+          "attribute": "active",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Kaoru & Istumi",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 90,
+      "fields": {
+          "title": "晴空キラリ",
+          "attribute": "active",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Kaoru & Istumi",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 91,
+      "fields": {
+          "title": "晴空キラリ",
+          "attribute": "active",
+          "difficulty": "HARD",
+          "level": 14,
+          "artist": "Kaoru & Istumi",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 92,
+      "fields": {
+          "title": "晴空キラリ",
+          "attribute": "active",
+          "difficulty": "EXPERT",
+          "level": 21,
+          "artist": "Kaoru & Istumi",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 93,
+      "fields": {
+          "title": "I'll never cry",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Io & Amane",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 94,
+      "fields": {
+          "title": "I'll never cry",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Io & Amane",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 95,
+      "fields": {
+          "title": "I'll never cry",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Io & Amane",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 96,
+      "fields": {
+          "title": "I'll never cry",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 20,
+          "artist": "Io & Amane",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 97,
+      "fields": {
+          "title": "Snow Planet",
+          "attribute": "cool",
+          "difficulty": "EASY",
+          "level": 6,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 98,
+      "fields": {
+          "title": "Snow Planet",
+          "attribute": "cool",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 99,
+      "fields": {
+          "title": "Snow Planet",
+          "attribute": "cool",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 100,
+      "fields": {
+          "title": "Snow Planet",
+          "attribute": "cool",
+          "difficulty": "EXPERT",
+          "level": 19,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 101,
+      "fields": {
+          "title": "Touch The Stars",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Mano & Sasa",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 102,
+      "fields": {
+          "title": "Touch The Stars",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Mano & Sasa",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 103,
+      "fields": {
+          "title": "Touch The Stars",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Mano & Sasa",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 104,
+      "fields": {
+          "title": "Touch The Stars",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 19,
+          "artist": "Mano & Sasa",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 105,
+      "fields": {
+          "title": "Make A Wish",
+          "attribute": "cool",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Kasumi & Hazuki",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 106,
+      "fields": {
+          "title": "Make A Wish",
+          "attribute": "cool",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Kasumi & Hazuki",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 107,
+      "fields": {
+          "title": "Make A Wish",
+          "attribute": "cool",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Kasumi & Hazuki",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 108,
+      "fields": {
+          "title": "Make A Wish",
+          "attribute": "cool",
+          "difficulty": "EXPERT",
+          "level": 19,
+          "artist": "Kasumi & Hazuki",
+          "style": "2",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 109,
+      "fields": {
+          "title": "もしもの私",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 110,
+      "fields": {
+          "title": "もしもの私",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 111,
+      "fields": {
+          "title": "もしもの私",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 11,
+          "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 112,
+      "fields": {
+          "title": "もしもの私",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 16,
+          "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
+          "style": "5",
+          "limited": null,
+          "party": true
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 113,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "active",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 114,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "active",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 115,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "active",
+          "difficulty": "HARD",
+          "level": 12,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 116,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "active",
+          "difficulty": "EXPERT",
+          "level": 18,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 117,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "cool",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 118,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "cool",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 119,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "cool",
+          "difficulty": "HARD",
+          "level": 12,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 120,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "cool",
+          "difficulty": "EXPERT",
+          "level": 18,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 121,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "pretty",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 122,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "pretty",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 123,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "pretty",
+          "difficulty": "HARD",
+          "level": 12,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 124,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "pretty",
+          "difficulty": "EXPERT",
+          "level": 18,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 125,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 126,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 127,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 12,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 128,
+      "fields": {
+          "title": "Daily Miracle",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 18,
+          "artist": "Regulus",
+          "style": "5",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 129,
+      "fields": {
+          "title": "例えば君の未来が",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Akari & Tsubame",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 130,
+      "fields": {
+          "title": "例えば君の未来が",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Akari & Tsubame",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 131,
+      "fields": {
+          "title": "例えば君の未来が",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Akari & Tsubame",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 132,
+      "fields": {
+          "title": "例えば君の未来が",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 19,
+          "artist": "Akari & Tsubame",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 133,
+      "fields": {
+          "title": "Denshin!",
+          "attribute": "pretty",
+          "difficulty": "EASY",
+          "level": 6,
+          "artist": "Satoka & Ako",
+          "style": "5",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 134,
+      "fields": {
+          "title": "Denshin!",
+          "attribute": "pretty",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Satoka & Ako",
+          "style": "5",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 135,
+      "fields": {
+          "title": "Denshin!",
+          "attribute": "pretty",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Satoka & Ako",
+          "style": "5",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 136,
+      "fields": {
+          "title": "Denshin!",
+          "attribute": "pretty",
+          "difficulty": "EXPERT",
+          "level": 20,
+          "artist": "Satoka & Ako",
+          "style": "5",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 137,
+      "fields": {
+          "title": "Horizon",
+          "attribute": "cool",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Nagisa & Mari",
+          "style": "5",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 138,
+      "fields": {
+          "title": "Horizon",
+          "attribute": "cool",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Nagisa & Mari",
+          "style": "5",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 139,
+      "fields": {
+          "title": "Horizon",
+          "attribute": "cool",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Nagisa & Mari",
+          "style": "5",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 140,
+      "fields": {
+          "title": "Horizon",
+          "attribute": "cool",
+          "difficulty": "EXPERT",
+          "level": 20,
+          "artist": "Nagisa & Mari",
+          "style": "5",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 141,
+      "fields": {
+          "title": "舞いコレ",
+          "attribute": "active",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Yumi & Ryoko",
+          "style": "2",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 142,
+      "fields": {
+          "title": "舞いコレ",
+          "attribute": "active",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Yumi & Ryoko",
+          "style": "2",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 143,
+      "fields": {
+          "title": "舞いコレ",
+          "attribute": "active",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Yumi & Ryoko",
+          "style": "2",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 144,
+      "fields": {
+          "title": "舞いコレ",
+          "attribute": "active",
+          "difficulty": "EXPERT",
+          "level": 21,
+          "artist": "Yumi & Ryoko",
+          "style": "2",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 145,
+      "fields": {
+          "title": "キミ、ボク、恋してる！",
+          "attribute": "all",
+          "difficulty": "EASY",
+          "level": 4,
+          "artist": "Mao & Hina",
+          "style": "2",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 146,
+      "fields": {
+          "title": "キミ、ボク、恋してる！",
+          "attribute": "all",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Mao & Hina",
+          "style": "2",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 147,
+      "fields": {
+          "title": "キミ、ボク、恋してる！",
+          "attribute": "all",
+          "difficulty": "HARD",
+          "level": 14,
+          "artist": "Mao & Hina",
+          "style": "2",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 148,
+      "fields": {
+          "title": "キミ、ボク、恋してる！",
+          "attribute": "all",
+          "difficulty": "EXPERT",
+          "level": 20,
+          "artist": "Mao & Hina",
+          "style": "2",
+          "limited": "Fri",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 149,
+      "fields": {
+          "title": "ミライクル！！Miracle☆",
+          "attribute": "pretty",
+          "difficulty": "EASY",
+          "level": 6,
+          "artist": "Mao & Mana",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 150,
+      "fields": {
+          "title": "ミライクル！！Miracle☆",
+          "attribute": "pretty",
+          "difficulty": "NORMAL",
+          "level": 8,
+          "artist": "Mao & Mana",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 151,
+      "fields": {
+          "title": "ミライクル！！Miracle☆",
+          "attribute": "pretty",
+          "difficulty": "HARD",
+          "level": 14,
+          "artist": "Mao & Mana",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 152,
+      "fields": {
+          "title": "ミライクル！！Miracle☆",
+          "attribute": "pretty",
+          "difficulty": "EXPERT",
+          "level": 18,
+          "artist": "Mao & Mana",
+          "style": "5",
+          "limited": "Thu",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 153,
+      "fields": {
+          "title": "Sweet Switch",
+          "attribute": "pretty",
+          "difficulty": "EASY",
+          "level": 5,
+          "artist": "Kagari & Kori",
+          "style": "2",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 154,
+      "fields": {
+          "title": "Sweet Switch",
+          "attribute": "pretty",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Kagari & Kori",
+          "style": "2",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 155,
+      "fields": {
+          "title": "Sweet Switch",
+          "attribute": "pretty",
+          "difficulty": "HARD",
+          "level": 13,
+          "artist": "Kagari & Kori",
+          "style": "2",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 156,
+      "fields": {
+          "title": "Sweet Switch",
+          "attribute": "pretty",
+          "difficulty": "EXPERT",
+          "level": 20,
+          "artist": "Kagari & Kori",
+          "style": "2",
+          "limited": "Tue",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 157,
+      "fields": {
+          "title": "Break Out of My Shell",
+          "attribute": "cool",
+          "difficulty": "EASY",
+          "level": 6,
+          "artist": "Imina & Haruka",
+          "style": "2",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 158,
+      "fields": {
+          "title": "Break Out of My Shell",
+          "attribute": "cool",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "artist": "Imina & Haruka",
+          "style": "2",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 159,
+      "fields": {
+          "title": "Break Out of My Shell",
+          "attribute": "cool",
+          "difficulty": "HARD",
+          "level": 14,
+          "artist": "Imina & Haruka",
+          "style": "2",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "selector.song",
+      "pk": 160,
+      "fields": {
+          "title": "Break Out of My Shell",
+          "attribute": "cool",
+          "difficulty": "EXPERT",
+          "level": 19,
+          "artist": "Imina & Haruka",
+          "style": "2",
+          "limited": "Wed",
+          "party": false
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 5,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/top_kaoru.jpg",
+          "kind": "top",
+          "serial": 1,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 6,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/zan_message.jpg",
+          "kind": "message",
+          "serial": 1,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 7,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/saki_message.jpg",
+          "kind": "message",
+          "serial": 2,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 8,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/yusshi_message.jpg",
+          "kind": "message",
+          "serial": 3,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 9,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/kota_message.jpg",
+          "kind": "message",
+          "serial": 4,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 10,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/huratta_message.jpg",
+          "kind": "message",
+          "serial": 5,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 11,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/torte_message.jpg",
+          "kind": "message",
+          "serial": 6,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 12,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/amanatsu_message.jpg",
+          "kind": "message",
+          "serial": 7,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 13,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/commenter_baba.jpg",
+          "kind": "sponsor",
+          "serial": 1,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 14,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/sponsor_baba.jpg",
+          "kind": "sponsor",
+          "serial": 2,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 15,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/final_message.jpg",
+          "kind": "sponsor",
+          "serial": 3,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 16,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/top_baba.jpg",
+          "kind": "top",
+          "serial": 1,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 21,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_zan.jpg",
+          "kind": "message",
+          "serial": 2,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 22,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_saki.jpg",
+          "kind": "message",
+          "serial": 1,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 23,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_yusshi.jpg",
+          "kind": "message",
+          "serial": 4,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 24,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_huratta.jpg",
+          "kind": "message",
+          "serial": 3,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 25,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_kota.jpg",
+          "kind": "message",
+          "serial": 5,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 26,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_amanatsu.jpg",
+          "kind": "message",
+          "serial": 6,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 27,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_torte.jpg",
+          "kind": "message",
+          "serial": 7,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 28,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/commenter_kaoru.jpg",
+          "kind": "sponsor",
+          "serial": 1,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 29,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/sponsor_kaoru.jpg",
+          "kind": "sponsor",
+          "serial": 2,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 30,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_final.jpg",
+          "kind": "final",
+          "serial": 1,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+    "model": "birthday.photo",
     "pk": 5,
     "fields": {
-      "title": "Draglight",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 6,
-    "fields": {
-      "title": "Draglight",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 7,
-    "fields": {
-      "title": "Draglight",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 12,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 8,
-    "fields": {
-      "title": "Draglight",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 16,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 9,
-    "fields": {
-      "title": "Right on!!",
-      "attribute": "active",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 10,
-    "fields": {
-      "title": "Right on!!",
-      "attribute": "active",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 11,
-    "fields": {
-      "title": "Right on!!",
-      "attribute": "active",
-      "difficulty": "HARD",
-      "level": 12,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 12,
-    "fields": {
-      "title": "Right on!!",
-      "attribute": "active",
-      "difficulty": "EXPERT",
-      "level": 17,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 13,
-    "fields": {
-      "title": "僕らの星空",
-      "attribute": "cool",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 14,
-    "fields": {
-      "title": "僕らの星空",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 15,
-    "fields": {
-      "title": "僕らの星空",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 14,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 16,
-    "fields": {
-      "title": "僕らの星空",
-      "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 20,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 17,
-    "fields": {
-      "title": "優しい風",
-      "attribute": "pretty",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 18,
-    "fields": {
-      "title": "優しい風",
-      "attribute": "pretty",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 19,
-    "fields": {
-      "title": "優しい風",
-      "attribute": "pretty",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 20,
-    "fields": {
-      "title": "優しい風",
-      "attribute": "pretty",
-      "difficulty": "EXPERT",
-      "level": 17,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 21,
-    "fields": {
-      "title": "サテライト・ラブ",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Vega",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 22,
-    "fields": {
-      "title": "サテライト・ラブ",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Vega",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 23,
-    "fields": {
-      "title": "サテライト・ラブ",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Vega",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 24,
-    "fields": {
-      "title": "サテライト・ラブ",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 17,
-      "artist": "Vega",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 25,
-    "fields": {
-      "title": "ユートピア",
-      "attribute": "cool",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 26,
-    "fields": {
-      "title": "ユートピア",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 7,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 27,
-    "fields": {
-      "title": "ユートピア",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 12,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 28,
-    "fields": {
-      "title": "ユートピア",
-      "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 17,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 29,
-    "fields": {
-      "title": "Southern Cross",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 6,
-      "artist": "Pudding",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 30,
-    "fields": {
-      "title": "Southern Cross",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 10,
-      "artist": "Pudding",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 31,
-    "fields": {
-      "title": "Southern Cross",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 14,
-      "artist": "Pudding",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 32,
-    "fields": {
-      "title": "Southern Cross",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 22,
-      "artist": "Pudding",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 33,
-    "fields": {
-      "title": "New World",
-      "attribute": "pretty",
-      "difficulty": "EASY",
-      "level": 3,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 34,
-    "fields": {
-      "title": "New World",
-      "attribute": "pretty",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 35,
-    "fields": {
-      "title": "New World",
-      "attribute": "pretty",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 36,
-    "fields": {
-      "title": "New World",
-      "attribute": "pretty",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 37,
-    "fields": {
-      "title": "Pop and Jump!",
-      "attribute": "active",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 38,
-    "fields": {
-      "title": "Pop and Jump!",
-      "attribute": "active",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 39,
-    "fields": {
-      "title": "Pop and Jump!",
-      "attribute": "active",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 40,
-    "fields": {
-      "title": "Pop and Jump!",
-      "attribute": "active",
-      "difficulty": "EXPERT",
-      "level": 20,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 41,
-    "fields": {
-      "title": "蒼のメモリー",
-      "attribute": "cool",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 42,
-    "fields": {
-      "title": "蒼のメモリー",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 43,
-    "fields": {
-      "title": "蒼のメモリー",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 12,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 44,
-    "fields": {
-      "title": "蒼のメモリー",
-      "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 45,
-    "fields": {
-      "title": "キラキラ☆",
-      "attribute": "pretty",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 46,
-    "fields": {
-      "title": "キラキラ☆",
-      "attribute": "pretty",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 47,
-    "fields": {
-      "title": "キラキラ☆",
-      "attribute": "pretty",
-      "difficulty": "HARD",
-      "level": 12,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 48,
-    "fields": {
-      "title": "キラキラ☆",
-      "attribute": "pretty",
-      "difficulty": "EXPERT",
-      "level": 16,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 49,
-    "fields": {
-      "title": "Believe In Yourself",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Pudding",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 50,
-    "fields": {
-      "title": "Believe In Yourself",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Pudding",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 51,
-    "fields": {
-      "title": "Believe In Yourself",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Pudding",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 52,
-    "fields": {
-      "title": "Believe In Yourself",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 18,
-      "artist": "Pudding",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 53,
-    "fields": {
-      "title": "Step!",
-      "attribute": "active",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 54,
-    "fields": {
-      "title": "Step!",
-      "attribute": "active",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 55,
-    "fields": {
-      "title": "Step!",
-      "attribute": "active",
-      "difficulty": "HARD",
-      "level": 14,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 56,
-    "fields": {
-      "title": "Step!",
-      "attribute": "active",
-      "difficulty": "EXPERT",
-      "level": 21,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 57,
-    "fields": {
-      "title": "ミラクルワンダーランド",
-      "attribute": "active",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 58,
-    "fields": {
-      "title": "ミラクルワンダーランド",
-      "attribute": "active",
-      "difficulty": "NORMAL",
-      "level": 10,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 59,
-    "fields": {
-      "title": "ミラクルワンダーランド",
-      "attribute": "active",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 60,
-    "fields": {
-      "title": "ミラクルワンダーランド",
-      "attribute": "active",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 61,
-    "fields": {
-      "title": "ハートビーツ",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Sirius",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 62,
-    "fields": {
-      "title": "ハートビーツ",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Sirius",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 63,
-    "fields": {
-      "title": "ハートビーツ",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Sirius",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 64,
-    "fields": {
-      "title": "ハートビーツ",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Sirius",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 69,
-    "fields": {
-      "title": "ミチ☆ミチル",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 70,
-    "fields": {
-      "title": "ミチ☆ミチル",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 71,
-    "fields": {
-      "title": "ミチ☆ミチル",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 72,
-    "fields": {
-      "title": "ミチ☆ミチル",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 65,
-    "fields": {
-      "title": "オルヴォワール　プラネット",
-      "attribute": "pretty",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 66,
-    "fields": {
-      "title": "オルヴォワール　プラネット",
-      "attribute": "pretty",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 67,
-    "fields": {
-      "title": "オルヴォワール　プラネット",
-      "attribute": "pretty",
-      "difficulty": "HARD",
-      "level": 14,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 68,
-    "fields": {
-      "title": "オルヴォワール　プラネット",
-      "attribute": "pretty",
-      "difficulty": "EXPERT",
-      "level": 18,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 73,
-    "fields": {
-      "title": "Happy Go Lucky",
-      "attribute": "active",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 74,
-    "fields": {
-      "title": "Happy Go Lucky",
-      "attribute": "active",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 75,
-    "fields": {
-      "title": "Happy Go Lucky",
-      "attribute": "active",
-      "difficulty": "HARD",
-      "level": 14,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 76,
-    "fields": {
-      "title": "Happy Go Lucky",
-      "attribute": "active",
-      "difficulty": "EXPERT",
-      "level": 20,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 89,
-    "fields": {
-      "title": "晴空キラリ",
-      "attribute": "active",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Kaoru & Istumi",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 90,
-    "fields": {
-      "title": "晴空キラリ",
-      "attribute": "active",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Kaoru & Istumi",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 91,
-    "fields": {
-      "title": "晴空キラリ",
-      "attribute": "active",
-      "difficulty": "HARD",
-      "level": 14,
-      "artist": "Kaoru & Istumi",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 92,
-    "fields": {
-      "title": "晴空キラリ",
-      "attribute": "active",
-      "difficulty": "EXPERT",
-      "level": 21,
-      "artist": "Kaoru & Istumi",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 93,
-    "fields": {
-      "title": "I'll never cry",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Io & Amane",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 94,
-    "fields": {
-      "title": "I'll never cry",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Io & Amane",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 95,
-    "fields": {
-      "title": "I'll never cry",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Io & Amane",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 96,
-    "fields": {
-      "title": "I'll never cry",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 20,
-      "artist": "Io & Amane",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 97,
-    "fields": {
-      "title": "Snow Planet",
-      "attribute": "cool",
-      "difficulty": "EASY",
-      "level": 6,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 98,
-    "fields": {
-      "title": "Snow Planet",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 99,
-    "fields": {
-      "title": "Snow Planet",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 100,
-    "fields": {
-      "title": "Snow Planet",
-      "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 101,
-    "fields": {
-      "title": "Touch The Stars",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Mano & Sasa",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 102,
-    "fields": {
-      "title": "Touch The Stars",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Mano & Sasa",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 103,
-    "fields": {
-      "title": "Touch The Stars",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Mano & Sasa",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 104,
-    "fields": {
-      "title": "Touch The Stars",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Mano & Sasa",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 105,
-    "fields": {
-      "title": "Make A Wish",
-      "attribute": "cool",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Kasumi & Hazuki",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 106,
-    "fields": {
-      "title": "Make A Wish",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Kasumi & Hazuki",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 107,
-    "fields": {
-      "title": "Make A Wish",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Kasumi & Hazuki",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 108,
-    "fields": {
-      "title": "Make A Wish",
-      "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Kasumi & Hazuki",
-      "style": "2",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 109,
-    "fields": {
-      "title": "もしもの私",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 110,
-    "fields": {
-      "title": "もしもの私",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 111,
-    "fields": {
-      "title": "もしもの私",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 11,
-      "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 112,
-    "fields": {
-      "title": "もしもの私",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 16,
-      "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
-      "style": "5",
-      "limited": null,
-      "party": true
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 113,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "active",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 114,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "active",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 115,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "active",
-      "difficulty": "HARD",
-      "level": 12,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 116,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "active",
-      "difficulty": "EXPERT",
-      "level": 18,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 117,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "cool",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 118,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 119,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 12,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 120,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 18,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 121,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "pretty",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 122,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "pretty",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 123,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "pretty",
-      "difficulty": "HARD",
-      "level": 12,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 124,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "pretty",
-      "difficulty": "EXPERT",
-      "level": 18,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 125,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 126,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 127,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 12,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 128,
-    "fields": {
-      "title": "Daily Miracle",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 18,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 129,
-    "fields": {
-      "title": "例えば君の未来が",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Akari & Tsubame",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 130,
-    "fields": {
-      "title": "例えば君の未来が",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Akari & Tsubame",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 131,
-    "fields": {
-      "title": "例えば君の未来が",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Akari & Tsubame",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 132,
-    "fields": {
-      "title": "例えば君の未来が",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Akari & Tsubame",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 133,
-    "fields": {
-      "title": "Denshin!",
-      "attribute": "pretty",
-      "difficulty": "EASY",
-      "level": 6,
-      "artist": "Satoka & Ako",
-      "style": "5",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 134,
-    "fields": {
-      "title": "Denshin!",
-      "attribute": "pretty",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Satoka & Ako",
-      "style": "5",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 135,
-    "fields": {
-      "title": "Denshin!",
-      "attribute": "pretty",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Satoka & Ako",
-      "style": "5",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 136,
-    "fields": {
-      "title": "Denshin!",
-      "attribute": "pretty",
-      "difficulty": "EXPERT",
-      "level": 20,
-      "artist": "Satoka & Ako",
-      "style": "5",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 137,
-    "fields": {
-      "title": "Horizon",
-      "attribute": "cool",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Nagisa & Mari",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 138,
-    "fields": {
-      "title": "Horizon",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Nagisa & Mari",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 139,
-    "fields": {
-      "title": "Horizon",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Nagisa & Mari",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 140,
-    "fields": {
-      "title": "Horizon",
-      "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 20,
-      "artist": "Nagisa & Mari",
-      "style": "5",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 141,
-    "fields": {
-      "title": "舞いコレ",
-      "attribute": "active",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Yumi & Ryoko",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 142,
-    "fields": {
-      "title": "舞いコレ",
-      "attribute": "active",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Yumi & Ryoko",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 143,
-    "fields": {
-      "title": "舞いコレ",
-      "attribute": "active",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Yumi & Ryoko",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 144,
-    "fields": {
-      "title": "舞いコレ",
-      "attribute": "active",
-      "difficulty": "EXPERT",
-      "level": 21,
-      "artist": "Yumi & Ryoko",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 145,
-    "fields": {
-      "title": "キミ、ボク、恋してる！",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 4,
-      "artist": "Mao & Hina",
-      "style": "2",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 146,
-    "fields": {
-      "title": "キミ、ボク、恋してる！",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Mao & Hina",
-      "style": "2",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 147,
-    "fields": {
-      "title": "キミ、ボク、恋してる！",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 14,
-      "artist": "Mao & Hina",
-      "style": "2",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 148,
-    "fields": {
-      "title": "キミ、ボク、恋してる！",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 20,
-      "artist": "Mao & Hina",
-      "style": "2",
-      "limited": "Fri",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 149,
-    "fields": {
-      "title": "ミライクル！！Miracle☆",
-      "attribute": "pretty",
-      "difficulty": "EASY",
-      "level": 6,
-      "artist": "Mao & Mana",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 150,
-    "fields": {
-      "title": "ミライクル！！Miracle☆",
-      "attribute": "pretty",
-      "difficulty": "NORMAL",
-      "level": 8,
-      "artist": "Mao & Mana",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 151,
-    "fields": {
-      "title": "ミライクル！！Miracle☆",
-      "attribute": "pretty",
-      "difficulty": "HARD",
-      "level": 14,
-      "artist": "Mao & Mana",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 152,
-    "fields": {
-      "title": "ミライクル！！Miracle☆",
-      "attribute": "pretty",
-      "difficulty": "EXPERT",
-      "level": 18,
-      "artist": "Mao & Mana",
-      "style": "5",
-      "limited": "Thu",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 153,
-    "fields": {
-      "title": "Sweet Switch",
-      "attribute": "pretty",
-      "difficulty": "EASY",
-      "level": 5,
-      "artist": "Kagari & Kori",
-      "style": "2",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 154,
-    "fields": {
-      "title": "Sweet Switch",
-      "attribute": "pretty",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Kagari & Kori",
-      "style": "2",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 155,
-    "fields": {
-      "title": "Sweet Switch",
-      "attribute": "pretty",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Kagari & Kori",
-      "style": "2",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 156,
-    "fields": {
-      "title": "Sweet Switch",
-      "attribute": "pretty",
-      "difficulty": "EXPERT",
-      "level": 20,
-      "artist": "Kagari & Kori",
-      "style": "2",
-      "limited": "Tue",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 77,
-    "fields": {
-      "title": "Mystic Girl",
-      "attribute": "cool",
-      "difficulty": "EASY",
-      "level": 6,
-      "artist": "Vega",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 78,
-    "fields": {
-      "title": "Mystic Girl",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 10,
-      "artist": "Vega",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 79,
-    "fields": {
-      "title": "Mystic Girl",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 14,
-      "artist": "Vega",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 80,
-    "fields": {
-      "title": "Mystic Girl",
-      "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 21,
-      "artist": "Vega",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 81,
-    "fields": {
-      "title": "つながる想い",
-      "attribute": "all",
-      "difficulty": "EASY",
-      "level": 6,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 82,
-    "fields": {
-      "title": "つながる想い",
-      "attribute": "all",
-      "difficulty": "NORMAL",
-      "level": 10,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 83,
-    "fields": {
-      "title": "つながる想い",
-      "attribute": "all",
-      "difficulty": "HARD",
-      "level": 14,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 84,
-    "fields": {
-      "title": "つながる想い",
-      "attribute": "all",
-      "difficulty": "EXPERT",
-      "level": 22,
-      "artist": "Regulus",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 157,
-    "fields": {
-      "title": "Break Out of My Shell",
-      "attribute": "cool",
-      "difficulty": "EASY",
-      "level": 6,
-      "artist": "Imina & Haruka",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 158,
-    "fields": {
-      "title": "Break Out of My Shell",
-      "attribute": "cool",
-      "difficulty": "NORMAL",
-      "level": 9,
-      "artist": "Imina & Haruka",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 159,
-    "fields": {
-      "title": "Break Out of My Shell",
-      "attribute": "cool",
-      "difficulty": "HARD",
-      "level": 14,
-      "artist": "Imina & Haruka",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 160,
-    "fields": {
-      "title": "Break Out of My Shell",
-      "attribute": "cool",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Imina & Haruka",
-      "style": "2",
-      "limited": "Wed",
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 85,
-    "fields": {
-      "title": "無敵のメロディ",
-      "attribute": "active",
-      "difficulty": "EASY",
-      "level": 6,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 86,
-    "fields": {
-      "title": "無敵のメロディ",
-      "attribute": "active",
-      "difficulty": "NORMAL",
-      "level": 10,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 87,
-    "fields": {
-      "title": "無敵のメロディ",
-      "attribute": "active",
-      "difficulty": "HARD",
-      "level": 13,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
-  },
-  {
-    "model": "selector.song",
-    "pk": 88,
-    "fields": {
-      "title": "無敵のメロディ",
-      "attribute": "active",
-      "difficulty": "EXPERT",
-      "level": 19,
-      "artist": "Torte",
-      "style": "5",
-      "limited": null,
-      "party": false
-    }
+        "path": "birthday/image/Natsumi/2018/top_kaoru.jpg",
+        "kind": "top",
+        "serial": 1,
+        "person": "Natsumi",
+        "year": 2018
+    }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 6,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/zan_message.jpg",
+          "kind": "message",
+          "serial": 1,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 7,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/saki_message.jpg",
+          "kind": "message",
+          "serial": 2,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 8,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/yusshi_message.jpg",
+          "kind": "message",
+          "serial": 3,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 9,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/kota_message.jpg",
+          "kind": "message",
+          "serial": 4,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 10,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/huratta_message.jpg",
+          "kind": "message",
+          "serial": 5,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 11,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/torte_message.jpg",
+          "kind": "message",
+          "serial": 6,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 12,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/amanatsu_message.jpg",
+          "kind": "message",
+          "serial": 7,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 13,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/commenter_baba.jpg",
+          "kind": "sponsor",
+          "serial": 1,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 14,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/sponsor_baba.jpg",
+          "kind": "sponsor",
+          "serial": 2,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 15,
+      "fields": {
+          "path": "birthday/image/Natsumi/2018/final_message.jpg",
+          "kind": "sponsor",
+          "serial": 3,
+          "person": "Natsumi",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 16,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/top_baba.jpg",
+          "kind": "top",
+          "serial": 1,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 21,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_zan.jpg",
+          "kind": "message",
+          "serial": 2,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 22,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_saki.jpg",
+          "kind": "message",
+          "serial": 1,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 23,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_yusshi.jpg",
+          "kind": "message",
+          "serial": 4,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 24,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_huratta.jpg",
+          "kind": "message",
+          "serial": 3,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 25,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_kota.jpg",
+          "kind": "message",
+          "serial": 5,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 26,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_amanatsu.jpg",
+          "kind": "message",
+          "serial": 6,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 27,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_torte.jpg",
+          "kind": "message",
+          "serial": 7,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 28,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/commenter_kaoru.jpg",
+          "kind": "sponsor",
+          "serial": 1,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 29,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/sponsor_kaoru.jpg",
+          "kind": "sponsor",
+          "serial": 2,
+          "person": "Kaoru",
+          "year": 2018
+      }
+  },
+  {
+      "model": "birthday.photo",
+      "pk": 30,
+      "fields": {
+          "path": "birthday/image/Kaoru/2018/message_final.jpg",
+          "kind": "final",
+          "serial": 1,
+          "person": "Kaoru",
+          "year": 2018
+      }
   }
 ]
