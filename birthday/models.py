@@ -18,4 +18,4 @@ class Photo(models.Model):
         return self.kind + str(self.serial) + self.person
 
     class Meta:
-        db_table = 'photo'
+        db_table = 'old_photo'

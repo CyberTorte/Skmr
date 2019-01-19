@@ -8,4 +8,4 @@ class IndexView(generic.ListView):
     context_object_name = 'albam_list'
 
     def get_queryset(self):
-        
+        pass
