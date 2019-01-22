@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.views.generic import RedirectView
+from django.contrib.staticfiles.urls import static, staticfiles_urlpatterns
+from . import settings
+
 from selector import views as view
 
 urlpatterns = [
@@ -29,3 +32,6 @@ urlpatterns = [
     path('Kaoru/', RedirectView.as_view(url='/birthday/skmr/Kaoru/')),
     path('skmr/Kaoru/', RedirectView.as_view(url='/birthday/skmr/Kaoru')),
 ]
+
+urlpatterns += staticfiles_urlpatterns()
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
