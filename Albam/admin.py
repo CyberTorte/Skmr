@@ -6,16 +6,6 @@ from .models import (
 )
 
 # Register your models here.
-
-class AlbamAdmin(admin.ModelAdmin):
-    list_display = (
-        'id',
-        'name',
-        'updated_at'
-    )
-
-admin.site.register(Albam, AlbamAdmin)
-
 class PhotoAdmin(admin.ModelAdmin):
     list_display = (
         'id',
@@ -30,3 +20,17 @@ class PhotoAdmin(admin.ModelAdmin):
     ]
 
 admin.site.register(Photo, PhotoAdmin)
+
+class PhotoInline(admin.TabularInline):
+    model = Photo
+    extra = 3
+
+class AlbamAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'name',
+        'updated_at'
+    )
+    inlines = [PhotoInline]
+
+admin.site.register(Albam, AlbamAdmin)

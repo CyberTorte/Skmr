@@ -7,10 +7,27 @@ class Albam(models.Model):
     id = models.AutoField(primary_key=True, db_column='id')
     name = models.CharField(max_length=100, db_column='name')
     description = models.TextField(db_column='description')
-    updated_at = models.DateField(default=timezone.now, db_column='updated_at')
+    updated_at = models.DateTimeField(default=timezone.now, db_column='updated_at')
 
     def __str__(self):
         return self.name
+
+    def diff_date(self):
+        diff_words = ['日前', '時間前', '分前', '秒前']
+
+        now = timezone.now()
+        diff_delta = relativedelta(now, self.updated_at)
+
+        if (6 < diff_delta.days):
+            return self.created_at
+        elif (0 < diff_delta.days):
+            return str(diff_delta.days) + diff_words[0]
+        elif (0 < diff_delta.hours):
+            return str(diff_delta.hours) + diff_words[1]
+        elif (0 < diff_delta.minutes):
+            return str(diff_delta.minutes) + diff_words[2]
+        elif (0 < diff_delta.seconds):
+            return str(diff_delta.seconds) + diff_delta[3]
 
 class Photo(models.Model):
     id = models.AutoField(primary_key=True, db_column='id')
@@ -24,4 +41,4 @@ class Photo(models.Model):
     created_at = models.DateField(default=timezone.now, db_column='created_at')
 
     def __str__(self):
-        return title
+        return self.title
