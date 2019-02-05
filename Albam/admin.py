@@ -23,7 +23,7 @@ admin.site.register(Photo, PhotoAdmin)
 
 class PhotoInline(admin.TabularInline):
     model = Photo
-    extra = 3
+    extra = 0
 
 class AlbamAdmin(admin.ModelAdmin):
     list_display = (

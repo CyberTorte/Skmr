@@ -9,6 +9,7 @@ class Albam(models.Model):
     id = models.AutoField(primary_key=True, db_column='id')
     name = models.CharField(max_length=100, db_column='name')
     description = models.TextField(db_column='description')
+    btn_class = models.CharField(max_length=100, db_column='btn_class')
     updated_at = models.DateTimeField(default=timezone.now, db_column='updated_at')
 
     def __str__(self):
