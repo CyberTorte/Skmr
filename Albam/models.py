@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
-from dateutil.relativedelta import relativedelta
+import datetime
 
 # Create your models here.
 
@@ -19,18 +19,20 @@ class Albam(models.Model):
         diff_words = ['日前', '時間前', '分前', '秒前']
 
         now = timezone.now()
-        diff_delta = relativedelta(now, self.updated_at)
+        diff_date = now - self.updated_at
+        diff_hours = diff_date.seconds / 60 / 60
+        diff_minutes = diff_date.seconds / 60
 
-        if (6 < diff_delta.days):
+        if (6 < diff_date.days):
             return self.updated_at.date()
-        elif (0 < diff_delta.days):
-            return str(diff_delta.days) + diff_words[0]
-        elif (0 < diff_delta.hours):
-            return str(diff_delta.hours) + diff_words[1]
-        elif (0 < diff_delta.minutes):
-            return str(diff_delta.minutes) + diff_words[2]
-        elif (0 < diff_delta.seconds):
-            return str(diff_delta.seconds) + diff_delta[3]
+        elif (0 < diff_date.days):
+            return str(diff_date.days) + diff_words[0]
+        elif (0 < diff_hours):
+            return str(diff_hours) + diff_words[1]
+        elif (0 < diff_minutes):
+            return str(diff_minutes) + diff_words[2]
+        elif (0 < diff_date.seconds):
+            return str(diff_date.seconds) + diff_words[3]
 
 class Photo(models.Model):
     id = models.AutoField(primary_key=True, db_column='id')
