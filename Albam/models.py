@@ -1,6 +1,8 @@
 from django.db import models
 from django.utils import timezone
 
+from dateutil.relativedelta import relativedelta
+
 # Create your models here.
 
 class Albam(models.Model):
@@ -19,7 +21,7 @@ class Albam(models.Model):
         diff_delta = relativedelta(now, self.updated_at)
 
         if (6 < diff_delta.days):
-            return self.created_at
+            return self.updated_at.date()
         elif (0 < diff_delta.days):
             return str(diff_delta.days) + diff_words[0]
         elif (0 < diff_delta.hours):
