@@ -86,9 +86,12 @@
                         {% for albam in albam_list %}
                             <div class="col-md-4">
                                 <div class="card mb-4 shadow-sm">
-                                    {% with forloop.counter0|join_args:'url' as path %}
-                                        <img class="card-img-top" width="100%" height="225" src="{{ thumbnails|access_list:path }}">
-                                    {% endwith %}
+                                    <div class="thumbnail-image">
+                                        {% with forloop.counter0|join_args:'url' as path %}
+                                            <img class="card-img-top" width="100%" height="225" src="{{ thumbnails|access_list:path }}">
+                                        {% endwith %}
+                                        <p>{{ albam.name }}</p>
+                                    </div>
                                     <div class="card-body">
                                         <p class="card-text"> {{ albam.description }} </p>
                                         <div class="d-flex justify-content-between align-items-center">
