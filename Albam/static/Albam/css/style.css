@@ -56,7 +56,7 @@ body {
 }
 
 .btn-akari.outline {
-    border: 3px solid #ff8c00;
+    border: 1px solid #ff8c00;
     color: white;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .btn-outline-akari.outline {
-    border: 2px solid #ff8c00;
+    border: 1px solid #ff8c00;
     color: black;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .btn-nagisa.outline {
-    border: 3px solid #0000cd;
+    border: 1px solid #0000cd;
     color: white;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .btn-outline-nagisa.outline {
-    border: 2px solid #0000cd;
+    border: 1px solid #0000cd;
     color: black;
 }
 
@@ -156,7 +156,7 @@ body {
 }
 
 .btn-kasumi.outline {
-    border: 3px solid #32cd32;
+    border: 1px solid #32cd32;
     color: white;
 }
 
@@ -180,7 +180,7 @@ body {
 }
 
 .btn-outline-kasumi.outline {
-    border: 2px solid #32cd32;
+    border: 1px solid #32cd32;
     color: black;
 }
 
@@ -206,7 +206,7 @@ body {
 }
 
 .btn-mao.outline {
-    border: 3px solid #ff1493;
+    border: 1px solid #ff1493;
     color: white;
 }
 
@@ -230,7 +230,7 @@ body {
 }
 
 .btn-outline-mao.outline {
-    border: 2px solid #ff1493;
+    border: 1px solid #ff1493;
     color: black;
 }
 
@@ -256,7 +256,7 @@ body {
 }
 
 .btn-kaoru.outline {
-    border: 2px solid #00ffff;
+    border: 1px solid #00ffff;
     color: black;
 }
 
@@ -280,7 +280,7 @@ body {
 }
 
 .btn-outline-kaoru.outline {
-    border: 3px solid #00ffff;
+    border: 1px solid #00ffff;
     color: black;
 }
 
