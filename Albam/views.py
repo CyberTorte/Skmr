@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import generic
 
-from .models import Albam
+from .models import Albam, Photo
 
 # Create your views here.
 
@@ -28,3 +28,7 @@ class IndexView(generic.TemplateView):
             context['diff'] = range(diff)
 
         return context
+
+class AlbamDetailView(generic.DetailView):
+    template_name = 'Albam/albam_detail.html'
+    model = Photo

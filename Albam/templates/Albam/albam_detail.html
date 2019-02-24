@@ -1,28 +1,35 @@
-{% load static %}
+{% load static access_list join_args %}
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title> 選曲結果 </title>
+        <title> {{ albam.name }} ～テルート愛媛～ </title>
         <meta charset="utf-8">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="テルート愛媛のアルバム一覧ページです。ファンアートや企画の画像があります。">
+        <meta name="author" content="" >
         <meta name="referrer" content="origin">
         <meta name="referrer" content="strict-origin">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="{% static 'selector/css/style.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'selector/css/twinkle_party_style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'Albam/css/style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'Albam/css/index_style.css' %}">
         <link rel="apple-touch-icon" sizes="180x180" href="{% static 'selector/images/apple-touch-icon.png' %}">
         <link rel="icon" type="image/png" sizes="32x32" href="{% static 'selector/images/favicon-32x32.png' %}">
         <link rel="icon" type="image/png" sizes="16x16" href="{% static 'selector/images/favicon-16x16.png' %}">
         <link rel="manifest" href="{% static 'selector/images/site.webmanifest' %}">
         <link rel="mask-icon" href="{% static 'selector/images/safari-pinned-tab.svg' %}" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">     
+        <meta name="theme-color" content="#ffffff">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@selector_skmr">
+        <meta property="og:url" content="https://lovethousand.nagoya/etrotEhime/albam/">
+        <meta property="og:title" content="アルバム一覧 ～テルート愛媛～">
+        <meta property="og:description" content="テルート愛媛のアルバム一覧ページです。ファンアートや企画の画像があります。">        
+        <meta property="og:site_name" content="テルート愛媛">
+        <meta property="og:locale" content="ja_JP">
+        <meta property="og:image" content="{% static 'selector\images\android-chrome-384x384.png' %}">
     </head>
     <body>
-
         <!-- ナビゲーションバー -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <a class="navbar-brand" href="{% url 'selector:index' %}">テルート愛媛</a>
@@ -66,81 +73,39 @@
             </div>
         </div>
 
-        {% if error_message %}<p><strong>{{ error_message }}</strong></p> {% endif %}
-        {% if infomation_message %}<p><strong>{{ infomation_message }}</strong></p> {% endif %}
+        <div class="main-content">
+            <section class="jumbotron text-center">
+                <div class="container">
+                    <h1 class="jumbotron-heading">{{ albam.name }}</h1>
+                    <p class="lead text-muted">{{ albam.description }}</p>
+                </div>
+            </section>
 
-        <div class="twinkle-content">
-            <h1 class="header">選曲結果！</h1>
-            <table class="table table-responsive table-hover">
-                <tr class="table-warning">
-                    <th scope="col">曲名</th>
-                    <td>{{ twinkle_list.0.title }}</td>
-                    <td>{{ twinkle_list.1.title }}</td>
-                    <td>{{ twinkle_list.2.title }}</td>
-                </tr>
-                <tr class="table-primary">
-                    <th scope="col">属性</th>
-                    <td> {{ twinkle_list.0.attribute }} </td>
-                    <td> {{ twinkle_list.1.attribute }} </td>
-                    <td> {{ twinkle_list.2.attribute }} </td>
-                </tr>
-                <tr class="table-success">
-                    <th scope="col">難易度</th>
-                    <td> {{ twinkle_list.0.difficulty }} </td>
-                    <td> {{ twinkle_list.1.difficulty }} </td>
-                    <td> {{ twinkle_list.2.difficulty }} </td>
-                </tr> 
-                <tr class="table-mao">
-                    <th scope="col">曲レベル</th>
-                    <td> {{ twinkle_list.0.level }} </td>
-                    <td> {{ twinkle_list.1.level }} </td>
-                    <td> {{ twinkle_list.2.level }} </td>
-                </tr>
-                <tr class="table-light">
-                    <th scope="col">アーティスト</th>
-                    <td> {{ twinkle_list.0.artist }} </td>
-                    <td> {{ twinkle_list.1.artist }} </td>
-                    <td> {{ twinkle_list.2.artist }} </td>
-                </tr>
-            </table>
-        </div>
+            <div class="album py-5 bg-light">
+                <div class="container">
+                    <div class="row">
 
-        <div class="twinkle-content-mobile">
-            <h1 class="header">選曲結果！</h1>
-            <table class="table table-responsive table-hover">
-                {% for song in twinkle_list %}
-                    <tr class="table-warning">
-                        <th scope="col">曲名</th>
-                        <td>{{ song.title }}</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <th scope="col">属性</th>
-                        <td> {{ song.attribute }} </td>
-                    </tr>
-                    <tr class="table-success">
-                        <th scope="col">難易度</th>
-                        <td> {{ song.difficulty }} </td>
-                    </tr> 
-                    <tr class="table-mao">
-                        <th scope="col">曲レベル</th>
-                        <td> {{ song.level }} </td>
-                    </tr>
-                    <tr class="table-light">
-                        <th scope="col">アーティスト</th>
-                        <td> {{ song.artist }} </td>
-                    </tr>
-                {% endfor %}
-            </table>
-        </div>
-
-        <p></p>
-
-        <a class="btn btn-secondary" href="{% url 'selector:index' %}" role="button">選曲画面に戻る</a>
-
+                        {% for photo in albam.photo_set.all() %}
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <div class="thumbnail-image">
+                                        <img class="card-img-top" width="100%" height="225" src="{{ photo.url }}">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text"> {{ photo.title }} </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a class="btn btn-outline-{{ albam.btn_class }} outline btn-sm" href="#" role="button">プレビュー</a>
+                                            <small class="text-muted"> {{ photo.diff_date }} </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+        
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="{% static 'selector/js/loading_jquery.js' %}"></script>
-        <script src="{% static 'selector/js/twinkle_jquery.js' %}"></script>
+        
     </body>
 </html>
