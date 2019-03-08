@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="{% static 'Albam/css/style.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'Albam/css/index_style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'Albam/css/detail_style.css' %}">
         <link rel="apple-touch-icon" sizes="180x180" href="{% static 'selector/images/apple-touch-icon.png' %}">
         <link rel="icon" type="image/png" sizes="32x32" href="{% static 'selector/images/favicon-32x32.png' %}">
         <link rel="icon" type="image/png" sizes="16x16" href="{% static 'selector/images/favicon-16x16.png' %}">
@@ -81,7 +81,7 @@
                     <li class="breadcrumb-item active" aria-current="page">{{ albam.name }}</li>
                 </ol>
             </nav>
-
+            
             <section class="jumbotron text-center">
                 <div class="container">
                     <h1 class="jumbotron-heading">{{ albam.name }}</h1>
@@ -94,7 +94,7 @@
                     <div class="row">
 
                         {% for photo in albam.photo_set.all %}
-                            <div class="col-md-4">
+                            <div class="col-md-4 photos">
                                 <div class="card mb-4 shadow-sm">
                                     <img class="card-img-top" width="100%" height="225" src="{{ photo.photo.url }}">
                                     <div class="card-body">
@@ -116,6 +116,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="{% static 'selector/js/loading_jquery.js' %}"></script>
-        
+        <script src="{% static 'Albam/js/detail_jquery.js' %}"></script>        
     </body>
 </html>
