@@ -74,6 +74,14 @@
         </div>
 
         <div class="main-content">
+
+            <nav aria-label="パンくずリスト">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{% url 'Albam:index' %}">アルバム一覧</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{{ albam.name }}</li>
+                </ol>
+            </nav>
+
             <section class="jumbotron text-center">
                 <div class="container">
                     <h1 class="jumbotron-heading">{{ albam.name }}</h1>
@@ -81,16 +89,14 @@
                 </div>
             </section>
 
-            <div class="album py-5 bg-light">
+            <div class="album py-5">
                 <div class="container">
                     <div class="row">
 
-                        {% for photo in albam.photo_set.all() %}
+                        {% for photo in albam.photo_set.all %}
                             <div class="col-md-4">
                                 <div class="card mb-4 shadow-sm">
-                                    <div class="thumbnail-image">
-                                        <img class="card-img-top" width="100%" height="225" src="{{ photo.url }}">
-                                    </div>
+                                    <img class="card-img-top" width="100%" height="225" src="{{ photo.photo.url }}">
                                     <div class="card-body">
                                         <p class="card-text"> {{ photo.title }} </p>
                                         <div class="d-flex justify-content-between align-items-center">
@@ -101,6 +107,10 @@
                                 </div>
                             </div>
                         {% endfor %}
+                    
+                    </div>
+                </div>
+            </div>
         
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

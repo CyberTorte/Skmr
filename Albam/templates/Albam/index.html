@@ -97,7 +97,7 @@
                                     <div class="card-body">
                                         <p class="card-text"> {{ albam.description }} </p>
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <a class="btn btn-outline-{{ albam.btn_class }} outline btn-sm" href="#" role="button">アルバムを見る</a>
+                                            <a class="btn btn-outline-{{ albam.btn_class }} outline btn-sm stretched-link" href="{% url 'Albam:detail' albam.id %}" role="button">アルバムを見る</a>
                                             <small class="text-muted"> {{ albam.diff_date }} </small>
                                         </div>
                                     </div>

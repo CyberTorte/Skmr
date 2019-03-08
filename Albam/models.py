@@ -49,20 +49,12 @@ class Photo(models.Model):
         return self.title
 
     def diff_date(self):
-        diff_words = ['日前', '時間前', '分前', '秒前']
+        diff_words = '日前'
 
-        now = timezone.now()
+        now = timezone.now().date()
         diff_date = now - self.created_at
-        diff_hours = diff_date.seconds / 60 / 60
-        diff_minutes = diff_date.seconds / 60
 
         if (6 < diff_date.days):
-            return self.created_at.date()
+            return self.created_at
         elif (0 < diff_date.days):
-            return str(diff_date.days) + diff_words[0]
-        elif (0 < diff_hours):
-            return str(diff_hours) + diff_words[1]
-        elif (0 < diff_minutes):
-            return str(diff_minutes) + diff_words[2]
-        elif (0 < diff_date.seconds):
-            return str(diff_date.seconds) + diff_words[3]
+            return str(diff_date.days) + diff_words

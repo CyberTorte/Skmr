@@ -31,4 +31,4 @@ class IndexView(generic.TemplateView):
 
 class AlbamDetailView(generic.DetailView):
     template_name = 'Albam/albam_detail.html'
-    model = Photo
+    model = Albam
