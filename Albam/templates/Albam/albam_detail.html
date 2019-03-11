@@ -96,7 +96,7 @@
                         {% for photo in albam.photo_set.all %}
                             <!-- 画像プレビュー用モーダル -->
                             <div class="modal fade" id="photo-preview{{ forloop.counter0 }}" tabindex="-1" role="dialog" aria-labelledby="photo-preview-modal">
-                                <div class="modal-dialog" role="document">
+                                <div class="modal-dialog modal-xl" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <h5 class="modal-title" id="exanmpleModalLabel">モーダルのタイトル</h5>
@@ -105,11 +105,11 @@
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>モーダルのコンテンツ文。</p>
+                                            <img src="{{ photo.photo.url }}" alt="{{ photo.title }}" class="img-fluid">
+                                            <p>{{ photo.title }}</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
-                                            <button type="button" class="btn btn-primary">変更を保存</button>
                                         </div><!-- /.modal-footer -->
                                     </div><!-- /.modal-content -->
                                 </div><!-- /.modal-dialog -->
@@ -120,7 +120,7 @@
                                     <div class="card-body">
                                         <p class="card-text"> {{ photo.title }} </p>
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <button type="button" class="btn btn-outline-{{ albam.btn_class }} outline btn-sm" data-toggle="modal" data-target="photo-preview{{ forloop.counter0 }}">プレビュー</button>
+                                            <button type="button" class="btn btn-outline-{{ albam.btn_class }} outline btn-sm" data-toggle="modal" data-target="#photo-preview{{ forloop.counter0 }}">プレビュー</button>
                                             <small class="text-muted"> {{ photo.diff_date }} </small>
                                         </div>
                                     </div>
