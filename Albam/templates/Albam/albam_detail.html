@@ -5,7 +5,7 @@
     <head>
         <title> {{ albam.name }} ～テルート愛媛～ </title>
         <meta charset="utf-8">
-        <meta name="description" content="テルート愛媛のアルバム一覧ページです。ファンアートや企画の画像があります。">
+        <meta name="description" content="テルート愛媛の{{ albam.name }}ページです。{{ albam.description }}">
         <meta name="author" content="" >
         <meta name="referrer" content="origin">
         <meta name="referrer" content="strict-origin">
@@ -23,8 +23,8 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@selector_skmr">
         <meta property="og:url" content="https://lovethousand.nagoya/etrotEhime/albam/">
-        <meta property="og:title" content="アルバム一覧 ～テルート愛媛～">
-        <meta property="og:description" content="テルート愛媛のアルバム一覧ページです。ファンアートや企画の画像があります。">        
+        <meta property="og:title" content="{{ albam.name }} ～テルート愛媛～">
+        <meta property="og:description" content="テルート愛媛の{{ albam.name }}ページです。{{ albam.description }}">        
         <meta property="og:site_name" content="テルート愛媛">
         <meta property="og:locale" content="ja_JP">
         <meta property="og:image" content="{% static 'selector\images\android-chrome-384x384.png' %}">
