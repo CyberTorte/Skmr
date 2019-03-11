@@ -10,7 +10,7 @@
         <meta name="referrer" content="origin">
         <meta name="referrer" content="strict-origin">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="{% static 'Albam/css/style.css' %}">
         <link rel="stylesheet" type="text/css" href="{% static 'Albam/css/detail_style.css' %}">
         <link rel="apple-touch-icon" sizes="180x180" href="{% static 'selector/images/apple-touch-icon.png' %}">
@@ -94,13 +94,33 @@
                     <div class="row">
 
                         {% for photo in albam.photo_set.all %}
+                            <!-- 画像プレビュー用モーダル -->
+                            <div class="modal fade" id="photo-preview{{ forloop.counter0 }}" tabindex="-1" role="dialog" aria-labelledby="photo-preview-modal">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exanmpleModalLabel">モーダルのタイトル</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>モーダルのコンテンツ文。</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                                            <button type="button" class="btn btn-primary">変更を保存</button>
+                                        </div><!-- /.modal-footer -->
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                            </div><!-- /.modal -->
                             <div class="col-md-4 photos">
                                 <div class="card mb-4 shadow-sm">
                                     <img class="card-img-top" width="100%" height="225" src="{{ photo.photo.url }}">
                                     <div class="card-body">
                                         <p class="card-text"> {{ photo.title }} </p>
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <a class="btn btn-outline-{{ albam.btn_class }} outline btn-sm" href="#" role="button">プレビュー</a>
+                                            <button type="button" class="btn btn-outline-{{ albam.btn_class }} outline btn-sm" data-toggle="modal" data-target="photo-preview{{ forloop.counter0 }}">プレビュー</button>
                                             <small class="text-muted"> {{ photo.diff_date }} </small>
                                         </div>
                                     </div>
@@ -113,9 +133,8 @@
             </div>
         
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="{% static 'selector/js/loading_jquery.js' %}"></script>
-        <script src="{% static 'Albam/js/detail_jquery.js' %}"></script>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><script src="{% static 'selector/js/loading_jquery.js' %}"></script>
+        <script src="{% static 'Albam/js/detail_jquery.js' %}"></script>
     </body>
 </html>
