@@ -65,11 +65,11 @@
 
         <div class="loading mx-auto d-block">
             <div class="loading-image">
-                <img src="{% static 'selector/images/kaoru_icon_200.jpg' %}" alt="ローディング画像">
-                <img src="{% static 'selector/images/kasumi_icon_200.jpg' %}" alt="ローディング画像">
-                <img src="{% static 'selector/images/akari_icon_200.jpg' %}" alt="ローディング画像">
-                <img src="{% static 'selector/images/nagisa_icon_200.jpg' %}" alt="ローディング画像">
-                <img src="{% static 'selector/images/mao_icon_200.jpg' %}" alt="ローディング画像">
+                <img src="{% static 'selector/images/kaoru_icon_200.jpg' %}" alt="ローディング画像" class="protection-image">
+                <img src="{% static 'selector/images/kasumi_icon_200.jpg' %}" alt="ローディング画像" class="protection-image">
+                <img src="{% static 'selector/images/akari_icon_200.jpg' %}" alt="ローディング画像" class="protection-image">
+                <img src="{% static 'selector/images/nagisa_icon_200.jpg' %}" alt="ローディング画像" class="protection-image">
+                <img src="{% static 'selector/images/mao_icon_200.jpg' %}" alt="ローディング画像" class="protection-image">
             </div>
         </div>
 
@@ -106,7 +106,7 @@
                                             </button>
                                         </div>
                                         <div class="modal-body card-photo">
-                                            <img src="{{ photo.photo.url }}" alt="{{ photo.title }}" class="img-fluid">
+                                            <img src="{{ photo.photo.url }}" alt="{{ photo.title }}" class="img-fluid protection-image">
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
@@ -118,7 +118,7 @@
                             <div class="col-md-4 photos">
                                 <div class="card mb-4 shadow-sm">
                                     <div class="card-photo">
-                                        <img class="card-img-top" width="100%" height="225" src="{{ photo.photo.url }}">
+                                        <img class="card-img-top protection-image" width="100%" height="225" src="{{ photo.photo.url }}">
                                     </div>
                                     <div class="card-body">
                                         <p class="card-text"> {{ photo.title }} </p>

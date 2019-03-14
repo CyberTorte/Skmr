@@ -4,6 +4,11 @@ body {
     text-align: center;
 }
 
+/* 画像に対しての右クリックやドラッグを無効にする */
+.protection-image {
+    pointer-events: none;
+}
+
 .loading {
     display: none;
     width: 100%;

@@ -65,11 +65,11 @@
 
         <div class="loading mx-auto d-block">
             <div class="loading-image">
-                <img src="{% static 'selector/images/kaoru_icon_200.jpg' %}" alt="ローディング画像">
-                <img src="{% static 'selector/images/kasumi_icon_200.jpg' %}" alt="ローディング画像">
-                <img src="{% static 'selector/images/akari_icon_200.jpg' %}" alt="ローディング画像">
-                <img src="{% static 'selector/images/nagisa_icon_200.jpg' %}" alt="ローディング画像">
-                <img src="{% static 'selector/images/mao_icon_200.jpg' %}" alt="ローディング画像">
+                <img src="{% static 'selector/images/kaoru_icon_200.jpg' %}" alt="ローディング画像" class="protection-image">
+                <img src="{% static 'selector/images/kasumi_icon_200.jpg' %}" alt="ローディング画像" class="protection-image">
+                <img src="{% static 'selector/images/akari_icon_200.jpg' %}" alt="ローディング画像" class="protection-image">
+                <img src="{% static 'selector/images/nagisa_icon_200.jpg' %}" alt="ローディング画像" class="protection-image">
+                <img src="{% static 'selector/images/mao_icon_200.jpg' %}" alt="ローディング画像" class="protection-image">
             </div>
         </div>
 
@@ -90,7 +90,7 @@
                                 <div class="card mb-4 shadow-sm">
                                     <div class="thumbnail-image">
                                         {% with forloop.counter0|join_args:'url' as path %}
-                                            <img class="card-img-top" width="100%" height="225" src="{{ thumbnails|access_list:path }}">
+                                            <img class="card-img-top protection-image" width="100%" height="225" src="{{ thumbnails|access_list:path }}">
                                         {% endwith %}
                                         <p>{{ albam.name }}</p>
                                     </div>
