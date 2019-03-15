@@ -1,0 +1,264 @@
+[
+    {
+        "model": "Albam.albam",
+        "pk": 3,
+        "fields": {
+            "name": "水沢薫誕生祭",
+            "description": "スクメロのキャラクター「水沢薫」の\r\n誕生日を祝う企画のときに制作された画像のアルバムです。",
+            "btn_class": "kaoru",
+            "updated_at": "2018-09-10T00:00:00Z"
+        }
+    },
+    {
+        "model": "Albam.albam",
+        "pk": 4,
+        "fields": {
+            "name": "馬場なつみ誕生祭",
+            "description": "スクメロのキャラクター「水沢薫」の声優を担当された\r\n声優「馬場なつみ」さんの誕生祭の企画で\r\n制作された画像をアルバムとしてまとめています。",
+            "btn_class": "akari",
+            "updated_at": "2018-09-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 4,
+        "fields": {
+            "albam_id": 3,
+            "photo": "images/Albam/top_baba_Xncnd7V.jpg",
+            "title": "誕生日おめでとう、薫ちゃん！",
+            "creater": "甘夏",
+            "created_at": "2018-09-10"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 5,
+        "fields": {
+            "albam_id": 3,
+            "photo": "images/Albam/message_saki.jpg",
+            "title": "メッセージカード by SAKi",
+            "creater": "甘夏",
+            "created_at": "2018-09-10"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 6,
+        "fields": {
+            "albam_id": 3,
+            "photo": "images/Albam/message_zan.jpg",
+            "title": "メッセージカード by ザン",
+            "creater": "甘夏",
+            "created_at": "2018-09-10"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 7,
+        "fields": {
+            "albam_id": 3,
+            "photo": "images/Albam/message_huratta.jpg",
+            "title": "メッセージカード by ふらった",
+            "creater": "甘夏",
+            "created_at": "2018-09-10"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 8,
+        "fields": {
+            "albam_id": 3,
+            "photo": "images/Albam/message_yusshi.jpg",
+            "title": "メッセージカード by ゆっしー",
+            "creater": "甘夏",
+            "created_at": "2018-09-10"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 9,
+        "fields": {
+            "albam_id": 3,
+            "photo": "images/Albam/message_kota.jpg",
+            "title": "メッセージカード by 倖太",
+            "creater": "甘夏",
+            "created_at": "2018-09-10"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 10,
+        "fields": {
+            "albam_id": 3,
+            "photo": "images/Albam/message_amanatsu.jpg",
+            "title": "メッセージカード by 甘夏",
+            "creater": "甘夏",
+            "created_at": "2018-09-10"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 11,
+        "fields": {
+            "albam_id": 3,
+            "photo": "images/Albam/message_torte.jpg",
+            "title": "メッセージカード by 愛媛のトルテ",
+            "creater": "甘夏",
+            "created_at": "2018-09-10"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 12,
+        "fields": {
+            "albam_id": 3,
+            "photo": "images/Albam/commenter_kaoru.jpg",
+            "title": "お祝いしてくれた方々！",
+            "creater": "甘夏",
+            "created_at": "2018-09-10"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 13,
+        "fields": {
+            "albam_id": 3,
+            "photo": "images/Albam/sponsor_kaoru_R9kMLBl.jpg",
+            "title": "企画者など！",
+            "creater": "甘夏",
+            "created_at": "2018-09-10"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 14,
+        "fields": {
+            "albam_id": 3,
+            "photo": "images/Albam/message_final.jpg",
+            "title": "締めコメント～",
+            "creater": "甘夏",
+            "created_at": "2018-09-10"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 15,
+        "fields": {
+            "albam_id": 4,
+            "photo": "images/Albam/top_kaoru.jpg",
+            "title": "誕生日おめでとう、ママ！",
+            "creater": "甘夏",
+            "created_at": "2018-08-02"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 16,
+        "fields": {
+            "albam_id": 4,
+            "photo": "images/Albam/zan_message.jpg",
+            "title": "メッセージカード by ザン",
+            "creater": "甘夏",
+            "created_at": "2018-08-02"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 17,
+        "fields": {
+            "albam_id": 4,
+            "photo": "images/Albam/saki_message.jpg",
+            "title": "メッセージカード by SAKi",
+            "creater": "甘夏",
+            "created_at": "2018-08-02"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 18,
+        "fields": {
+            "albam_id": 4,
+            "photo": "images/Albam/yusshi_message_blue.jpg",
+            "title": "メッセージカード by ゆっしー",
+            "creater": "甘夏",
+            "created_at": "2018-08-02"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 19,
+        "fields": {
+            "albam_id": 4,
+            "photo": "images/Albam/kota_message.jpg",
+            "title": "メッセージカード by 倖太",
+            "creater": "甘夏",
+            "created_at": "2018-08-02"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 20,
+        "fields": {
+            "albam_id": 4,
+            "photo": "images/Albam/huratta_message.jpg",
+            "title": "メッセージカード by ふらった",
+            "creater": "甘夏",
+            "created_at": "2018-08-02"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 21,
+        "fields": {
+            "albam_id": 4,
+            "photo": "images/Albam/torte_message.jpg",
+            "title": "メッセージカード by 愛媛のトルテ",
+            "creater": "甘夏",
+            "created_at": "2018-08-02"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 22,
+        "fields": {
+            "albam_id": 4,
+            "photo": "images/Albam/amanatsu_message.jpg",
+            "title": "メッセージカード by 甘夏",
+            "creater": "甘夏",
+            "created_at": "2018-08-02"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 23,
+        "fields": {
+            "albam_id": 4,
+            "photo": "images/Albam/commenter_baba.jpg",
+            "title": "お祝いしてくれた方々！",
+            "creater": "甘夏",
+            "created_at": "2018-08-02"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 24,
+        "fields": {
+            "albam_id": 4,
+            "photo": "images/Albam/sponsor_baba.jpg",
+            "title": "企画者など！",
+            "creater": "甘夏",
+            "created_at": "2018-08-02"
+        }
+    },
+    {
+        "model": "Albam.photo",
+        "pk": 25,
+        "fields": {
+            "albam_id": 4,
+            "photo": "images/Albam/final_message.jpg",
+            "title": "締めコメント～",
+            "creater": "甘夏",
+            "created_at": "2018-08-02"
+        }
+    }
+]
