@@ -26,11 +26,6 @@ urlpatterns = [
     path('', include('Portal.urls')),
     path('selector/', include('selector.urls')),
     path('albam/', include('Albam.urls')),
-    path('birthday/', include('birthday.urls')),
-    path('Natsumi/', RedirectView.as_view(url='/birthday/Natsumi/')),
-    path('skmr/Natsumi/', RedirectView.as_view(url='/birthday/Natsumi/')),
-    path('Kaoru/', RedirectView.as_view(url='/birthday/skmr/Kaoru/')),
-    path('skmr/Kaoru/', RedirectView.as_view(url='/birthday/skmr/Kaoru')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
