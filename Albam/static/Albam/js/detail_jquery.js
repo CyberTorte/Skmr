@@ -1,6 +1,6 @@
 $(function() {
     var jumbotron = $('.jumbotron')
-    var thunnail_photo = $('.photos > .card:first-child > img');
+    var thunnail_photo = $('#first-card');
 
     jumbotron.css({
         'background': 'linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("' + thunnail_photo.attr('src') + '")',
