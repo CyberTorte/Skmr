@@ -75,12 +75,15 @@
 
         <div class="index-body">
 
-            <h1>選曲モードはどうする？</h1>
+            <h1 class="single">1曲選曲する！</h1>
+            <h1 class="single-lite">1曲選曲する！(サクサクモード)</h1>
+            <h1 class="twinkle">3曲選曲する！</h1>
+            <h1 class="twinkle-lite">3曲選曲する！(サクサクモード)</h1>
 
             <div class="btn-group-toggle" data-toggle="buttons" role="group">
                 <label class="btn btn-kasumi" id="twinkle-mode">
                     <input type="checkbox" autocomplete="off">
-                    モード切替
+                    トゥインクルパーティ切替
                 </label>
             </div>
 
@@ -206,8 +209,8 @@
                 
                 <p></p>
 
-                <button class="btn btn-nagisa outline select" type="submit" name="action" value="select">1曲選曲</button>
-                <button class="btn btn-kasumi outline twinkle" type="submit" name="action" value="twinkle" formaction="{% url 'selector:twinkle_party' %}">トゥインクルパーティ</button>
+                <button class="btn btn-nagisa outline select-button" type="submit" name="action" value="select">1曲選曲</button>
+                <button class="btn btn-kasumi outline twinkle-button" type="submit" name="action" value="twinkle" formaction="{% url 'selector:twinkle_party' %}">トゥインクルパーティ</button>
                 <button class="btn btn-kaoru outline" type="submit" name="action" value="song_list">曲一覧</button>
             </form>
         </div>

@@ -103,7 +103,50 @@ def selector(request):
             return False
 
     try:
-        if request.method == 'POST':
+        if request.method == 'GET':
+            if request.GET['difficulty'] in choice_difficulty:
+                difficulty = request.POST['difficulty']
+            else:
+                difficulty = None
+
+            if request.GET['attribute'] in choice_attribute:
+                attribute = request.GET['attribute']
+            else:
+                attribute = None
+
+            if request.GET['limited'] is not None:
+                if request.GET['limited'] == 'filters' and request.GET.getlist('filters[]'):
+                    if 'list' in str(type(request.GET.getlist('filters[]'))):
+                        after_filter = request.GET.getlist('filters[]')
+                        for limited_filter in request.GET.getlist('filters[]'):
+                            if not check_limited_filter(limited_filter):
+                                limited = None
+                                break
+                            elif limited_filter == '':
+                                index = after_filter.index(limited_filter)
+                                after_filter[index] = None
+                        else:
+                            limited = after_filter
+
+                    else:
+                        limited = None
+                    
+                elif request.GET['limited'] in choice_limited:
+                    limited = request.GET['limited']
+
+                else:
+                    limited = None
+
+            if request.GET['party'] is not None:
+                if request.GET['party'] == 'party':
+                    party = request.GET['party']
+                else:
+                    party = None
+            else:
+                party = None
+
+                
+        elif request.method == 'POST':
             if request.POST['difficulty'] in choice_difficulty:
                 difficulty = request.POST['difficulty']
             else:

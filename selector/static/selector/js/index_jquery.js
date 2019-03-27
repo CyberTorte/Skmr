@@ -5,8 +5,8 @@ $(function () {
     var $check_limited5 = $('.check-limited5');
     var $limited_filter = $('.limited-filter');
     var $twinkle_mode = $('#twinkle-mode');
-    var $select_button = $('.select');
-    var $twinkle_button = $('.twinkle');
+    var $select_button = $('.select-button');
+    var $twinkle_button = $('.twinkle-button');
     var $twinkle_party = $('.twinkle-party');
     var $window = $(window);
     var $form_div = $('form div');
