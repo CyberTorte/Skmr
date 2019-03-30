@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
-import datetime
+import datetime, math
 
 # Create your models here.
 
@@ -21,8 +21,8 @@ class Albam(models.Model):
 
         now = timezone.now()
         diff_date = now - self.updated_at
-        diff_hours = diff_date.seconds / 60 / 60
-        diff_minutes = diff_date.seconds / 60
+        diff_hours = math.floor(diff_date.seconds / 60 / 60)
+        diff_minutes = math.floor(diff_date.seconds / 60)
 
         if (6 < diff_date.days):
             return self.updated_at.date()
@@ -34,6 +34,8 @@ class Albam(models.Model):
             return str(diff_minutes) + diff_words[2]
         elif (0 < diff_date.seconds):
             return str(diff_date.seconds) + diff_words[3]
+        else:
+            return '今'
 
 class Card(models.Model):
     id = models.AutoField(primary_key=True, db_column='id')
@@ -55,8 +57,10 @@ class Card(models.Model):
 
         if (6 < diff_date.days):
             return self.created_at
-        elif (0 < diff_date.days):
+        elif (1 <= diff_date.days):
             return str(diff_date.days) + diff_words
+        else:
+            return '今'
 
 class Picture(models.Model):
     id = models.AutoField(primary_key=True, db_column="id")

@@ -84,7 +84,7 @@
             <section class="jumbotron text-center">
                 <div class="container">
                     <h1 class="jumbotron-heading">{{ albam.name }}</h1>
-                    <p class="lead text-muted">{{ albam.description }}</p>
+                    <p class="lead text-muted">{{ albam.description|linebreaksbr }}</p>
                 </div>
             </section>
 
@@ -107,24 +107,28 @@
                                         {% if card.picture_set.all|length_is:"1" %}
                                             <div class="modal-body card-picture">
                                                 <img src="{{ card.picture_set.all.0.picture.url }}" alt="{{ card.title }}" class="img-fluid protection-image">
+                                                <p>{{ card.comment|linebreaksbr }}</p>
                                             </div>
                                         {% else %}
-                                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                                                <!-- スライドさせる画像の設定 -->
-                                                <div class="carousel-inner">
-                                                    {% for picture in card.picture_set.all %}
-                                                        {% if forloop.first %}
-                                                            <div class="carousel-item active card-picture">
-                                                                <img class="d-block w-100" src="{{ picture.picture.url }}" alt="第{{ forloop.counter }}スライド">
-                                                            </div><!-- /.carousel-item -->
-                                                        {% else %}
-                                                            <div class="carousel-item card-picture">
-                                                                <img class="d-block w-100" src="{{ picture.picture.url }}" alt="第{{ forloop.counter }}スライド">
-                                                            </div><!-- /.carousel-item -->
-                                                        {% endif %}
-                                                    {% endfor %}
-                                                </div><!-- /.carousel-inner -->
-                                            </div><!-- /.carousel -->
+                                            <div class="modal-body">
+                                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                                    <!-- スライドさせる画像の設定 -->
+                                                    <div class="carousel-inner">
+                                                        {% for picture in card.picture_set.all %}
+                                                            {% if forloop.first %}
+                                                                <div class="carousel-item active card-picture">
+                                                                    <img class="img-fluid d-block protection-image" src="{{ picture.picture.url }}" alt="第{{ forloop.counter }}スライド">
+                                                                </div><!-- /.carousel-item -->
+                                                            {% else %}
+                                                                <div class="carousel-item card-picture">
+                                                                    <img class="img-fluid d-block protection-image" src="{{ picture.picture.url }}" alt="第{{ forloop.counter }}スライド">
+                                                                </div><!-- /.carousel-item -->
+                                                            {% endif %}
+                                                        {% endfor %}
+                                                    </div><!-- /.carousel-inner -->
+                                                </div><!-- /.carousel -->
+                                                <p>{{ card.comment|linebreaksbr }}</p>                                                
+                                            </div>
                                         {% endif %}
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
@@ -135,18 +139,42 @@
 
                             <div class="col-md-4 pictures">
                                 <div class="card mb-4 shadow-sm">
-                                    <div class="card-picture">
-                                        {% if forloop.first %}
-                                            <img class="card-img-top protection-image" id="first-card" width="100%" height="225" src="{{ card.picture_set.all.0.picture.url }}">
-                                        {% else %}
-                                            <img class="card-img-top protection-image" width="100%" height="225" src="{{ card.picture_set.all.0.picture.url }}">
-                                        {% endif %}
-                                    </div>
+                                    {% if card.picture_set.all|length_is:"1" %}
+                                        <div class="card-picture">
+                                            {% if forloop.first %}
+                                                <img class="card-img-top protection-image" id="first-card" width="100%" height="225" src="{{ card.picture_set.all.0.picture.url }}">
+                                            {% else %}
+                                                <img class="card-img-top protection-image" width="100%" height="225" src="{{ card.picture_set.all.0.picture.url }}">
+                                            {% endif %}
+                                        </div>                                        
+                                    {% else %}
+                                        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+                                            <!-- スライドさせる画像の設定 -->
+                                            <div class="carousel-inner">
+                                                {% for picture in card.picture_set.all %}
+                                                    {% if forloop.first %}
+                                                        <div class="carousel-item active card-picture">
+                                                            <img class="d-block w-100 protection-image" height="225" src="{{ picture.picture.url }}" alt="第{{ forloop.counter }}スライド">
+                                                        </div><!-- /.carousel-item -->
+                                                    {% else %}
+                                                        <div class="carousel-item card-picture">
+                                                            <img class="d-block w-100 protection-image" height="225" src="{{ picture.picture.url }}" alt="第{{ forloop.counter }}スライド">
+                                                        </div><!-- /.carousel-item -->
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </div><!-- /.carousel-inner -->
+                                        </div><!-- /.carousel -->
+                                    {% endif %}
                                     <div class="card-body">
                                         <p class="card-text"> {{ card.title }} </p>
+                                        {% if card.comment %}
+                                            <p class="card-text"> {{ card.comment|linebreaksbr|truncatechars:140 }} </p>
+                                        {% endif %}
                                         <div class="d-flex justify-content-between align-items-center">
                                             {% if card.picture_set.all|length != 0 %}
                                                 <button type="button" class="btn btn-outline-{{ albam.btn_class }} outline btn-sm" data-toggle="modal" data-target="#picture-preview{{ forloop.counter0 }}">プレビュー</button>
+                                            {% else %}
+                                                <p></p>
                                             {% endif %}
                                             <small class="text-muted"> {{ card.diff_date }} </small>
                                         </div>
