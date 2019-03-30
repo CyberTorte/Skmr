@@ -30,5 +30,5 @@ class IndexView(generic.TemplateView):
         return context
 
 class AlbamDetailView(generic.DetailView):
-    template_name = 'Albam/albam_detail.html'
+    template_name = 'Albam/albam_display.html'
     model = Albam
