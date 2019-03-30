@@ -36,7 +36,7 @@ class Albam(models.Model):
 
 class Card(models.Model):
     id = models.AutoField(primary_key=True, db_column='id')
-    albam_id = models.ForeignKey(Albam, on_delete=models.CASCADE, db_column='albam_id')
+    albam = models.ForeignKey(Albam, on_delete=models.CASCADE, db_column='albam')
     title = models.CharField(max_length=100, db_column='title')
     creater = models.CharField(max_length=250, db_column='creater')
     created_at = models.DateField(default=timezone.now, db_column='created_at')
@@ -58,6 +58,7 @@ class Card(models.Model):
 
 class Picture(models.Model):
     id = models.AutoField(primary_key=True, db_column="id")
+    card = models.ForeignKey(Card, on_delete=models.CASCADE, db_column='card')
     picture = models.ImageField(
         upload_to='images/Albam/',
         db_column='photo',
