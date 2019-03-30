@@ -44,6 +44,7 @@ class Photo(models.Model):
     title = models.CharField(max_length=100, db_column='title')
     creater = models.CharField(max_length=250, db_column='creater')
     created_at = models.DateField(default=timezone.now, db_column='created_at')
+    twitter_account = models.CharField(max_length=250, default=None, db_column='account')
 
     def __str__(self):
         return self.title
