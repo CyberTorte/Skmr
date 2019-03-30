@@ -7,7 +7,7 @@
     padding-bottom: 3rem;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #fff;
+    background-color: white;
 }
 @media (min-width: 768px) {
     .jumbotron {

@@ -10,6 +10,7 @@ class Albam(models.Model):
     name = models.CharField(max_length=100, db_column='name')
     description = models.TextField(db_column='description')
     btn_class = models.CharField(max_length=100, db_column='btn_class')
+    order_rule = models.BooleanField(default=False, db_column='order_rule')
     updated_at = models.DateTimeField(default=timezone.now, db_column='updated_at')
 
     def __str__(self):
