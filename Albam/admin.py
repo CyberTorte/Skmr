@@ -32,13 +32,13 @@ class PictureInline(admin.TabularInline):
 class CardAdmin(admin.ModelAdmin):
     list_display = (
         'id',
-        'albam_id',
+        'albam',
         'title',
         'creater',
         'created_at'
     )
     list_filter = [
-        'albam_id',
+        'albam',
         'creater'
     ]
     inlines = [PictureInline]
