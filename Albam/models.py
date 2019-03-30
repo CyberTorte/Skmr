@@ -34,6 +34,35 @@ class Albam(models.Model):
         elif (0 < diff_date.seconds):
             return str(diff_date.seconds) + diff_words[3]
 
+class Card(models.Model):
+    id = models.AutoField(primary_key=True, db_column='id')
+    albam_id = models.ForeignKey(Albam, on_delete=models.CASCADE, db_column='albam_id')
+    title = models.CharField(max_length=100, db_column='title')
+    creater = models.CharField(max_length=250, db_column='creater')
+    created_at = models.DateField(default=timezone.now, db_column='created_at')
+    twitter_account = models.CharField(max_length=250, default=None, db_column='account')
+
+    def __str__(self):
+        return self.title
+
+    def diff_date(self):
+        diff_words = '日前'
+
+        now = timezone.now().date()
+        diff_date = now - self.created_at
+
+        if (6 < diff_date.days):
+            return self.created_at
+        elif (0 < diff_date.days):
+            return str(diff_date.days) + diff_words
+
+class Picture(models.Model):
+    id = models.AutoField(primary_key=True, db_column="id")
+    picture = models.ImageField(
+        upload_to='images/Albam/',
+        db_column='photo',
+    )
+
 class Photo(models.Model):
     id = models.AutoField(primary_key=True, db_column='id')
     albam_id = models.ForeignKey(Albam, on_delete=models.CASCADE, db_column='albam_id')
@@ -44,7 +73,6 @@ class Photo(models.Model):
     title = models.CharField(max_length=100, db_column='title')
     creater = models.CharField(max_length=250, db_column='creater')
     created_at = models.DateField(default=timezone.now, db_column='created_at')
-    twitter_account = models.CharField(max_length=250, default=None, db_column='account')
 
     def __str__(self):
         return self.title
