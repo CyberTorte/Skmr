@@ -38,6 +38,7 @@ class Card(models.Model):
     id = models.AutoField(primary_key=True, db_column='id')
     albam = models.ForeignKey(Albam, on_delete=models.CASCADE, db_column='albam')
     title = models.CharField(max_length=100, db_column='title')
+    comment = models.TextField(default=None, blank=True, null=True, db_column='comment')
     creater = models.CharField(max_length=250, db_column='creater')
     created_at = models.DateField(default=timezone.now, db_column='created_at')
     twitter_account = models.CharField(max_length=250, default=None, blank=True, null=True, db_column='account')
