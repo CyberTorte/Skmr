@@ -23,6 +23,8 @@ class PhotoAdmin(admin.ModelAdmin):
 
 admin.site.register(Photo, PhotoAdmin)
 
+admin.site.register(Picture)
+
 class PictureInline(admin.TabularInline):
     model = Picture
     extra = 0
@@ -40,6 +42,8 @@ class CardAdmin(admin.ModelAdmin):
         'creater'
     ]
     inlines = [PictureInline]
+
+admin.site.register(Card, PictureInline)
 
 class CardInline(admin.TabularInline):
     model = Card
