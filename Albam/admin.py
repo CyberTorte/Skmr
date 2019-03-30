@@ -43,7 +43,7 @@ class CardAdmin(admin.ModelAdmin):
     ]
     inlines = [PictureInline]
 
-admin.site.register(Card, PictureInline)
+admin.site.register(Card, CardAdmin)
 
 class CardInline(admin.TabularInline):
     model = Card
