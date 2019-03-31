@@ -9,7 +9,7 @@ body {
     pointer-events: none;
 }
 
-.card div img {
+img {
     background-color: white;
     object-fit: contain;
 }
