@@ -15,6 +15,10 @@ class IndexView(generic.TemplateView):
 
         thumbnails = []
         for albam in Albam.objects.all().order_by('-updated_at').prefetch_related('card_set'):
+            if albam.jumbotron_image:
+                thumbnails.append(albam.jumbotron_image)
+                continue
+
             card_id = albam.card_set.all().order_by('id').first().id
             for card in Card.objects.filter(id=card_id).prefetch_related('picture_set'):
                 thumbnails.append(card.picture_set.all().first())

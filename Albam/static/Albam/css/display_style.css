@@ -45,6 +45,10 @@
     margin: auto;
 }
 
+.jumbotron-image {
+    display: none;
+}
+
 .card-picture {
     position: relative;
 }

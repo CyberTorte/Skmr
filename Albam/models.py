@@ -11,6 +11,7 @@ class Albam(models.Model):
     description = models.TextField(db_column='description')
     btn_class = models.CharField(max_length=100, db_column='btn_class')
     order_rule = models.BooleanField(default=False, db_column='order_rule')
+    jumbotron_image = models.ForeignKey('Picture', on_delete=models.CASCADE, default=None, blank=True, null=True, db_column="jumbotron")
     updated_at = models.DateTimeField(default=timezone.now, db_column='updated_at')
 
     def __str__(self):
