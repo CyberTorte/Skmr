@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import generic
 
-from .models import Albam, Photo
+from .models import Albam, Card, Picture
 
 # Create your views here.
 
@@ -14,8 +14,14 @@ class IndexView(generic.TemplateView):
         context['albam_list'] = Albam.objects.all().order_by('-updated_at')
 
         thumbnails = []
-        for albam in Albam.objects.all().order_by('-updated_at').prefetch_related('photo_set'):
-            thumbnails.append(albam.photo_set.all().order_by('id').first())
+        for albam in Albam.objects.all().order_by('-updated_at').prefetch_related('card_set'):
+            if albam.jumbotron_image:
+                thumbnails.append(albam.jumbotron_image)
+                continue
+
+            card_id = albam.card_set.all().order_by('id').first().id
+            for card in Card.objects.filter(id=card_id).prefetch_related('picture_set'):
+                thumbnails.append(card.picture_set.all().first())
 
         context['thumbnails'] = thumbnails
 
@@ -30,5 +36,5 @@ class IndexView(generic.TemplateView):
         return context
 
 class AlbamDetailView(generic.DetailView):
-    template_name = 'Albam/albam_detail.html'
+    template_name = 'Albam/albam_display.html'
     model = Albam

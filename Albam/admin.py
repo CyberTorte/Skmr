@@ -2,6 +2,8 @@ from django.contrib import admin
 
 from .models import (
     Albam,
+    Card,
+    Picture,
     Photo
 )
 
@@ -21,8 +23,30 @@ class PhotoAdmin(admin.ModelAdmin):
 
 admin.site.register(Photo, PhotoAdmin)
 
-class PhotoInline(admin.TabularInline):
-    model = Photo
+admin.site.register(Picture)
+
+class PictureInline(admin.TabularInline):
+    model = Picture
+    extra = 0
+
+class CardAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'albam',
+        'title',
+        'creater',
+        'created_at'
+    )
+    list_filter = [
+        'albam',
+        'creater'
+    ]
+    inlines = [PictureInline]
+
+admin.site.register(Card, CardAdmin)
+
+class CardInline(admin.TabularInline):
+    model = Card
     extra = 0
 
 class AlbamAdmin(admin.ModelAdmin):
@@ -31,6 +55,6 @@ class AlbamAdmin(admin.ModelAdmin):
         'name',
         'updated_at'
     )
-    inlines = [PhotoInline]
+    inlines = [CardInline]
 
 admin.site.register(Albam, AlbamAdmin)

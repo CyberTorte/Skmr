@@ -9,6 +9,11 @@ body {
     pointer-events: none;
 }
 
+img {
+    background-color: white;
+    object-fit: contain;
+}
+
 .loading {
     display: none;
     width: 100%;
