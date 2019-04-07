@@ -171,7 +171,7 @@
         "model": "selector.song",
         "pk": 13,
         "fields": {
-            "title": "\u50d5\u3089\u306e\u661f\u7a7a",
+            "title": "僕らの星空",
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 5,
@@ -185,7 +185,7 @@
         "model": "selector.song",
         "pk": 14,
         "fields": {
-            "title": "\u50d5\u3089\u306e\u661f\u7a7a",
+            "title": "僕らの星空",
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 9,
@@ -199,7 +199,7 @@
         "model": "selector.song",
         "pk": 15,
         "fields": {
-            "title": "\u50d5\u3089\u306e\u661f\u7a7a",
+            "title": "僕らの星空",
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 14,
@@ -213,7 +213,7 @@
         "model": "selector.song",
         "pk": 16,
         "fields": {
-            "title": "\u50d5\u3089\u306e\u661f\u7a7a",
+            "title": "僕らの星空",
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 20,
@@ -227,7 +227,7 @@
         "model": "selector.song",
         "pk": 17,
         "fields": {
-            "title": "\u512a\u3057\u3044\u98a8",
+            "title": "優しい風",
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 4,
@@ -241,7 +241,7 @@
         "model": "selector.song",
         "pk": 18,
         "fields": {
-            "title": "\u512a\u3057\u3044\u98a8",
+            "title": "優しい風",
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 8,
@@ -255,7 +255,7 @@
         "model": "selector.song",
         "pk": 19,
         "fields": {
-            "title": "\u512a\u3057\u3044\u98a8",
+            "title": "優しい風",
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 13,
@@ -269,7 +269,7 @@
         "model": "selector.song",
         "pk": 20,
         "fields": {
-            "title": "\u512a\u3057\u3044\u98a8",
+            "title": "優しい風",
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 17,
@@ -283,7 +283,7 @@
         "model": "selector.song",
         "pk": 21,
         "fields": {
-            "title": "\u30b5\u30c6\u30e9\u30a4\u30c8\u30fb\u30e9\u30d6",
+            "title": "サテライト・ラブ",
             "attribute": "all",
             "difficulty": "EASY",
             "level": 4,
@@ -297,7 +297,7 @@
         "model": "selector.song",
         "pk": 22,
         "fields": {
-            "title": "\u30b5\u30c6\u30e9\u30a4\u30c8\u30fb\u30e9\u30d6",
+            "title": "サテライト・ラブ",
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
@@ -311,7 +311,7 @@
         "model": "selector.song",
         "pk": 23,
         "fields": {
-            "title": "\u30b5\u30c6\u30e9\u30a4\u30c8\u30fb\u30e9\u30d6",
+            "title": "サテライト・ラブ",
             "attribute": "all",
             "difficulty": "HARD",
             "level": 13,
@@ -325,7 +325,7 @@
         "model": "selector.song",
         "pk": 24,
         "fields": {
-            "title": "\u30b5\u30c6\u30e9\u30a4\u30c8\u30fb\u30e9\u30d6",
+            "title": "サテライト・ラブ",
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 17,
@@ -339,7 +339,7 @@
         "model": "selector.song",
         "pk": 25,
         "fields": {
-            "title": "\u30e6\u30fc\u30c8\u30d4\u30a2",
+            "title": "ユートピア",
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 5,
@@ -353,7 +353,7 @@
         "model": "selector.song",
         "pk": 26,
         "fields": {
-            "title": "\u30e6\u30fc\u30c8\u30d4\u30a2",
+            "title": "ユートピア",
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 7,
@@ -367,7 +367,7 @@
         "model": "selector.song",
         "pk": 27,
         "fields": {
-            "title": "\u30e6\u30fc\u30c8\u30d4\u30a2",
+            "title": "ユートピア",
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 12,
@@ -381,7 +381,7 @@
         "model": "selector.song",
         "pk": 28,
         "fields": {
-            "title": "\u30e6\u30fc\u30c8\u30d4\u30a2",
+            "title": "ユートピア",
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 17,
@@ -563,7 +563,7 @@
         "model": "selector.song",
         "pk": 41,
         "fields": {
-            "title": "\u84bc\u306e\u30e1\u30e2\u30ea\u30fc",
+            "title": "蒼のメモリー",
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 4,
@@ -577,7 +577,7 @@
         "model": "selector.song",
         "pk": 42,
         "fields": {
-            "title": "\u84bc\u306e\u30e1\u30e2\u30ea\u30fc",
+            "title": "蒼のメモリー",
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 9,
@@ -591,7 +591,7 @@
         "model": "selector.song",
         "pk": 43,
         "fields": {
-            "title": "\u84bc\u306e\u30e1\u30e2\u30ea\u30fc",
+            "title": "蒼のメモリー",
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 12,
@@ -605,7 +605,7 @@
         "model": "selector.song",
         "pk": 44,
         "fields": {
-            "title": "\u84bc\u306e\u30e1\u30e2\u30ea\u30fc",
+            "title": "蒼のメモリー",
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 19,
@@ -619,7 +619,7 @@
         "model": "selector.song",
         "pk": 45,
         "fields": {
-            "title": "\u30ad\u30e9\u30ad\u30e9\u2606",
+            "title": "キラキラ☆",
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 5,
@@ -633,7 +633,7 @@
         "model": "selector.song",
         "pk": 46,
         "fields": {
-            "title": "\u30ad\u30e9\u30ad\u30e9\u2606",
+            "title": "キラキラ☆",
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 8,
@@ -647,7 +647,7 @@
         "model": "selector.song",
         "pk": 47,
         "fields": {
-            "title": "\u30ad\u30e9\u30ad\u30e9\u2606",
+            "title": "キラキラ☆",
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 12,
@@ -661,7 +661,7 @@
         "model": "selector.song",
         "pk": 48,
         "fields": {
-            "title": "\u30ad\u30e9\u30ad\u30e9\u2606",
+            "title": "キラキラ☆",
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 16,
@@ -787,7 +787,7 @@
         "model": "selector.song",
         "pk": 57,
         "fields": {
-            "title": "\u30df\u30e9\u30af\u30eb\u30ef\u30f3\u30c0\u30fc\u30e9\u30f3\u30c9",
+            "title": "ミラクルワンダーランド",
             "attribute": "active",
             "difficulty": "EASY",
             "level": 4,
@@ -801,7 +801,7 @@
         "model": "selector.song",
         "pk": 58,
         "fields": {
-            "title": "\u30df\u30e9\u30af\u30eb\u30ef\u30f3\u30c0\u30fc\u30e9\u30f3\u30c9",
+            "title": "ミラクルワンダーランド",
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 10,
@@ -815,7 +815,7 @@
         "model": "selector.song",
         "pk": 59,
         "fields": {
-            "title": "\u30df\u30e9\u30af\u30eb\u30ef\u30f3\u30c0\u30fc\u30e9\u30f3\u30c9",
+            "title": "ミラクルワンダーランド",
             "attribute": "active",
             "difficulty": "HARD",
             "level": 13,
@@ -829,7 +829,7 @@
         "model": "selector.song",
         "pk": 60,
         "fields": {
-            "title": "\u30df\u30e9\u30af\u30eb\u30ef\u30f3\u30c0\u30fc\u30e9\u30f3\u30c9",
+            "title": "ミラクルワンダーランド",
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 19,
@@ -843,7 +843,7 @@
         "model": "selector.song",
         "pk": 61,
         "fields": {
-            "title": "\u30cf\u30fc\u30c8\u30d3\u30fc\u30c4",
+            "title": "ハートビーツ",
             "attribute": "all",
             "difficulty": "EASY",
             "level": 5,
@@ -857,7 +857,7 @@
         "model": "selector.song",
         "pk": 62,
         "fields": {
-            "title": "\u30cf\u30fc\u30c8\u30d3\u30fc\u30c4",
+            "title": "ハートビーツ",
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
@@ -871,7 +871,7 @@
         "model": "selector.song",
         "pk": 63,
         "fields": {
-            "title": "\u30cf\u30fc\u30c8\u30d3\u30fc\u30c4",
+            "title": "ハートビーツ",
             "attribute": "all",
             "difficulty": "HARD",
             "level": 13,
@@ -885,7 +885,7 @@
         "model": "selector.song",
         "pk": 64,
         "fields": {
-            "title": "\u30cf\u30fc\u30c8\u30d3\u30fc\u30c4",
+            "title": "ハートビーツ",
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 19,
@@ -899,7 +899,7 @@
         "model": "selector.song",
         "pk": 65,
         "fields": {
-            "title": "\u30aa\u30eb\u30f4\u30a9\u30ef\u30fc\u30eb\u3000\u30d7\u30e9\u30cd\u30c3\u30c8",
+            "title": "オルヴォワール　プラネット",
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 4,
@@ -913,7 +913,7 @@
         "model": "selector.song",
         "pk": 66,
         "fields": {
-            "title": "\u30aa\u30eb\u30f4\u30a9\u30ef\u30fc\u30eb\u3000\u30d7\u30e9\u30cd\u30c3\u30c8",
+            "title": "オルヴォワール　プラネット",
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 9,
@@ -927,7 +927,7 @@
         "model": "selector.song",
         "pk": 67,
         "fields": {
-            "title": "\u30aa\u30eb\u30f4\u30a9\u30ef\u30fc\u30eb\u3000\u30d7\u30e9\u30cd\u30c3\u30c8",
+            "title": "オルヴォワール　プラネット",
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 14,
@@ -941,7 +941,7 @@
         "model": "selector.song",
         "pk": 68,
         "fields": {
-            "title": "\u30aa\u30eb\u30f4\u30a9\u30ef\u30fc\u30eb\u3000\u30d7\u30e9\u30cd\u30c3\u30c8",
+            "title": "オルヴォワール　プラネット",
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 18,
@@ -955,7 +955,7 @@
         "model": "selector.song",
         "pk": 69,
         "fields": {
-            "title": "\u30df\u30c1\u2606\u30df\u30c1\u30eb",
+            "title": "ミチ☆ミチル",
             "attribute": "all",
             "difficulty": "EASY",
             "level": 5,
@@ -969,7 +969,7 @@
         "model": "selector.song",
         "pk": 70,
         "fields": {
-            "title": "\u30df\u30c1\u2606\u30df\u30c1\u30eb",
+            "title": "ミチ☆ミチル",
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 9,
@@ -983,7 +983,7 @@
         "model": "selector.song",
         "pk": 71,
         "fields": {
-            "title": "\u30df\u30c1\u2606\u30df\u30c1\u30eb",
+            "title": "ミチ☆ミチル",
             "attribute": "all",
             "difficulty": "HARD",
             "level": 13,
@@ -997,7 +997,7 @@
         "model": "selector.song",
         "pk": 72,
         "fields": {
-            "title": "\u30df\u30c1\u2606\u30df\u30c1\u30eb",
+            "title": "ミチ☆ミチル",
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 19,
@@ -1123,7 +1123,7 @@
         "model": "selector.song",
         "pk": 81,
         "fields": {
-            "title": "\u3064\u306a\u304c\u308b\u60f3\u3044",
+            "title": "つながる想い",
             "attribute": "all",
             "difficulty": "EASY",
             "level": 6,
@@ -1137,7 +1137,7 @@
         "model": "selector.song",
         "pk": 82,
         "fields": {
-            "title": "\u3064\u306a\u304c\u308b\u60f3\u3044",
+            "title": "つながる想い",
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 10,
@@ -1151,7 +1151,7 @@
         "model": "selector.song",
         "pk": 83,
         "fields": {
-            "title": "\u3064\u306a\u304c\u308b\u60f3\u3044",
+            "title": "つながる想い",
             "attribute": "all",
             "difficulty": "HARD",
             "level": 14,
@@ -1165,7 +1165,7 @@
         "model": "selector.song",
         "pk": 84,
         "fields": {
-            "title": "\u3064\u306a\u304c\u308b\u60f3\u3044",
+            "title": "つながる想い",
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 22,
@@ -1179,7 +1179,7 @@
         "model": "selector.song",
         "pk": 85,
         "fields": {
-            "title": "\u7121\u6575\u306e\u30e1\u30ed\u30c7\u30a3",
+            "title": "無敵のメロディ",
             "attribute": "active",
             "difficulty": "EASY",
             "level": 6,
@@ -1193,7 +1193,7 @@
         "model": "selector.song",
         "pk": 86,
         "fields": {
-            "title": "\u7121\u6575\u306e\u30e1\u30ed\u30c7\u30a3",
+            "title": "無敵のメロディ",
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 10,
@@ -1207,7 +1207,7 @@
         "model": "selector.song",
         "pk": 87,
         "fields": {
-            "title": "\u7121\u6575\u306e\u30e1\u30ed\u30c7\u30a3",
+            "title": "無敵のメロディ",
             "attribute": "active",
             "difficulty": "HARD",
             "level": 13,
@@ -1221,7 +1221,7 @@
         "model": "selector.song",
         "pk": 88,
         "fields": {
-            "title": "\u7121\u6575\u306e\u30e1\u30ed\u30c7\u30a3",
+            "title": "無敵のメロディ",
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 19,
@@ -1235,7 +1235,7 @@
         "model": "selector.song",
         "pk": 89,
         "fields": {
-            "title": "\u6674\u7a7a\u30ad\u30e9\u30ea",
+            "title": "晴空キラリ",
             "attribute": "active",
             "difficulty": "EASY",
             "level": 5,
@@ -1249,7 +1249,7 @@
         "model": "selector.song",
         "pk": 90,
         "fields": {
-            "title": "\u6674\u7a7a\u30ad\u30e9\u30ea",
+            "title": "晴空キラリ",
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 9,
@@ -1263,7 +1263,7 @@
         "model": "selector.song",
         "pk": 91,
         "fields": {
-            "title": "\u6674\u7a7a\u30ad\u30e9\u30ea",
+            "title": "晴空キラリ",
             "attribute": "active",
             "difficulty": "HARD",
             "level": 14,
@@ -1277,7 +1277,7 @@
         "model": "selector.song",
         "pk": 92,
         "fields": {
-            "title": "\u6674\u7a7a\u30ad\u30e9\u30ea",
+            "title": "晴空キラリ",
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 21,
@@ -1515,7 +1515,7 @@
         "model": "selector.song",
         "pk": 109,
         "fields": {
-            "title": "\u3082\u3057\u3082\u306e\u79c1",
+            "title": "もしもの私",
             "attribute": "all",
             "difficulty": "EASY",
             "level": 4,
@@ -1529,7 +1529,7 @@
         "model": "selector.song",
         "pk": 110,
         "fields": {
-            "title": "\u3082\u3057\u3082\u306e\u79c1",
+            "title": "もしもの私",
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
@@ -1543,7 +1543,7 @@
         "model": "selector.song",
         "pk": 111,
         "fields": {
-            "title": "\u3082\u3057\u3082\u306e\u79c1",
+            "title": "もしもの私",
             "attribute": "all",
             "difficulty": "HARD",
             "level": 11,
@@ -1557,7 +1557,7 @@
         "model": "selector.song",
         "pk": 112,
         "fields": {
-            "title": "\u3082\u3057\u3082\u306e\u79c1",
+            "title": "もしもの私",
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 16,
@@ -1795,7 +1795,7 @@
         "model": "selector.song",
         "pk": 129,
         "fields": {
-            "title": "\u4f8b\u3048\u3070\u541b\u306e\u672a\u6765\u304c",
+            "title": "例えば君の未来が",
             "attribute": "all",
             "difficulty": "EASY",
             "level": 5,
@@ -1809,7 +1809,7 @@
         "model": "selector.song",
         "pk": 130,
         "fields": {
-            "title": "\u4f8b\u3048\u3070\u541b\u306e\u672a\u6765\u304c",
+            "title": "例えば君の未来が",
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 9,
@@ -1823,7 +1823,7 @@
         "model": "selector.song",
         "pk": 131,
         "fields": {
-            "title": "\u4f8b\u3048\u3070\u541b\u306e\u672a\u6765\u304c",
+            "title": "例えば君の未来が",
             "attribute": "all",
             "difficulty": "HARD",
             "level": 13,
@@ -1837,7 +1837,7 @@
         "model": "selector.song",
         "pk": 132,
         "fields": {
-            "title": "\u4f8b\u3048\u3070\u541b\u306e\u672a\u6765\u304c",
+            "title": "例えば君の未来が",
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 19,
@@ -1963,7 +1963,7 @@
         "model": "selector.song",
         "pk": 141,
         "fields": {
-            "title": "\u821e\u3044\u30b3\u30ec",
+            "title": "舞いコレ",
             "attribute": "active",
             "difficulty": "EASY",
             "level": 5,
@@ -1977,7 +1977,7 @@
         "model": "selector.song",
         "pk": 142,
         "fields": {
-            "title": "\u821e\u3044\u30b3\u30ec",
+            "title": "舞いコレ",
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 9,
@@ -1991,7 +1991,7 @@
         "model": "selector.song",
         "pk": 143,
         "fields": {
-            "title": "\u821e\u3044\u30b3\u30ec",
+            "title": "舞いコレ",
             "attribute": "active",
             "difficulty": "HARD",
             "level": 13,
@@ -2005,7 +2005,7 @@
         "model": "selector.song",
         "pk": 144,
         "fields": {
-            "title": "\u821e\u3044\u30b3\u30ec",
+            "title": "舞いコレ",
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 21,
@@ -2019,7 +2019,7 @@
         "model": "selector.song",
         "pk": 145,
         "fields": {
-            "title": "\u30ad\u30df\u3001\u30dc\u30af\u3001\u604b\u3057\u3066\u308b\uff01",
+            "title": "キミ、ボク、恋してる！",
             "attribute": "all",
             "difficulty": "EASY",
             "level": 4,
@@ -2033,7 +2033,7 @@
         "model": "selector.song",
         "pk": 146,
         "fields": {
-            "title": "\u30ad\u30df\u3001\u30dc\u30af\u3001\u604b\u3057\u3066\u308b\uff01",
+            "title": "キミ、ボク、恋してる！",
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
@@ -2047,7 +2047,7 @@
         "model": "selector.song",
         "pk": 147,
         "fields": {
-            "title": "\u30ad\u30df\u3001\u30dc\u30af\u3001\u604b\u3057\u3066\u308b\uff01",
+            "title": "キミ、ボク、恋してる！",
             "attribute": "all",
             "difficulty": "HARD",
             "level": 14,
@@ -2061,7 +2061,7 @@
         "model": "selector.song",
         "pk": 148,
         "fields": {
-            "title": "\u30ad\u30df\u3001\u30dc\u30af\u3001\u604b\u3057\u3066\u308b\uff01",
+            "title": "キミ、ボク、恋してる！",
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 20,
@@ -2075,7 +2075,7 @@
         "model": "selector.song",
         "pk": 149,
         "fields": {
-            "title": "\u30df\u30e9\u30a4\u30af\u30eb\uff01\uff01Miracle\u2606",
+            "title": "ミライクル！！Miracle☆",
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 6,
@@ -2089,7 +2089,7 @@
         "model": "selector.song",
         "pk": 150,
         "fields": {
-            "title": "\u30df\u30e9\u30a4\u30af\u30eb\uff01\uff01Miracle\u2606",
+            "title": "ミライクル！！Miracle☆",
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 8,
@@ -2103,7 +2103,7 @@
         "model": "selector.song",
         "pk": 151,
         "fields": {
-            "title": "\u30df\u30e9\u30a4\u30af\u30eb\uff01\uff01Miracle\u2606",
+            "title": "ミライクル！！Miracle☆",
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 14,
@@ -2117,7 +2117,7 @@
         "model": "selector.song",
         "pk": 152,
         "fields": {
-            "title": "\u30df\u30e9\u30a4\u30af\u30eb\uff01\uff01Miracle\u2606",
+            "title": "ミライクル！！Miracle☆",
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 18,
@@ -2243,9 +2243,11 @@
         "model": "Albam.albam",
         "pk": 3,
         "fields": {
-            "name": "\u6c34\u6ca2\u85ab\u8a95\u751f\u796d",
-            "description": "\u30b9\u30af\u30e1\u30ed\u306e\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u300c\u6c34\u6ca2\u85ab\u300d\u306e\r\n\u8a95\u751f\u65e5\u3092\u795d\u3046\u4f01\u753b\u306e\u3068\u304d\u306b\u5236\u4f5c\u3055\u308c\u305f\u753b\u50cf\u306e\u30a2\u30eb\u30d0\u30e0\u3067\u3059\u3002",
+            "name": "水沢薫誕生祭",
+            "description": "スクメロのキャラクター「水沢薫」の\r\n誕生日を祝う企画のときに制作された画像のアルバムです。",
             "btn_class": "kaoru",
+            "order_rule": false,
+            "jumbotron_image": null,
             "updated_at": "2018-09-10T00:00:00Z"
         }
     },
@@ -2253,10 +2255,960 @@
         "model": "Albam.albam",
         "pk": 4,
         "fields": {
-            "name": "\u99ac\u5834\u306a\u3064\u307f\u8a95\u751f\u796d",
-            "description": "\u30b9\u30af\u30e1\u30ed\u306e\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u300c\u6c34\u6ca2\u85ab\u300d\u306e\u58f0\u512a\u3092\u62c5\u5f53\u3055\u308c\u305f\r\n\u58f0\u512a\u300c\u99ac\u5834\u306a\u3064\u307f\u300d\u3055\u3093\u306e\u8a95\u751f\u796d\u306e\u4f01\u753b\u3067\r\n\u5236\u4f5c\u3055\u308c\u305f\u753b\u50cf\u3092\u30a2\u30eb\u30d0\u30e0\u3068\u3057\u3066\u307e\u3068\u3081\u3066\u3044\u307e\u3059\u3002",
+            "name": "馬場なつみ誕生祭",
+            "description": "スクメロのキャラクター「水沢薫」の声優を担当された\r\n声優「馬場なつみ」さんの誕生祭の企画で\r\n制作された画像をアルバムとしてまとめています。",
             "btn_class": "akari",
+            "order_rule": false,
+            "jumbotron_image": null,
             "updated_at": "2018-09-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "Albam.albam",
+        "pk": 5,
+        "fields": {
+            "name": "馬場なつみの新たな旅立ち",
+            "description": "2019年3月31日に所属事務所を退所される\r\n馬場なつみさんの旅立ちを\r\n盛大にしようとザンさん企画の元\r\n有志の方々が絵やコメントを贈りました。\r\nそれを集め、アルバムに残します。",
+            "btn_class": "akari",
+            "order_rule": false,
+            "jumbotron_image": 24,
+            "updated_at": "2019-03-30T18:19:59Z"
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 1,
+        "fields": {
+            "albam": 3,
+            "title": "誕生日おめでとう、薫ちゃん！",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-10",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 2,
+        "fields": {
+            "albam": 3,
+            "title": "メッセージカード by SAKi",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-10",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 3,
+        "fields": {
+            "albam": 3,
+            "title": "メッセージカード by ザン",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-10",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 4,
+        "fields": {
+            "albam": 3,
+            "title": "メッセージカード by ふらった",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-10",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 5,
+        "fields": {
+            "albam": 3,
+            "title": "メッセージカード by ゆっしー",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-10",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 6,
+        "fields": {
+            "albam": 3,
+            "title": "メッセージカード by 倖太",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-10",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 7,
+        "fields": {
+            "albam": 3,
+            "title": "メッセージカード by 甘夏",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-10",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 8,
+        "fields": {
+            "albam": 3,
+            "title": "メッセージカード by 愛媛のトルテ",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-10",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 9,
+        "fields": {
+            "albam": 3,
+            "title": "お祝いしてくれた方々！",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-10",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 10,
+        "fields": {
+            "albam": 3,
+            "title": "企画者など！",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-10",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 11,
+        "fields": {
+            "albam": 3,
+            "title": "締めコメント～",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-10",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 12,
+        "fields": {
+            "albam": 4,
+            "title": "誕生日おめでとう、ママ！",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-02",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 13,
+        "fields": {
+            "albam": 4,
+            "title": "メッセージカード by ザン",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-02",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 14,
+        "fields": {
+            "albam": 4,
+            "title": "メッセージカード by SAKi",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-02",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 15,
+        "fields": {
+            "albam": 4,
+            "title": "メッセージカード by ゆっしー",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-02",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 16,
+        "fields": {
+            "albam": 4,
+            "title": "メッセージカード by 倖太",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-02",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 17,
+        "fields": {
+            "albam": 4,
+            "title": "メッセージカード by ふらった",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-02",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 18,
+        "fields": {
+            "albam": 4,
+            "title": "メッセージカード by 愛媛のトルテ",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-02",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 19,
+        "fields": {
+            "albam": 4,
+            "title": "メッセージカード by 甘夏",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-02",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 20,
+        "fields": {
+            "albam": 4,
+            "title": "お祝いしてくれた方々！",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-02",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 21,
+        "fields": {
+            "albam": 4,
+            "title": "企画者など！",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-02",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 22,
+        "fields": {
+            "albam": 4,
+            "title": "締めコメント～",
+            "comment": "",
+            "creater": "甘夏",
+            "created_at": "2018-09-02",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 23,
+        "fields": {
+            "albam": 5,
+            "title": "ザンより",
+            "comment": "ほい！馬場ちゃん！\r\n\r\n1枚目に諸々書いてるので割愛して\r\nこれからも頑張ってね👍\r\n花:ガーペラ\r\n花言葉: 希望 前進\r\nピンクのガーペラ\r\n花言葉: 感謝 崇高美",
+            "creater": "ザン",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 24,
+        "fields": {
+            "albam": 5,
+            "title": "甘夏より",
+            "comment": "馬場なつみさん、一年間お疲れ様でした！\r\n何度もツイートしてたりするので耳タコ(目タコ？)かとは思いますが！\r\n本当に馬場なつみさんに会えて！今！未来も！幸せでございます✨\r\nこれからもずっと応援しています😌❤️",
+            "creater": "甘夏",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 25,
+        "fields": {
+            "albam": 5,
+            "title": "えとぴりかより",
+            "comment": "",
+            "creater": "えとぴりか",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 26,
+        "fields": {
+            "albam": 5,
+            "title": "Ri-S@りんずより",
+            "comment": "馬場ちゃんへ。\r\nスクメロの生放送をきっかけに馬場ちゃんを知って、\r\n馬場ちゃんの一挙一動にドキドキしたりハラハラしたり、\r\n時に笑わせられたり涙させられました。\r\n馬場ちゃんありがとうね！！\r\nこれからも密やかながら応援してるのぜ☆！！",
+            "creater": "Ri-S@りんず",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 27,
+        "fields": {
+            "albam": 5,
+            "title": "アルフィナより",
+            "comment": "薫先輩がきっかけでしたが、\r\nこんなに楽しく応援してこれたのは、\r\n #馬場なつみ さん自身の魅力、才能、努力があったからこそです\r\n #馬場ちゃん今までありがとう \r\n今日から明日へ夢は終わらない！\r\nということで、#これからも応援します ！よ！\r\n\r\n（似顔絵もっと似せられるよう自分も1年がんばります！）",
+            "creater": "アルフィナ",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 28,
+        "fields": {
+            "albam": 5,
+            "title": "どろんこ坊やより",
+            "comment": "月並みなことしか言えないけれど大好きだよ🎶٩(๑❛ల❛๑)۶",
+            "creater": "どろんこ坊や",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 29,
+        "fields": {
+            "albam": 5,
+            "title": "しろめだかより",
+            "comment": "レグのお披露目から馬場ちゃんが提供してくれたものはたくさんあって\r\n僕も幸運な事にそこそこ見せてもらえて、\r\nそのどれもが楽しかったな〜って！\r\n\r\n稀有な歌声と可愛いイラスト、そして楽しむ力は才能！！つまり天才！！\r\nまたよろ卍！！",
+            "creater": "しろめだか",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 30,
+        "fields": {
+            "albam": 5,
+            "title": "猫隊長より",
+            "comment": "これまでもこれからも\r\nずっとずっと前へ進むあなたを見ていたい\r\nほんのひとときはおつかれさま\r\nでもその後退は明日のための助走だとあなたは言った\r\n未来に羽ばたくその姿をいつも応援しています",
+            "creater": "猫隊長",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 31,
+        "fields": {
+            "albam": 5,
+            "title": "ながたいより",
+            "comment": "レグルスから馬場ちゃんを知って\r\n今日までポコチャの配信などでたくさんの元気をもらいました！\r\n馬場ちゃんは覚えてないかもしれませんが、\r\n23/7のゲスト出演回の日に出演するツイートを見て\r\n23/7をやってないから見るか迷ってる時\r\n全然いいよ！ってコメント付きのリツイートで言ってくれたおかげで\r\n馬場ちゃんが演じたディードリッヒと郷御前にも出会えました！\r\n薫ちゃんだけなくこの2人を含めた素敵なキャラクターに出会わせてくれてありがとう！\r\n馬場ちゃんが次はどんなキャラクターを演じるのか楽しみです！今後の活動も楽しみです！\r\n根を詰めてあまり無理しすぎないでね。\r\n何か困ればみんながいます！\r\nこれからも頑張ってください！\r\n長文ありがとうございました！",
+            "creater": "ながたい",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 32,
+        "fields": {
+            "albam": 5,
+            "title": "みやっちより",
+            "comment": "俺からのメッセージ",
+            "creater": "みやっち",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 33,
+        "fields": {
+            "albam": 5,
+            "title": "達也より",
+            "comment": "水沢薫をキッカケに、\r\n馬場ちゃんワールドに気がつけば、ハマってました。\r\n歌声もダンスもトークもイラストも、スクメロで過ごした日々も\r\n全てがかけがえのない宝物になりました\r\nこれからも応援させて下さい！\r\nひとまずお疲れ様でしたまたね",
+            "creater": "達也",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 34,
+        "fields": {
+            "albam": 5,
+            "title": "零式(エンヴィリア珠子騎士団)より",
+            "comment": "馬場さんには基礎が無いのじゃなくて、大量の伸び代があるだけです！\r\nこれまで頑張った日々と、これから頑張る日々は、決して馬場さんを裏切らない！\r\nではまた、行ってらっしゃい😊\r\n\r\n#たくさん頑張ったよね\r\n#一度きりの奇跡じゃない",
+            "creater": "零式",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 35,
+        "fields": {
+            "albam": 5,
+            "title": "あひるくんより",
+            "comment": "スクメロきっかけで馬場ちゃんのことを知って\r\n23/7のイベでちゃんと覚えてるよーとか言ってもらえて凄くうれしかったですっ！\r\nこれからの馬場ちゃんの人生に幸あれ！\r\nそしてこれからも陰ながら応援してます！",
+            "creater": "あひるくん",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 36,
+        "fields": {
+            "albam": 5,
+            "title": "ケロクマより",
+            "comment": "スクメロでレグルスを知り、\r\n薫ちゃんそして馬場ちゃんに出会えた。\r\nこの出会いを大切にしたい。まさに一期一会\r\n\r\n本当にありがとうございました！\r\nお互い共に未来に向けて挑戦あるのみですね💪",
+            "creater": "ケロクマ",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 37,
+        "fields": {
+            "albam": 5,
+            "title": "PN 幸音 コトハより",
+            "comment": "2年間お疲れ様でした！\r\nこれからまた新しくスタートするわけだけど、\r\n苦しくても歩みを止めなければ、\r\nきっとその先に願う未来があるよ！\r\nこれからも応援してるよ！",
+            "creater": "PN 幸音 コトハ",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 38,
+        "fields": {
+            "albam": 5,
+            "title": "あふろより",
+            "comment": "スクメロをきっかけに馬場ちゃんを知って\r\nそれから生放送やライブでは沢山の笑いと元気を貰って\r\n馬場ちゃんの歌にトークにメロメロでした！\r\n馬場ちゃんの次のチャレンジも応援しています、頑張れー！！",
+            "creater": "あふろ",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 39,
+        "fields": {
+            "albam": 5,
+            "title": "なないろ納豆より",
+            "comment": "なつみちゃんと出逢って良い思い出がたくさん！！\r\n拙い文章でごめん🙇これからもずっと応援してるよ👍",
+            "creater": "なないろ納豆",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 40,
+        "fields": {
+            "albam": 5,
+            "title": "りんかくより",
+            "comment": "レグルス追いかけてた期間は目まぐるしく楽しく、大切な思い出です。\r\nまたTLを喧しくしに戻ってきて下さいませよ〜！\r\n何処からともなくニョキっと出てくるの楽しみにしてます。\r\n薫ちゃん共々お元気で、、またね！",
+            "creater": "りんかく",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 41,
+        "fields": {
+            "albam": 5,
+            "title": "ゆっしーより",
+            "comment": "",
+            "creater": "ゆっしー",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 42,
+        "fields": {
+            "albam": 5,
+            "title": "T.orionより",
+            "comment": "引き続き応援させていただきたいと思います。",
+            "creater": "T.orion",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 43,
+        "fields": {
+            "albam": 5,
+            "title": "永月 涼より",
+            "comment": "",
+            "creater": "永月 涼",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 44,
+        "fields": {
+            "albam": 5,
+            "title": "SAKiより",
+            "comment": "馬場ちゃんに出会えて良かったです！\r\nとにかく感謝！\r\nまだまだいなくならないという事なので、\r\n前に進む馬場ちゃんに負けないよう僕も頑張ります！\r\n\r\n#これからの旅路が繋がるように",
+            "creater": "SAKi",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 45,
+        "fields": {
+            "albam": 5,
+            "title": "クイーン・オブ・ツナより",
+            "comment": "馬場なつみさん、一年間お疲れ様でございました🐟\r\n怖いこと、不安なこと、困難はあると思いますが、\r\n水生生物代表として精一杯応援し、支えていきたいと思っています😊\r\n頑張ってくださいね。あなたの幸せは私の幸せです🐟",
+            "creater": "クイーン・オブ・ツナ",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.card",
+        "pk": 46,
+        "fields": {
+            "albam": 5,
+            "title": "愛媛のトルテより",
+            "comment": "なっちん おっ疲れ様なんだよー！！\r\nいっぱい書いた！ 本当にありがとう。\r\nこれからも頑張れ！\r\n仲良くしてね！れ！\r\n\r\n(黒板のはバイト前でちょっと焦って書いた←)",
+            "creater": "愛媛のトルテ",
+            "created_at": "2019-03-30",
+            "twitter_account": null
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 1,
+        "fields": {
+            "card": 1,
+            "picture": "images/Albam/top_baba_Xncnd7V.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 2,
+        "fields": {
+            "card": 2,
+            "picture": "images/Albam/message_saki.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 3,
+        "fields": {
+            "card": 3,
+            "picture": "images/Albam/message_zan.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 4,
+        "fields": {
+            "card": 4,
+            "picture": "images/Albam/message_huratta.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 5,
+        "fields": {
+            "card": 5,
+            "picture": "images/Albam/message_yusshi.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 6,
+        "fields": {
+            "card": 6,
+            "picture": "images/Albam/message_kota.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 7,
+        "fields": {
+            "card": 7,
+            "picture": "images/Albam/message_amanatsu.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 8,
+        "fields": {
+            "card": 8,
+            "picture": "images/Albam/message_torte.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 9,
+        "fields": {
+            "card": 9,
+            "picture": "images/Albam/commenter_kaoru.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 10,
+        "fields": {
+            "card": 10,
+            "picture": "images/Albam/sponsor_kaoru_R9kMLBl.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 11,
+        "fields": {
+            "card": 11,
+            "picture": "images/Albam/message_final.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 12,
+        "fields": {
+            "card": 12,
+            "picture": "images/Albam/top_kaoru.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 13,
+        "fields": {
+            "card": 13,
+            "picture": "images/Albam/zan_message.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 14,
+        "fields": {
+            "card": 14,
+            "picture": "images/Albam/saki_message.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 15,
+        "fields": {
+            "card": 15,
+            "picture": "images/Albam/yusshi_message_blue.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 16,
+        "fields": {
+            "card": 16,
+            "picture": "images/Albam/kota_message.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 17,
+        "fields": {
+            "card": 17,
+            "picture": "images/Albam/huratta_message.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 18,
+        "fields": {
+            "card": 18,
+            "picture": "images/Albam/torte_message.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 19,
+        "fields": {
+            "card": 19,
+            "picture": "images/Albam/amanatsu_message.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 20,
+        "fields": {
+            "card": 20,
+            "picture": "images/Albam/commenter_baba.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 21,
+        "fields": {
+            "card": 21,
+            "picture": "images/Albam/sponsor_baba.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 22,
+        "fields": {
+            "card": 22,
+            "picture": "images/Albam/final_message.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 23,
+        "fields": {
+            "card": 23,
+            "picture": "images/Albam/from_zan.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 24,
+        "fields": {
+            "card": 23,
+            "picture": "images/Albam/from_zan_1.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 25,
+        "fields": {
+            "card": 24,
+            "picture": "images/Albam/from_amanatsu.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 26,
+        "fields": {
+            "card": 25,
+            "picture": "images/Albam/from_etupirka.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 27,
+        "fields": {
+            "card": 27,
+            "picture": "images/Albam/from_alfina.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 28,
+        "fields": {
+            "card": 28,
+            "picture": "images/Albam/from_doronkoboy.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 29,
+        "fields": {
+            "card": 29,
+            "picture": "images/Albam/from_whitemedaka.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 30,
+        "fields": {
+            "card": 30,
+            "picture": "images/Albam/from_catCaptain.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 31,
+        "fields": {
+            "card": 31,
+            "picture": "images/Albam/from_nagatai.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 32,
+        "fields": {
+            "card": 32,
+            "picture": "images/Albam/from_miyachi.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 33,
+        "fields": {
+            "card": 34,
+            "picture": "images/Albam/from_zerotype.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 34,
+        "fields": {
+            "card": 36,
+            "picture": "images/Albam/from_kerokuma.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 35,
+        "fields": {
+            "card": 36,
+            "picture": "images/Albam/from_kerokuma_1.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 36,
+        "fields": {
+            "card": 36,
+            "picture": "images/Albam/from_kerokuma_2.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 37,
+        "fields": {
+            "card": 36,
+            "picture": "images/Albam/from_kerokuma_3.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 38,
+        "fields": {
+            "card": 37,
+            "picture": "images/Albam/from_kotoha.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 39,
+        "fields": {
+            "card": 39,
+            "picture": "images/Albam/from_nanaironatto.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 40,
+        "fields": {
+            "card": 39,
+            "picture": "images/Albam/from_nanaironatto_1.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 41,
+        "fields": {
+            "card": 41,
+            "picture": "images/Albam/from_yussy.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 42,
+        "fields": {
+            "card": 42,
+            "picture": "images/Albam/from_torion.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 43,
+        "fields": {
+            "card": 43,
+            "picture": "images/Albam/from_nagatsuki.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 44,
+        "fields": {
+            "card": 44,
+            "picture": "images/Albam/from_saki.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 45,
+        "fields": {
+            "card": 46,
+            "picture": "images/Albam/from_torte.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 46,
+        "fields": {
+            "card": 46,
+            "picture": "images/Albam/from_torte_1.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 47,
+        "fields": {
+            "card": 46,
+            "picture": "images/Albam/from_torte_2.jpg"
+        }
+    },
+    {
+        "model": "Albam.picture",
+        "pk": 48,
+        "fields": {
+            "card": 46,
+            "picture": "images/Albam/from_torte_3.jpg"
         }
     },
     {
@@ -2265,8 +3217,8 @@
         "fields": {
             "albam_id": 3,
             "photo": "images/Albam/top_baba_Xncnd7V.jpg",
-            "title": "\u8a95\u751f\u65e5\u304a\u3081\u3067\u3068\u3046\u3001\u85ab\u3061\u3083\u3093\uff01",
-            "creater": "\u7518\u590f",
+            "title": "誕生日おめでとう、薫ちゃん！",
+            "creater": "甘夏",
             "created_at": "2018-09-10"
         }
     },
@@ -2276,8 +3228,8 @@
         "fields": {
             "albam_id": 3,
             "photo": "images/Albam/message_saki.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by SAKi",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by SAKi",
+            "creater": "甘夏",
             "created_at": "2018-09-10"
         }
     },
@@ -2287,8 +3239,8 @@
         "fields": {
             "albam_id": 3,
             "photo": "images/Albam/message_zan.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u30b6\u30f3",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by ザン",
+            "creater": "甘夏",
             "created_at": "2018-09-10"
         }
     },
@@ -2298,8 +3250,8 @@
         "fields": {
             "albam_id": 3,
             "photo": "images/Albam/message_huratta.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u3075\u3089\u3063\u305f",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by ふらった",
+            "creater": "甘夏",
             "created_at": "2018-09-10"
         }
     },
@@ -2309,8 +3261,8 @@
         "fields": {
             "albam_id": 3,
             "photo": "images/Albam/message_yusshi.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u3086\u3063\u3057\u30fc",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by ゆっしー",
+            "creater": "甘夏",
             "created_at": "2018-09-10"
         }
     },
@@ -2320,8 +3272,8 @@
         "fields": {
             "albam_id": 3,
             "photo": "images/Albam/message_kota.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u5016\u592a",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by 倖太",
+            "creater": "甘夏",
             "created_at": "2018-09-10"
         }
     },
@@ -2331,8 +3283,8 @@
         "fields": {
             "albam_id": 3,
             "photo": "images/Albam/message_amanatsu.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u7518\u590f",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by 甘夏",
+            "creater": "甘夏",
             "created_at": "2018-09-10"
         }
     },
@@ -2342,8 +3294,8 @@
         "fields": {
             "albam_id": 3,
             "photo": "images/Albam/message_torte.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u611b\u5a9b\u306e\u30c8\u30eb\u30c6",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by 愛媛のトルテ",
+            "creater": "甘夏",
             "created_at": "2018-09-10"
         }
     },
@@ -2353,8 +3305,8 @@
         "fields": {
             "albam_id": 3,
             "photo": "images/Albam/commenter_kaoru.jpg",
-            "title": "\u304a\u795d\u3044\u3057\u3066\u304f\u308c\u305f\u65b9\u3005\uff01",
-            "creater": "\u7518\u590f",
+            "title": "お祝いしてくれた方々！",
+            "creater": "甘夏",
             "created_at": "2018-09-10"
         }
     },
@@ -2364,8 +3316,8 @@
         "fields": {
             "albam_id": 3,
             "photo": "images/Albam/sponsor_kaoru_R9kMLBl.jpg",
-            "title": "\u4f01\u753b\u8005\u306a\u3069\uff01",
-            "creater": "\u7518\u590f",
+            "title": "企画者など！",
+            "creater": "甘夏",
             "created_at": "2018-09-10"
         }
     },
@@ -2375,8 +3327,8 @@
         "fields": {
             "albam_id": 3,
             "photo": "images/Albam/message_final.jpg",
-            "title": "\u7de0\u3081\u30b3\u30e1\u30f3\u30c8\uff5e",
-            "creater": "\u7518\u590f",
+            "title": "締めコメント～",
+            "creater": "甘夏",
             "created_at": "2018-09-10"
         }
     },
@@ -2386,8 +3338,8 @@
         "fields": {
             "albam_id": 4,
             "photo": "images/Albam/top_kaoru.jpg",
-            "title": "\u8a95\u751f\u65e5\u304a\u3081\u3067\u3068\u3046\u3001\u30de\u30de\uff01",
-            "creater": "\u7518\u590f",
+            "title": "誕生日おめでとう、ママ！",
+            "creater": "甘夏",
             "created_at": "2018-08-02"
         }
     },
@@ -2397,8 +3349,8 @@
         "fields": {
             "albam_id": 4,
             "photo": "images/Albam/zan_message.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u30b6\u30f3",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by ザン",
+            "creater": "甘夏",
             "created_at": "2018-08-02"
         }
     },
@@ -2408,8 +3360,8 @@
         "fields": {
             "albam_id": 4,
             "photo": "images/Albam/saki_message.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by SAKi",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by SAKi",
+            "creater": "甘夏",
             "created_at": "2018-08-02"
         }
     },
@@ -2419,8 +3371,8 @@
         "fields": {
             "albam_id": 4,
             "photo": "images/Albam/yusshi_message_blue.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u3086\u3063\u3057\u30fc",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by ゆっしー",
+            "creater": "甘夏",
             "created_at": "2018-08-02"
         }
     },
@@ -2430,8 +3382,8 @@
         "fields": {
             "albam_id": 4,
             "photo": "images/Albam/kota_message.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u5016\u592a",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by 倖太",
+            "creater": "甘夏",
             "created_at": "2018-08-02"
         }
     },
@@ -2441,8 +3393,8 @@
         "fields": {
             "albam_id": 4,
             "photo": "images/Albam/huratta_message.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u3075\u3089\u3063\u305f",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by ふらった",
+            "creater": "甘夏",
             "created_at": "2018-08-02"
         }
     },
@@ -2452,8 +3404,8 @@
         "fields": {
             "albam_id": 4,
             "photo": "images/Albam/torte_message.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u611b\u5a9b\u306e\u30c8\u30eb\u30c6",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by 愛媛のトルテ",
+            "creater": "甘夏",
             "created_at": "2018-08-02"
         }
     },
@@ -2463,8 +3415,8 @@
         "fields": {
             "albam_id": 4,
             "photo": "images/Albam/amanatsu_message.jpg",
-            "title": "\u30e1\u30c3\u30bb\u30fc\u30b8\u30ab\u30fc\u30c9 by \u7518\u590f",
-            "creater": "\u7518\u590f",
+            "title": "メッセージカード by 甘夏",
+            "creater": "甘夏",
             "created_at": "2018-08-02"
         }
     },
@@ -2474,8 +3426,8 @@
         "fields": {
             "albam_id": 4,
             "photo": "images/Albam/commenter_baba.jpg",
-            "title": "\u304a\u795d\u3044\u3057\u3066\u304f\u308c\u305f\u65b9\u3005\uff01",
-            "creater": "\u7518\u590f",
+            "title": "お祝いしてくれた方々！",
+            "creater": "甘夏",
             "created_at": "2018-08-02"
         }
     },
@@ -2485,8 +3437,8 @@
         "fields": {
             "albam_id": 4,
             "photo": "images/Albam/sponsor_baba.jpg",
-            "title": "\u4f01\u753b\u8005\u306a\u3069\uff01",
-            "creater": "\u7518\u590f",
+            "title": "企画者など！",
+            "creater": "甘夏",
             "created_at": "2018-08-02"
         }
     },
@@ -2496,8 +3448,8 @@
         "fields": {
             "albam_id": 4,
             "photo": "images/Albam/final_message.jpg",
-            "title": "\u7de0\u3081\u30b3\u30e1\u30f3\u30c8\uff5e",
-            "creater": "\u7518\u590f",
+            "title": "締めコメント～",
+            "creater": "甘夏",
             "created_at": "2018-08-02"
         }
     }
