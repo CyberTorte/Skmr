@@ -25,13 +25,17 @@ class IndexView(generic.TemplateView):
 
         context['thumbnails'] = thumbnails
 
+        diff = 0
         albam_length = len(context['albam_list'])
         if albam_length % 3 != 0:
             diff = 3 - albam_length % 3
             if albam_length < 4:
                 diff += 3
             
-            context['diff'] = range(diff)
+        elif albam_length == 3:
+            diff = 3
+
+        context['diff'] = range(diff)
 
         return context
 
