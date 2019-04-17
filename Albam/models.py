@@ -3,6 +3,8 @@ from django.utils import timezone
 
 import datetime, math
 
+import local_settings as settings
+
 # Create your models here.
 
 class Albam(models.Model):
@@ -45,7 +47,7 @@ class Card(models.Model):
     comment = models.TextField(default=None, blank=True, null=True, db_column='comment')
     creater = models.CharField(max_length=250, db_column='creater')
     created_at = models.DateField(default=timezone.now, db_column='created_at')
-    twitter_account = models.CharField(max_length=250, default=None, blank=True, null=True, db_column='account')
+    twitter_account = models.BigIntegerField(default=None, blank=True, null=True, db_column='account')
 
     def __str__(self):
         return self.title
@@ -62,6 +64,20 @@ class Card(models.Model):
             return str(diff_date.days) + diff_words
         else:
             return '今'
+
+    def get_profile_image(self):
+        if self.twitter_account:
+            api = settings.get_twitter_api()
+            account_data = api.GetUser(user_id = self.twitter_account)
+            
+            if account_data.default_profile_image:
+                return None
+            else:
+                return account_data.profile_image_url_https.replace('_normal')
+
+        else:
+            return None
+
 
 class Picture(models.Model):
     id = models.AutoField(primary_key=True, db_column="id")
