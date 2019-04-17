@@ -73,7 +73,7 @@ class Card(models.Model):
             if account_data.default_profile_image:
                 return None
             else:
-                return account_data.profile_image_url_https.replace('_normal')
+                return account_data.profile_image_url_https.replace('_normal', '')
 
         else:
             return None
