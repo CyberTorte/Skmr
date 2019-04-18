@@ -67,14 +67,18 @@ class Card(models.Model):
 
     def get_profile_image(self):
         if self.twitter_account:
-            api = settings.get_twitter_api()
-            account_data = api.GetUser(user_id = self.twitter_account)
-            
-            if account_data.default_profile_image:
-                return None
-            else:
-                return account_data.profile_image_url_https.replace('_normal', '')
 
+            try:
+                api = settings.get_twitter_api()
+                account_data = api.GetUser(user_id=self.twitter_account)
+
+                if account_data.default_profile_image:
+                    return None
+                else:
+                    return account_data.profile_image_url_https.replace('_normal', '')
+            except:
+                return None
+                
         else:
             return None
 
