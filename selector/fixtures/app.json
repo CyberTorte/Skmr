@@ -7,7 +7,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 3,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -21,7 +21,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 7,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -35,7 +35,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 11,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -49,7 +49,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 16,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -63,7 +63,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -77,7 +77,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -91,7 +91,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 12,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -105,7 +105,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 16,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -119,7 +119,7 @@
             "attribute": "active",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -133,7 +133,7 @@
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -147,7 +147,7 @@
             "attribute": "active",
             "difficulty": "HARD",
             "level": 12,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -161,7 +161,7 @@
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 17,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -175,7 +175,7 @@
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -189,7 +189,7 @@
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -203,7 +203,7 @@
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 14,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -217,7 +217,7 @@
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 20,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -231,7 +231,7 @@
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -245,7 +245,7 @@
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -259,7 +259,7 @@
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -273,7 +273,7 @@
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 17,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -287,7 +287,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Vega",
+            "artist": "ココナッツ・ベガ\n(不知火ハヅキ,居吹イミナ,東雲リョウコ,高嶺アコ, 雪代マリ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -301,7 +301,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Vega",
+            "artist": "ココナッツ・ベガ\n(不知火ハヅキ,居吹イミナ,東雲リョウコ,高嶺アコ, 雪代マリ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -315,7 +315,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Vega",
+            "artist": "ココナッツ・ベガ\n(不知火ハヅキ,居吹イミナ,東雲リョウコ,高嶺アコ, 雪代マリ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -329,7 +329,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 17,
-            "artist": "Vega",
+            "artist": "ココナッツ・ベガ\n(不知火ハヅキ,居吹イミナ,東雲リョウコ,高嶺アコ, 雪代マリ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -343,7 +343,7 @@
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -357,7 +357,7 @@
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 7,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -371,7 +371,7 @@
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 12,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -385,7 +385,7 @@
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 17,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -399,7 +399,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 6,
-            "artist": "Pudding",
+            "artist": "プロキオン・プディング\n(杏橋天音,李野田真乃,栗本遥,棗いつみ,桃川紗々)",
             "style": "5",
             "limited": null,
             "party": false
@@ -413,7 +413,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 10,
-            "artist": "Pudding",
+            "artist": "プロキオン・プディング\n(杏橋天音,李野田真乃,栗本遥,棗いつみ,桃川紗々)",
             "style": "5",
             "limited": null,
             "party": false
@@ -427,7 +427,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 14,
-            "artist": "Pudding",
+            "artist": "プロキオン・プディング\n(杏橋天音,李野田真乃,栗本遥,棗いつみ,桃川紗々)",
             "style": "5",
             "limited": null,
             "party": false
@@ -441,7 +441,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 22,
-            "artist": "Pudding",
+            "artist": "プロキオン・プディング\n(杏橋天音,李野田真乃,栗本遥,棗いつみ,桃川紗々)",
             "style": "5",
             "limited": null,
             "party": false
@@ -455,7 +455,7 @@
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 3,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -469,7 +469,7 @@
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -483,7 +483,7 @@
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -497,7 +497,7 @@
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 19,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -511,7 +511,7 @@
             "attribute": "active",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -525,7 +525,7 @@
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -539,7 +539,7 @@
             "attribute": "active",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -553,7 +553,7 @@
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 20,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -567,7 +567,7 @@
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -581,7 +581,7 @@
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -595,7 +595,7 @@
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 12,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -609,7 +609,7 @@
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 19,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -623,7 +623,7 @@
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -637,7 +637,7 @@
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -651,7 +651,7 @@
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 12,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -665,7 +665,7 @@
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 16,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -679,7 +679,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Pudding",
+            "artist": "プロキオン・プディング\n(杏橋天音,李野田真乃,栗本遥,棗いつみ,桃川紗々)",
             "style": "5",
             "limited": null,
             "party": false
@@ -693,7 +693,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Pudding",
+            "artist": "プロキオン・プディング\n(杏橋天音,李野田真乃,栗本遥,棗いつみ,桃川紗々)",
             "style": "5",
             "limited": null,
             "party": false
@@ -707,7 +707,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Pudding",
+            "artist": "プロキオン・プディング\n(杏橋天音,李野田真乃,栗本遥,棗いつみ,桃川紗々)",
             "style": "5",
             "limited": null,
             "party": false
@@ -721,7 +721,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 18,
-            "artist": "Pudding",
+            "artist": "プロキオン・プディング\n(杏橋天音,李野田真乃,栗本遥,棗いつみ,桃川紗々)",
             "style": "5",
             "limited": null,
             "party": false
@@ -735,7 +735,7 @@
             "attribute": "active",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -749,7 +749,7 @@
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -763,7 +763,7 @@
             "attribute": "active",
             "difficulty": "HARD",
             "level": 14,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -777,7 +777,7 @@
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 21,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -791,7 +791,7 @@
             "attribute": "active",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -805,7 +805,7 @@
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 10,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -819,7 +819,7 @@
             "attribute": "active",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -833,7 +833,7 @@
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 19,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -847,7 +847,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Sirius",
+            "artist": "ビスケット・シリウス\n(緋ノ宮二穂,蒼井雪枝,灰島依咲里,灰島華賀利,山吹楓)",
             "style": "5",
             "limited": null,
             "party": false
@@ -861,7 +861,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Sirius",
+            "artist": "ビスケット・シリウス\n(緋ノ宮二穂,蒼井雪枝,灰島依咲里,灰島華賀利,山吹楓)",
             "style": "5",
             "limited": null,
             "party": false
@@ -875,7 +875,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Sirius",
+            "artist": "ビスケット・シリウス\n(緋ノ宮二穂,蒼井雪枝,灰島依咲里,灰島華賀利,山吹楓)",
             "style": "5",
             "limited": null,
             "party": false
@@ -889,7 +889,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 19,
-            "artist": "Sirius",
+            "artist": "ビスケット・シリウス\n(緋ノ宮二穂,蒼井雪枝,灰島依咲里,灰島華賀利,山吹楓)",
             "style": "5",
             "limited": null,
             "party": false
@@ -903,7 +903,7 @@
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -917,7 +917,7 @@
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -931,7 +931,7 @@
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 14,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -945,7 +945,7 @@
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 18,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -959,7 +959,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -973,7 +973,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -987,7 +987,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1001,7 +1001,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 19,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1015,7 +1015,7 @@
             "attribute": "active",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1029,7 +1029,7 @@
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1043,7 +1043,7 @@
             "attribute": "active",
             "difficulty": "HARD",
             "level": 14,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1057,7 +1057,7 @@
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 20,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1071,7 +1071,7 @@
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 6,
-            "artist": "Vega",
+            "artist": "ココナッツ・ベガ\n(不知火ハヅキ,居吹イミナ,東雲リョウコ,高嶺アコ, 雪代マリ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1085,7 +1085,7 @@
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 10,
-            "artist": "Vega",
+            "artist": "ココナッツ・ベガ\n(不知火ハヅキ,居吹イミナ,東雲リョウコ,高嶺アコ, 雪代マリ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1099,7 +1099,7 @@
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 14,
-            "artist": "Vega",
+            "artist": "ココナッツ・ベガ\n(不知火ハヅキ,居吹イミナ,東雲リョウコ,高嶺アコ, 雪代マリ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1113,7 +1113,7 @@
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 21,
-            "artist": "Vega",
+            "artist": "ココナッツ・ベガ\n(不知火ハヅキ,居吹イミナ,東雲リョウコ,高嶺アコ, 雪代マリ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1127,7 +1127,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 6,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1141,7 +1141,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 10,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1155,7 +1155,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 14,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1169,7 +1169,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 22,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1183,7 +1183,7 @@
             "attribute": "active",
             "difficulty": "EASY",
             "level": 6,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1197,7 +1197,7 @@
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 10,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1211,7 +1211,7 @@
             "attribute": "active",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1225,7 +1225,7 @@
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 19,
-            "artist": "Torte",
+            "artist": "アルタイル・トルテ\n(美山椿芽,夜木沼伊緒,菜森まな,沙島悠水,澄原サトカ)",
             "style": "5",
             "limited": null,
             "party": false
@@ -1239,7 +1239,7 @@
             "attribute": "active",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Kaoru & Istumi",
+            "artist": "水沢薫＆棗いつみ",
             "style": "5",
             "limited": null,
             "party": true
@@ -1253,7 +1253,7 @@
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Kaoru & Istumi",
+            "artist": "水沢薫＆棗いつみ",
             "style": "5",
             "limited": null,
             "party": true
@@ -1267,7 +1267,7 @@
             "attribute": "active",
             "difficulty": "HARD",
             "level": 14,
-            "artist": "Kaoru & Istumi",
+            "artist": "水沢薫＆棗いつみ",
             "style": "5",
             "limited": null,
             "party": true
@@ -1281,7 +1281,7 @@
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 21,
-            "artist": "Kaoru & Istumi",
+            "artist": "水沢薫＆棗いつみ",
             "style": "5",
             "limited": null,
             "party": true
@@ -1295,7 +1295,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Io & Amane",
+            "artist": "夜木沼伊緒＆杏橋天音",
             "style": "2",
             "limited": null,
             "party": true
@@ -1309,7 +1309,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Io & Amane",
+            "artist": "夜木沼伊緒＆杏橋天音",
             "style": "2",
             "limited": null,
             "party": true
@@ -1323,7 +1323,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Io & Amane",
+            "artist": "夜木沼伊緒＆杏橋天音",
             "style": "2",
             "limited": null,
             "party": true
@@ -1337,7 +1337,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 20,
-            "artist": "Io & Amane",
+            "artist": "夜木沼伊緒＆杏橋天音",
             "style": "2",
             "limited": null,
             "party": true
@@ -1351,7 +1351,7 @@
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 6,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": true
@@ -1365,7 +1365,7 @@
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": true
@@ -1379,7 +1379,7 @@
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": true
@@ -1393,7 +1393,7 @@
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 19,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": null,
             "party": true
@@ -1407,7 +1407,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Mano & Sasa",
+            "artist": "李野田真乃＆桃川紗々",
             "style": "2",
             "limited": null,
             "party": true
@@ -1421,7 +1421,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Mano & Sasa",
+            "artist": "李野田真乃＆桃川紗々",
             "style": "2",
             "limited": null,
             "party": true
@@ -1435,7 +1435,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Mano & Sasa",
+            "artist": "李野田真乃＆桃川紗々",
             "style": "2",
             "limited": null,
             "party": true
@@ -1449,7 +1449,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 19,
-            "artist": "Mano & Sasa",
+            "artist": "李野田真乃＆桃川紗々",
             "style": "2",
             "limited": null,
             "party": true
@@ -1463,7 +1463,7 @@
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Kasumi & Hazuki",
+            "artist": "桐原香澄＆不知火ハヅキ",
             "style": "2",
             "limited": null,
             "party": true
@@ -1477,7 +1477,7 @@
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Kasumi & Hazuki",
+            "artist": "桐原香澄＆不知火ハヅキ",
             "style": "2",
             "limited": null,
             "party": true
@@ -1491,7 +1491,7 @@
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Kasumi & Hazuki",
+            "artist": "桐原香澄＆不知火ハヅキ",
             "style": "2",
             "limited": null,
             "party": true
@@ -1505,7 +1505,7 @@
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 19,
-            "artist": "Kasumi & Hazuki",
+            "artist": "桐原香澄＆不知火ハヅキ",
             "style": "2",
             "limited": null,
             "party": true
@@ -1519,7 +1519,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
+            "artist": "篠宮明佳里＆美山椿芽＆杏橋天音＆不知火ハヅキ＆緋ノ宮二穂",
             "style": "5",
             "limited": null,
             "party": true
@@ -1533,7 +1533,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
+            "artist": "篠宮明佳里＆美山椿芽＆杏橋天音＆不知火ハヅキ＆緋ノ宮二穂",
             "style": "5",
             "limited": null,
             "party": true
@@ -1547,7 +1547,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 11,
-            "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
+            "artist": "篠宮明佳里＆美山椿芽＆杏橋天音＆不知火ハヅキ＆緋ノ宮二穂",
             "style": "5",
             "limited": null,
             "party": true
@@ -1561,7 +1561,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 16,
-            "artist": "Akari & Tsubame & Amane & Hazuki & Niho",
+            "artist": "篠宮明佳里＆美山椿芽＆杏橋天音＆不知火ハヅキ＆緋ノ宮二穂",
             "style": "5",
             "limited": null,
             "party": true
@@ -1575,7 +1575,7 @@
             "attribute": "active",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Tue",
             "party": false
@@ -1589,7 +1589,7 @@
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Tue",
             "party": false
@@ -1603,7 +1603,7 @@
             "attribute": "active",
             "difficulty": "HARD",
             "level": 12,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Tue",
             "party": false
@@ -1617,7 +1617,7 @@
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 18,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Tue",
             "party": false
@@ -1631,7 +1631,7 @@
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Wed",
             "party": false
@@ -1645,7 +1645,7 @@
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Wed",
             "party": false
@@ -1659,7 +1659,7 @@
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 12,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Wed",
             "party": false
@@ -1673,7 +1673,7 @@
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 18,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Wed",
             "party": false
@@ -1687,7 +1687,7 @@
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -1701,7 +1701,7 @@
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -1715,7 +1715,7 @@
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 12,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -1729,7 +1729,7 @@
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 18,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -1743,7 +1743,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Fri",
             "party": false
@@ -1757,7 +1757,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Fri",
             "party": false
@@ -1771,7 +1771,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 12,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Fri",
             "party": false
@@ -1785,7 +1785,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 18,
-            "artist": "Regulus",
+            "artist": "アプリコット・レグルス\n(篠宮明佳里,藤代渚,桐原香澄,上月真央,水沢薫)",
             "style": "5",
             "limited": "Fri",
             "party": false
@@ -1799,7 +1799,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Akari & Tsubame",
+            "artist": "篠宮明佳里＆美山椿芽",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -1813,7 +1813,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Akari & Tsubame",
+            "artist": "篠宮明佳里＆美山椿芽",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -1827,7 +1827,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Akari & Tsubame",
+            "artist": "篠宮明佳里＆美山椿芽",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -1841,7 +1841,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 19,
-            "artist": "Akari & Tsubame",
+            "artist": "篠宮明佳里＆美山椿芽",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -1855,7 +1855,7 @@
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 6,
-            "artist": "Satoka & Ako",
+            "artist": "澄原サトカ＆高嶺アコ",
             "style": "5",
             "limited": "Fri",
             "party": false
@@ -1869,7 +1869,7 @@
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Satoka & Ako",
+            "artist": "澄原サトカ＆高嶺アコ",
             "style": "5",
             "limited": "Fri",
             "party": false
@@ -1883,7 +1883,7 @@
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Satoka & Ako",
+            "artist": "澄原サトカ＆高嶺アコ",
             "style": "5",
             "limited": "Fri",
             "party": false
@@ -1897,7 +1897,7 @@
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 20,
-            "artist": "Satoka & Ako",
+            "artist": "澄原サトカ＆高嶺アコ",
             "style": "5",
             "limited": "Fri",
             "party": false
@@ -1911,7 +1911,7 @@
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Nagisa & Mari",
+            "artist": "藤代渚＆雪代マリ",
             "style": "5",
             "limited": "Tue",
             "party": false
@@ -1925,7 +1925,7 @@
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Nagisa & Mari",
+            "artist": "藤代渚＆雪代マリ",
             "style": "5",
             "limited": "Tue",
             "party": false
@@ -1939,7 +1939,7 @@
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Nagisa & Mari",
+            "artist": "藤代渚＆雪代マリ",
             "style": "5",
             "limited": "Tue",
             "party": false
@@ -1953,7 +1953,7 @@
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 20,
-            "artist": "Nagisa & Mari",
+            "artist": "藤代渚＆雪代マリ",
             "style": "5",
             "limited": "Tue",
             "party": false
@@ -1967,7 +1967,7 @@
             "attribute": "active",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Yumi & Ryoko",
+            "artist": "沙島悠水＆東雲リョウコ",
             "style": "2",
             "limited": "Wed",
             "party": false
@@ -1981,7 +1981,7 @@
             "attribute": "active",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Yumi & Ryoko",
+            "artist": "沙島悠水＆東雲リョウコ",
             "style": "2",
             "limited": "Wed",
             "party": false
@@ -1995,7 +1995,7 @@
             "attribute": "active",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Yumi & Ryoko",
+            "artist": "沙島悠水＆東雲リョウコ",
             "style": "2",
             "limited": "Wed",
             "party": false
@@ -2009,7 +2009,7 @@
             "attribute": "active",
             "difficulty": "EXPERT",
             "level": 21,
-            "artist": "Yumi & Ryoko",
+            "artist": "沙島悠水＆東雲リョウコ",
             "style": "2",
             "limited": "Wed",
             "party": false
@@ -2023,7 +2023,7 @@
             "attribute": "all",
             "difficulty": "EASY",
             "level": 4,
-            "artist": "Mao & Hina",
+            "artist": "上月真央＆降神陽奈",
             "style": "2",
             "limited": "Fri",
             "party": false
@@ -2037,7 +2037,7 @@
             "attribute": "all",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Mao & Hina",
+            "artist": "上月真央＆降神陽奈",
             "style": "2",
             "limited": "Fri",
             "party": false
@@ -2051,7 +2051,7 @@
             "attribute": "all",
             "difficulty": "HARD",
             "level": 14,
-            "artist": "Mao & Hina",
+            "artist": "上月真央＆降神陽奈",
             "style": "2",
             "limited": "Fri",
             "party": false
@@ -2065,7 +2065,7 @@
             "attribute": "all",
             "difficulty": "EXPERT",
             "level": 20,
-            "artist": "Mao & Hina",
+            "artist": "上月真央＆降神陽奈",
             "style": "2",
             "limited": "Fri",
             "party": false
@@ -2079,7 +2079,7 @@
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 6,
-            "artist": "Mao & Mana",
+            "artist": "上月真央＆菜森まな",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -2093,7 +2093,7 @@
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 8,
-            "artist": "Mao & Mana",
+            "artist": "上月真央＆菜森まな",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -2107,7 +2107,7 @@
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 14,
-            "artist": "Mao & Mana",
+            "artist": "上月真央＆菜森まな",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -2121,7 +2121,7 @@
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 18,
-            "artist": "Mao & Mana",
+            "artist": "上月真央＆菜森まな",
             "style": "5",
             "limited": "Thu",
             "party": false
@@ -2135,7 +2135,7 @@
             "attribute": "pretty",
             "difficulty": "EASY",
             "level": 5,
-            "artist": "Kagari & Kori",
+            "artist": "灰島華賀利＆降神小織",
             "style": "2",
             "limited": "Tue",
             "party": false
@@ -2149,7 +2149,7 @@
             "attribute": "pretty",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Kagari & Kori",
+            "artist": "灰島華賀利＆降神小織",
             "style": "2",
             "limited": "Tue",
             "party": false
@@ -2163,7 +2163,7 @@
             "attribute": "pretty",
             "difficulty": "HARD",
             "level": 13,
-            "artist": "Kagari & Kori",
+            "artist": "灰島華賀利＆降神小織",
             "style": "2",
             "limited": "Tue",
             "party": false
@@ -2177,7 +2177,7 @@
             "attribute": "pretty",
             "difficulty": "EXPERT",
             "level": 20,
-            "artist": "Kagari & Kori",
+            "artist": "灰島華賀利＆降神小織",
             "style": "2",
             "limited": "Tue",
             "party": false
@@ -2191,7 +2191,7 @@
             "attribute": "cool",
             "difficulty": "EASY",
             "level": 6,
-            "artist": "Imina & Haruka",
+            "artist": "居吹イミナ＆栗本遥",
             "style": "2",
             "limited": "Wed",
             "party": false
@@ -2205,7 +2205,7 @@
             "attribute": "cool",
             "difficulty": "NORMAL",
             "level": 9,
-            "artist": "Imina & Haruka",
+            "artist": "居吹イミナ＆栗本遥",
             "style": "2",
             "limited": "Wed",
             "party": false
@@ -2219,7 +2219,7 @@
             "attribute": "cool",
             "difficulty": "HARD",
             "level": 14,
-            "artist": "Imina & Haruka",
+            "artist": "居吹イミナ＆栗本遥",
             "style": "2",
             "limited": "Wed",
             "party": false
@@ -2233,1224 +2233,10 @@
             "attribute": "cool",
             "difficulty": "EXPERT",
             "level": 19,
-            "artist": "Imina & Haruka",
+            "artist": "居吹イミナ＆栗本遥",
             "style": "2",
             "limited": "Wed",
             "party": false
-        }
-    },
-    {
-        "model": "Albam.albam",
-        "pk": 3,
-        "fields": {
-            "name": "水沢薫誕生祭",
-            "description": "スクメロのキャラクター「水沢薫」の\r\n誕生日を祝う企画のときに制作された画像のアルバムです。",
-            "btn_class": "kaoru",
-            "order_rule": false,
-            "jumbotron_image": null,
-            "updated_at": "2018-09-10T00:00:00Z"
-        }
-    },
-    {
-        "model": "Albam.albam",
-        "pk": 4,
-        "fields": {
-            "name": "馬場なつみ誕生祭",
-            "description": "スクメロのキャラクター「水沢薫」の声優を担当された\r\n声優「馬場なつみ」さんの誕生祭の企画で\r\n制作された画像をアルバムとしてまとめています。",
-            "btn_class": "akari",
-            "order_rule": false,
-            "jumbotron_image": null,
-            "updated_at": "2018-09-02T00:00:00Z"
-        }
-    },
-    {
-        "model": "Albam.albam",
-        "pk": 5,
-        "fields": {
-            "name": "馬場なつみの新たな旅立ち",
-            "description": "2019年3月31日に所属事務所を退所される\r\n馬場なつみさんの旅立ちを\r\n盛大にしようとザンさん企画の元\r\n有志の方々が絵やコメントを贈りました。\r\nそれを集め、アルバムに残します。",
-            "btn_class": "akari",
-            "order_rule": false,
-            "jumbotron_image": 24,
-            "updated_at": "2019-03-30T18:19:59Z"
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 1,
-        "fields": {
-            "albam": 3,
-            "title": "誕生日おめでとう、薫ちゃん！",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-10",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 2,
-        "fields": {
-            "albam": 3,
-            "title": "メッセージカード by SAKi",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-10",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 3,
-        "fields": {
-            "albam": 3,
-            "title": "メッセージカード by ザン",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-10",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 4,
-        "fields": {
-            "albam": 3,
-            "title": "メッセージカード by ふらった",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-10",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 5,
-        "fields": {
-            "albam": 3,
-            "title": "メッセージカード by ゆっしー",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-10",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 6,
-        "fields": {
-            "albam": 3,
-            "title": "メッセージカード by 倖太",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-10",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 7,
-        "fields": {
-            "albam": 3,
-            "title": "メッセージカード by 甘夏",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-10",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 8,
-        "fields": {
-            "albam": 3,
-            "title": "メッセージカード by 愛媛のトルテ",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-10",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 9,
-        "fields": {
-            "albam": 3,
-            "title": "お祝いしてくれた方々！",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-10",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 10,
-        "fields": {
-            "albam": 3,
-            "title": "企画者など！",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-10",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 11,
-        "fields": {
-            "albam": 3,
-            "title": "締めコメント～",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-10",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 12,
-        "fields": {
-            "albam": 4,
-            "title": "誕生日おめでとう、ママ！",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-02",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 13,
-        "fields": {
-            "albam": 4,
-            "title": "メッセージカード by ザン",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-02",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 14,
-        "fields": {
-            "albam": 4,
-            "title": "メッセージカード by SAKi",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-02",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 15,
-        "fields": {
-            "albam": 4,
-            "title": "メッセージカード by ゆっしー",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-02",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 16,
-        "fields": {
-            "albam": 4,
-            "title": "メッセージカード by 倖太",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-02",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 17,
-        "fields": {
-            "albam": 4,
-            "title": "メッセージカード by ふらった",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-02",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 18,
-        "fields": {
-            "albam": 4,
-            "title": "メッセージカード by 愛媛のトルテ",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-02",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 19,
-        "fields": {
-            "albam": 4,
-            "title": "メッセージカード by 甘夏",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-02",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 20,
-        "fields": {
-            "albam": 4,
-            "title": "お祝いしてくれた方々！",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-02",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 21,
-        "fields": {
-            "albam": 4,
-            "title": "企画者など！",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-02",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 22,
-        "fields": {
-            "albam": 4,
-            "title": "締めコメント～",
-            "comment": "",
-            "creater": "甘夏",
-            "created_at": "2018-09-02",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 23,
-        "fields": {
-            "albam": 5,
-            "title": "ザンより",
-            "comment": "ほい！馬場ちゃん！\r\n\r\n1枚目に諸々書いてるので割愛して\r\nこれからも頑張ってね👍\r\n花:ガーペラ\r\n花言葉: 希望 前進\r\nピンクのガーペラ\r\n花言葉: 感謝 崇高美",
-            "creater": "ザン",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 24,
-        "fields": {
-            "albam": 5,
-            "title": "甘夏より",
-            "comment": "馬場なつみさん、一年間お疲れ様でした！\r\n何度もツイートしてたりするので耳タコ(目タコ？)かとは思いますが！\r\n本当に馬場なつみさんに会えて！今！未来も！幸せでございます✨\r\nこれからもずっと応援しています😌❤️",
-            "creater": "甘夏",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 25,
-        "fields": {
-            "albam": 5,
-            "title": "えとぴりかより",
-            "comment": "",
-            "creater": "えとぴりか",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 26,
-        "fields": {
-            "albam": 5,
-            "title": "Ri-S@りんずより",
-            "comment": "馬場ちゃんへ。\r\nスクメロの生放送をきっかけに馬場ちゃんを知って、\r\n馬場ちゃんの一挙一動にドキドキしたりハラハラしたり、\r\n時に笑わせられたり涙させられました。\r\n馬場ちゃんありがとうね！！\r\nこれからも密やかながら応援してるのぜ☆！！",
-            "creater": "Ri-S@りんず",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 27,
-        "fields": {
-            "albam": 5,
-            "title": "アルフィナより",
-            "comment": "薫先輩がきっかけでしたが、\r\nこんなに楽しく応援してこれたのは、\r\n #馬場なつみ さん自身の魅力、才能、努力があったからこそです\r\n #馬場ちゃん今までありがとう \r\n今日から明日へ夢は終わらない！\r\nということで、#これからも応援します ！よ！\r\n\r\n（似顔絵もっと似せられるよう自分も1年がんばります！）",
-            "creater": "アルフィナ",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 28,
-        "fields": {
-            "albam": 5,
-            "title": "どろんこ坊やより",
-            "comment": "月並みなことしか言えないけれど大好きだよ🎶٩(๑❛ల❛๑)۶",
-            "creater": "どろんこ坊や",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 29,
-        "fields": {
-            "albam": 5,
-            "title": "しろめだかより",
-            "comment": "レグのお披露目から馬場ちゃんが提供してくれたものはたくさんあって\r\n僕も幸運な事にそこそこ見せてもらえて、\r\nそのどれもが楽しかったな〜って！\r\n\r\n稀有な歌声と可愛いイラスト、そして楽しむ力は才能！！つまり天才！！\r\nまたよろ卍！！",
-            "creater": "しろめだか",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 30,
-        "fields": {
-            "albam": 5,
-            "title": "猫隊長より",
-            "comment": "これまでもこれからも\r\nずっとずっと前へ進むあなたを見ていたい\r\nほんのひとときはおつかれさま\r\nでもその後退は明日のための助走だとあなたは言った\r\n未来に羽ばたくその姿をいつも応援しています",
-            "creater": "猫隊長",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 31,
-        "fields": {
-            "albam": 5,
-            "title": "ながたいより",
-            "comment": "レグルスから馬場ちゃんを知って\r\n今日までポコチャの配信などでたくさんの元気をもらいました！\r\n馬場ちゃんは覚えてないかもしれませんが、\r\n23/7のゲスト出演回の日に出演するツイートを見て\r\n23/7をやってないから見るか迷ってる時\r\n全然いいよ！ってコメント付きのリツイートで言ってくれたおかげで\r\n馬場ちゃんが演じたディードリッヒと郷御前にも出会えました！\r\n薫ちゃんだけなくこの2人を含めた素敵なキャラクターに出会わせてくれてありがとう！\r\n馬場ちゃんが次はどんなキャラクターを演じるのか楽しみです！今後の活動も楽しみです！\r\n根を詰めてあまり無理しすぎないでね。\r\n何か困ればみんながいます！\r\nこれからも頑張ってください！\r\n長文ありがとうございました！",
-            "creater": "ながたい",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 32,
-        "fields": {
-            "albam": 5,
-            "title": "みやっちより",
-            "comment": "俺からのメッセージ",
-            "creater": "みやっち",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 33,
-        "fields": {
-            "albam": 5,
-            "title": "達也より",
-            "comment": "水沢薫をキッカケに、\r\n馬場ちゃんワールドに気がつけば、ハマってました。\r\n歌声もダンスもトークもイラストも、スクメロで過ごした日々も\r\n全てがかけがえのない宝物になりました\r\nこれからも応援させて下さい！\r\nひとまずお疲れ様でしたまたね",
-            "creater": "達也",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 34,
-        "fields": {
-            "albam": 5,
-            "title": "零式(エンヴィリア珠子騎士団)より",
-            "comment": "馬場さんには基礎が無いのじゃなくて、大量の伸び代があるだけです！\r\nこれまで頑張った日々と、これから頑張る日々は、決して馬場さんを裏切らない！\r\nではまた、行ってらっしゃい😊\r\n\r\n#たくさん頑張ったよね\r\n#一度きりの奇跡じゃない",
-            "creater": "零式",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 35,
-        "fields": {
-            "albam": 5,
-            "title": "あひるくんより",
-            "comment": "スクメロきっかけで馬場ちゃんのことを知って\r\n23/7のイベでちゃんと覚えてるよーとか言ってもらえて凄くうれしかったですっ！\r\nこれからの馬場ちゃんの人生に幸あれ！\r\nそしてこれからも陰ながら応援してます！",
-            "creater": "あひるくん",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 36,
-        "fields": {
-            "albam": 5,
-            "title": "ケロクマより",
-            "comment": "スクメロでレグルスを知り、\r\n薫ちゃんそして馬場ちゃんに出会えた。\r\nこの出会いを大切にしたい。まさに一期一会\r\n\r\n本当にありがとうございました！\r\nお互い共に未来に向けて挑戦あるのみですね💪",
-            "creater": "ケロクマ",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 37,
-        "fields": {
-            "albam": 5,
-            "title": "PN 幸音 コトハより",
-            "comment": "2年間お疲れ様でした！\r\nこれからまた新しくスタートするわけだけど、\r\n苦しくても歩みを止めなければ、\r\nきっとその先に願う未来があるよ！\r\nこれからも応援してるよ！",
-            "creater": "PN 幸音 コトハ",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 38,
-        "fields": {
-            "albam": 5,
-            "title": "あふろより",
-            "comment": "スクメロをきっかけに馬場ちゃんを知って\r\nそれから生放送やライブでは沢山の笑いと元気を貰って\r\n馬場ちゃんの歌にトークにメロメロでした！\r\n馬場ちゃんの次のチャレンジも応援しています、頑張れー！！",
-            "creater": "あふろ",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 39,
-        "fields": {
-            "albam": 5,
-            "title": "なないろ納豆より",
-            "comment": "なつみちゃんと出逢って良い思い出がたくさん！！\r\n拙い文章でごめん🙇これからもずっと応援してるよ👍",
-            "creater": "なないろ納豆",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 40,
-        "fields": {
-            "albam": 5,
-            "title": "りんかくより",
-            "comment": "レグルス追いかけてた期間は目まぐるしく楽しく、大切な思い出です。\r\nまたTLを喧しくしに戻ってきて下さいませよ〜！\r\n何処からともなくニョキっと出てくるの楽しみにしてます。\r\n薫ちゃん共々お元気で、、またね！",
-            "creater": "りんかく",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 41,
-        "fields": {
-            "albam": 5,
-            "title": "ゆっしーより",
-            "comment": "",
-            "creater": "ゆっしー",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 42,
-        "fields": {
-            "albam": 5,
-            "title": "T.orionより",
-            "comment": "引き続き応援させていただきたいと思います。",
-            "creater": "T.orion",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 43,
-        "fields": {
-            "albam": 5,
-            "title": "永月 涼より",
-            "comment": "",
-            "creater": "永月 涼",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 44,
-        "fields": {
-            "albam": 5,
-            "title": "SAKiより",
-            "comment": "馬場ちゃんに出会えて良かったです！\r\nとにかく感謝！\r\nまだまだいなくならないという事なので、\r\n前に進む馬場ちゃんに負けないよう僕も頑張ります！\r\n\r\n#これからの旅路が繋がるように",
-            "creater": "SAKi",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 45,
-        "fields": {
-            "albam": 5,
-            "title": "クイーン・オブ・ツナより",
-            "comment": "馬場なつみさん、一年間お疲れ様でございました🐟\r\n怖いこと、不安なこと、困難はあると思いますが、\r\n水生生物代表として精一杯応援し、支えていきたいと思っています😊\r\n頑張ってくださいね。あなたの幸せは私の幸せです🐟",
-            "creater": "クイーン・オブ・ツナ",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.card",
-        "pk": 46,
-        "fields": {
-            "albam": 5,
-            "title": "愛媛のトルテより",
-            "comment": "なっちん おっ疲れ様なんだよー！！\r\nいっぱい書いた！ 本当にありがとう。\r\nこれからも頑張れ！\r\n仲良くしてね！れ！\r\n\r\n(黒板のはバイト前でちょっと焦って書いた←)",
-            "creater": "愛媛のトルテ",
-            "created_at": "2019-03-30",
-            "twitter_account": null
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 1,
-        "fields": {
-            "card": 1,
-            "picture": "images/Albam/top_baba_Xncnd7V.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 2,
-        "fields": {
-            "card": 2,
-            "picture": "images/Albam/message_saki.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 3,
-        "fields": {
-            "card": 3,
-            "picture": "images/Albam/message_zan.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 4,
-        "fields": {
-            "card": 4,
-            "picture": "images/Albam/message_huratta.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 5,
-        "fields": {
-            "card": 5,
-            "picture": "images/Albam/message_yusshi.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 6,
-        "fields": {
-            "card": 6,
-            "picture": "images/Albam/message_kota.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 7,
-        "fields": {
-            "card": 7,
-            "picture": "images/Albam/message_amanatsu.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 8,
-        "fields": {
-            "card": 8,
-            "picture": "images/Albam/message_torte.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 9,
-        "fields": {
-            "card": 9,
-            "picture": "images/Albam/commenter_kaoru.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 10,
-        "fields": {
-            "card": 10,
-            "picture": "images/Albam/sponsor_kaoru_R9kMLBl.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 11,
-        "fields": {
-            "card": 11,
-            "picture": "images/Albam/message_final.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 12,
-        "fields": {
-            "card": 12,
-            "picture": "images/Albam/top_kaoru.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 13,
-        "fields": {
-            "card": 13,
-            "picture": "images/Albam/zan_message.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 14,
-        "fields": {
-            "card": 14,
-            "picture": "images/Albam/saki_message.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 15,
-        "fields": {
-            "card": 15,
-            "picture": "images/Albam/yusshi_message_blue.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 16,
-        "fields": {
-            "card": 16,
-            "picture": "images/Albam/kota_message.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 17,
-        "fields": {
-            "card": 17,
-            "picture": "images/Albam/huratta_message.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 18,
-        "fields": {
-            "card": 18,
-            "picture": "images/Albam/torte_message.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 19,
-        "fields": {
-            "card": 19,
-            "picture": "images/Albam/amanatsu_message.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 20,
-        "fields": {
-            "card": 20,
-            "picture": "images/Albam/commenter_baba.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 21,
-        "fields": {
-            "card": 21,
-            "picture": "images/Albam/sponsor_baba.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 22,
-        "fields": {
-            "card": 22,
-            "picture": "images/Albam/final_message.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 23,
-        "fields": {
-            "card": 23,
-            "picture": "images/Albam/from_zan.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 24,
-        "fields": {
-            "card": 23,
-            "picture": "images/Albam/from_zan_1.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 25,
-        "fields": {
-            "card": 24,
-            "picture": "images/Albam/from_amanatsu.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 26,
-        "fields": {
-            "card": 25,
-            "picture": "images/Albam/from_etupirka.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 27,
-        "fields": {
-            "card": 27,
-            "picture": "images/Albam/from_alfina.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 28,
-        "fields": {
-            "card": 28,
-            "picture": "images/Albam/from_doronkoboy.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 29,
-        "fields": {
-            "card": 29,
-            "picture": "images/Albam/from_whitemedaka.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 30,
-        "fields": {
-            "card": 30,
-            "picture": "images/Albam/from_catCaptain.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 31,
-        "fields": {
-            "card": 31,
-            "picture": "images/Albam/from_nagatai.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 32,
-        "fields": {
-            "card": 32,
-            "picture": "images/Albam/from_miyachi.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 33,
-        "fields": {
-            "card": 34,
-            "picture": "images/Albam/from_zerotype.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 34,
-        "fields": {
-            "card": 36,
-            "picture": "images/Albam/from_kerokuma.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 35,
-        "fields": {
-            "card": 36,
-            "picture": "images/Albam/from_kerokuma_1.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 36,
-        "fields": {
-            "card": 36,
-            "picture": "images/Albam/from_kerokuma_2.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 37,
-        "fields": {
-            "card": 36,
-            "picture": "images/Albam/from_kerokuma_3.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 38,
-        "fields": {
-            "card": 37,
-            "picture": "images/Albam/from_kotoha.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 39,
-        "fields": {
-            "card": 39,
-            "picture": "images/Albam/from_nanaironatto.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 40,
-        "fields": {
-            "card": 39,
-            "picture": "images/Albam/from_nanaironatto_1.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 41,
-        "fields": {
-            "card": 41,
-            "picture": "images/Albam/from_yussy.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 42,
-        "fields": {
-            "card": 42,
-            "picture": "images/Albam/from_torion.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 43,
-        "fields": {
-            "card": 43,
-            "picture": "images/Albam/from_nagatsuki.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 44,
-        "fields": {
-            "card": 44,
-            "picture": "images/Albam/from_saki.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 45,
-        "fields": {
-            "card": 46,
-            "picture": "images/Albam/from_torte.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 46,
-        "fields": {
-            "card": 46,
-            "picture": "images/Albam/from_torte_1.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 47,
-        "fields": {
-            "card": 46,
-            "picture": "images/Albam/from_torte_2.jpg"
-        }
-    },
-    {
-        "model": "Albam.picture",
-        "pk": 48,
-        "fields": {
-            "card": 46,
-            "picture": "images/Albam/from_torte_3.jpg"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 4,
-        "fields": {
-            "albam_id": 3,
-            "photo": "images/Albam/top_baba_Xncnd7V.jpg",
-            "title": "誕生日おめでとう、薫ちゃん！",
-            "creater": "甘夏",
-            "created_at": "2018-09-10"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 5,
-        "fields": {
-            "albam_id": 3,
-            "photo": "images/Albam/message_saki.jpg",
-            "title": "メッセージカード by SAKi",
-            "creater": "甘夏",
-            "created_at": "2018-09-10"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 6,
-        "fields": {
-            "albam_id": 3,
-            "photo": "images/Albam/message_zan.jpg",
-            "title": "メッセージカード by ザン",
-            "creater": "甘夏",
-            "created_at": "2018-09-10"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 7,
-        "fields": {
-            "albam_id": 3,
-            "photo": "images/Albam/message_huratta.jpg",
-            "title": "メッセージカード by ふらった",
-            "creater": "甘夏",
-            "created_at": "2018-09-10"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 8,
-        "fields": {
-            "albam_id": 3,
-            "photo": "images/Albam/message_yusshi.jpg",
-            "title": "メッセージカード by ゆっしー",
-            "creater": "甘夏",
-            "created_at": "2018-09-10"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 9,
-        "fields": {
-            "albam_id": 3,
-            "photo": "images/Albam/message_kota.jpg",
-            "title": "メッセージカード by 倖太",
-            "creater": "甘夏",
-            "created_at": "2018-09-10"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 10,
-        "fields": {
-            "albam_id": 3,
-            "photo": "images/Albam/message_amanatsu.jpg",
-            "title": "メッセージカード by 甘夏",
-            "creater": "甘夏",
-            "created_at": "2018-09-10"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 11,
-        "fields": {
-            "albam_id": 3,
-            "photo": "images/Albam/message_torte.jpg",
-            "title": "メッセージカード by 愛媛のトルテ",
-            "creater": "甘夏",
-            "created_at": "2018-09-10"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 12,
-        "fields": {
-            "albam_id": 3,
-            "photo": "images/Albam/commenter_kaoru.jpg",
-            "title": "お祝いしてくれた方々！",
-            "creater": "甘夏",
-            "created_at": "2018-09-10"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 13,
-        "fields": {
-            "albam_id": 3,
-            "photo": "images/Albam/sponsor_kaoru_R9kMLBl.jpg",
-            "title": "企画者など！",
-            "creater": "甘夏",
-            "created_at": "2018-09-10"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 14,
-        "fields": {
-            "albam_id": 3,
-            "photo": "images/Albam/message_final.jpg",
-            "title": "締めコメント～",
-            "creater": "甘夏",
-            "created_at": "2018-09-10"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 15,
-        "fields": {
-            "albam_id": 4,
-            "photo": "images/Albam/top_kaoru.jpg",
-            "title": "誕生日おめでとう、ママ！",
-            "creater": "甘夏",
-            "created_at": "2018-08-02"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 16,
-        "fields": {
-            "albam_id": 4,
-            "photo": "images/Albam/zan_message.jpg",
-            "title": "メッセージカード by ザン",
-            "creater": "甘夏",
-            "created_at": "2018-08-02"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 17,
-        "fields": {
-            "albam_id": 4,
-            "photo": "images/Albam/saki_message.jpg",
-            "title": "メッセージカード by SAKi",
-            "creater": "甘夏",
-            "created_at": "2018-08-02"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 18,
-        "fields": {
-            "albam_id": 4,
-            "photo": "images/Albam/yusshi_message_blue.jpg",
-            "title": "メッセージカード by ゆっしー",
-            "creater": "甘夏",
-            "created_at": "2018-08-02"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 19,
-        "fields": {
-            "albam_id": 4,
-            "photo": "images/Albam/kota_message.jpg",
-            "title": "メッセージカード by 倖太",
-            "creater": "甘夏",
-            "created_at": "2018-08-02"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 20,
-        "fields": {
-            "albam_id": 4,
-            "photo": "images/Albam/huratta_message.jpg",
-            "title": "メッセージカード by ふらった",
-            "creater": "甘夏",
-            "created_at": "2018-08-02"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 21,
-        "fields": {
-            "albam_id": 4,
-            "photo": "images/Albam/torte_message.jpg",
-            "title": "メッセージカード by 愛媛のトルテ",
-            "creater": "甘夏",
-            "created_at": "2018-08-02"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 22,
-        "fields": {
-            "albam_id": 4,
-            "photo": "images/Albam/amanatsu_message.jpg",
-            "title": "メッセージカード by 甘夏",
-            "creater": "甘夏",
-            "created_at": "2018-08-02"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 23,
-        "fields": {
-            "albam_id": 4,
-            "photo": "images/Albam/commenter_baba.jpg",
-            "title": "お祝いしてくれた方々！",
-            "creater": "甘夏",
-            "created_at": "2018-08-02"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 24,
-        "fields": {
-            "albam_id": 4,
-            "photo": "images/Albam/sponsor_baba.jpg",
-            "title": "企画者など！",
-            "creater": "甘夏",
-            "created_at": "2018-08-02"
-        }
-    },
-    {
-        "model": "Albam.photo",
-        "pk": 25,
-        "fields": {
-            "albam_id": 4,
-            "photo": "images/Albam/final_message.jpg",
-            "title": "締めコメント～",
-            "creater": "甘夏",
-            "created_at": "2018-08-02"
         }
     }
 ]

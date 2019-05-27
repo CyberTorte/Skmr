@@ -6,6 +6,6 @@ from .models import Song
 
 class SongAdmin(admin.ModelAdmin):
     list_display = ('id', 'title', 'attribute', 'difficulty', 'level', 'artist', 'style', 'limited', 'party')
-    list_filter = ['attribute', 'difficulty', 'limited']
+    list_filter = ['attribute', 'difficulty', 'artist', 'limited']
 
 admin.site.register(Song, SongAdmin)
